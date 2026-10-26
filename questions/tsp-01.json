@@ -1,0 +1,612 @@
+[
+  {
+    "id": "tsp-001", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "For decades, astronomers classified Pluto as the ninth planet. In 2006, however, the International Astronomical Union adopted a definition requiring a planet to have cleared its orbital neighborhood of other objects. [[Pluto, which shares its region of space with thousands of icy bodies in the Kuiper Belt, does not meet that standard.]] It was therefore reclassified as a dwarf planet.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It explains why a newly adopted criterion excluded Pluto from the category of planets.",
+      "It questions whether the criterion described in the previous sentence is scientifically sound.",
+      "It describes a discovery that led the union to revise its definition of a planet.",
+      "It offers an alternative classification for Pluto that astronomers later rejected."
+    ],
+    "answer": "A",
+    "expl": "The sentence applies the new rule to Pluto: it shares its region with Kuiper Belt objects, so it fails the 'cleared its neighborhood' test. Nothing in it questions the rule (B) or describes the discovery that prompted it (C)."
+  },
+  {
+    "id": "tsp-002", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "Mangrove forests occupy less than 1 percent of tropical land, yet they store carbon at rates far exceeding those of most land-based forests. Their tangled roots trap sediment and organic matter, which builds up in waterlogged soils where decomposition is slow. Because this carbon can remain buried for millennia, researchers argue that protecting existing mangroves may be one of the most efficient ways to limit atmospheric carbon dioxide.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To compare the carbon storage of mangroves with that of every other type of forest",
+      "To explain why mangroves store carbon so effectively and why that matters for limiting carbon dioxide",
+      "To argue that mangroves should be planted on land currently used for farming",
+      "To describe how decomposition works in waterlogged soils"
+    ],
+    "answer": "B",
+    "expl": "The text gives the mechanism (roots trap material, slow decomposition) and the payoff (protecting mangroves limits CO2). D describes one detail, not the purpose. C invents a proposal the text never makes."
+  },
+  {
+    "id": "tsp-003", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "Economists long assumed that people make financial decisions by carefully weighing costs and benefits. In the 1970s, psychologists Daniel Kahneman and Amos Tversky challenged this view with experiments showing that people consistently weigh losses more heavily than equivalent gains: losing $100 feels worse than gaining $100 feels good. Their findings helped establish behavioral economics, a field that builds such psychological tendencies into models of economic behavior.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It introduces a theory, offers evidence that supports it, and then considers an objection to it.",
+      "It summarizes two competing theories and argues that one is more convincing.",
+      "It describes a long-held assumption, presents research that undermined it, and notes a field that emerged as a result.",
+      "It describes an experiment in detail and then questions the methods the researchers used."
+    ],
+    "answer": "C",
+    "expl": "Assumption (rational weighing) → research that challenged it (loss aversion) → result (behavioral economics). A reverses the role of the research: it undermines the opening view instead of supporting it."
+  },
+  {
+    "id": "tsp-004", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "Mr. Harcourt was, by his own frequent account, a man of the most delicate generosity. He had once lent his nephew a guinea, and had spoken of it at every family dinner in the eleven years since, lest the young man's gratitude should lapse for want of encouragement.",
+    "prompt": "Which choice best describes the narrator's attitude toward Mr. Harcourt?",
+    "choices": ["Admiring", "Sympathetic", "Fearful", "Mocking"],
+    "answer": "D",
+    "expl": "\"By his own frequent account\" signals the narrator doesn't share the opinion, and bragging about one guinea for eleven years is the opposite of delicate generosity. The praise is ironic."
+  },
+  {
+    "id": "tsp-005", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Many people believe that dogs' guilty expressions (lowered heads, averted eyes) show that the animals know they have misbehaved. Animal cognition researcher Alexandra Horowitz tested this idea by having owners leave the room after forbidding their dogs to eat a treat. In some trials the dogs ate it; in others, Horowitz removed it herself. [[Owners who returned and scolded their dogs saw guilty looks whether or not the dog had actually eaten the treat.]] The expression, Horowitz concluded, is a response to the owner's behavior rather than an admission of wrongdoing.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It introduces a hypothesis that Horowitz set out to test.",
+      "It presents a result that undermines the common belief described in the first sentence.",
+      "It identifies a flaw in the procedure Horowitz used.",
+      "It provides an example of how dogs misbehave when left unsupervised."
+    ],
+    "answer": "B",
+    "expl": "If dogs look guilty even when innocent, the look can't mean they know they misbehaved. The hypothesis came earlier (A), and the sentence is a result, not a flaw (C)."
+  },
+  {
+    "id": "tsp-006", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "In 1913, the Armory Show in New York introduced American audiences to European modernism. Critics were scandalized by works such as Marcel Duchamp's *Nude Descending a Staircase, No. 2*, which one reviewer compared to an explosion in a shingle factory. Yet the exhibition's influence proved lasting: within a decade, many American artists had begun experimenting with the fragmented forms and bold colors that had first shocked them.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To describe the hostile reaction to a single painting at the Armory Show",
+      "To argue that American critics in 1913 were unqualified to judge modern art",
+      "To explain how an exhibition that first provoked criticism went on to influence American art",
+      "To compare European and American painting styles of the early twentieth century"
+    ],
+    "answer": "C",
+    "expl": "The \"Yet\" pivot carries the point: shock first, lasting influence after. A covers only the middle sentence. B is stronger than anything the text says about critics."
+  },
+  {
+    "id": "tsp-007", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "The octopus's ability to change color is remarkable given that most octopuses appear to be colorblind, having only one type of photoreceptor. One hypothesis holds that their unusual U-shaped pupils let them detect color through chromatic aberration, the way different wavelengths of light focus at slightly different depths. Another suggests that light-sensitive proteins in the skin itself help the animals match their surroundings. Neither explanation has yet been confirmed.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It presents a hypothesis, describes evidence that confirms it, and considers its implications.",
+      "It describes a common misconception about octopuses and corrects it with recent findings.",
+      "It compares the vision of octopuses with the vision of other animals that change color.",
+      "It identifies a puzzle, presents two possible explanations for it, and notes that the question remains open."
+    ],
+    "answer": "D",
+    "expl": "Puzzle (colorblind but color-changing) → two hypotheses → \"Neither... confirmed.\" A fails on \"confirms\": the last sentence says the opposite."
+  },
+  {
+    "id": "tsp-008", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Novelist Toni Morrison worked for more than fifteen years as an editor at Random House while writing her own fiction. [[At the publisher, she championed books by Black authors such as Gayl Jones and Toni Cade Bambara and helped create the landmark collection *The Black Book* (1974).]] Scholars now argue that Morrison's editorial work shaped American literature nearly as much as her novels did.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It contrasts Morrison's career as an editor with her career as a novelist.",
+      "It explains why Morrison eventually left publishing to write full-time.",
+      "It provides details that support the claim made in the final sentence.",
+      "It identifies authors whose work influenced the style of Morrison's novels."
+    ],
+    "answer": "C",
+    "expl": "The final sentence claims her editing shaped American literature; the underlined sentence supplies what she did as an editor. D flips the direction of influence: she published them, not the reverse."
+  },
+  {
+    "id": "tsp-009", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "The committee's report concludes that the new reactor design is \"essentially safe.\" I confess I am not reassured by a word like \"essentially,\" which seems to me to be doing a great deal of work in that sentence, nor by the fact that the committee consulted none of the engineers who raised objections during testing.",
+    "prompt": "Which choice best describes the author's attitude toward the committee's report?",
+    "choices": ["Skeptical", "Grateful", "Indifferent", "Enthusiastic"],
+    "answer": "A",
+    "expl": "\"Not reassured,\" the hedge word singled out, and the ignored objections all signal doubt. \"I confess\" is polite, but the content is distrust."
+  },
+  {
+    "id": "tsp-010", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "Honeyguides, small birds found in sub-Saharan Africa, lead humans to wild bees' nests. When people break open a nest to collect honey, the birds feed on the leftover wax. Researchers working with Yao honey hunters in Mozambique found that the birds were significantly more likely to respond to the specific call the hunters use, a trill followed by a grunt, than to other sounds, suggesting that honeyguides have learned to recognize a signal used by their local human partners.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To argue that honeyguides depend entirely on humans for food",
+      "To explain how Yao honey hunters developed their distinctive call",
+      "To compare honeyguides with other birds that interact with humans",
+      "To describe a cooperative relationship between birds and humans and present evidence that the birds respond to a specific human signal"
+    ],
+    "answer": "D",
+    "expl": "The text sets up the partnership, then reports the call experiment. A overstates (\"entirely\"). B is about the call's origin, which the text never discusses."
+  },
+  {
+    "id": "tsp-011", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Researchers long attributed the durability of ancient Roman concrete mainly to its use of volcanic ash. The small white lumps of lime scattered through it, meanwhile, were dismissed as signs of careless mixing. [[In 2023, however, a team led by materials scientist Admir Masic showed that these lumps let the concrete repair its own cracks: when water seeps in, the lime dissolves and recrystallizes, sealing the gap.]]",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It provides evidence that volcanic ash is the main source of Roman concrete's durability.",
+      "It describes a mixing error that Roman builders were never able to correct.",
+      "It presents a finding that reinterprets a feature previously regarded as a flaw.",
+      "It questions whether Roman concrete was as durable as researchers had assumed."
+    ],
+    "answer": "C",
+    "expl": "The lumps were called careless mixing (a flaw); the finding recasts them as self-healing. B repeats the old view the sentence overturns."
+  },
+  {
+    "id": "tsp-012", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "When the Brooklyn Bridge opened in 1883, many New Yorkers doubted that a suspension bridge of such length could bear heavy traffic. A week after the opening, a rumor that the bridge was collapsing set off a stampede that killed twelve people. To restore public confidence, P. T. Barnum led a parade of twenty-one elephants across the span in 1884. The bridge held, and Barnum's stunt became one of the most famous publicity events of the era.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes the engineering of a bridge, then explains why its design was later changed.",
+      "It describes public doubts about a structure, recounts a tragedy those doubts contributed to, and explains how a public demonstration addressed them.",
+      "It presents two accounts of a tragedy and argues that one of them is more reliable.",
+      "It describes a famous publicity event and then evaluates its effect on Barnum's career."
+    ],
+    "answer": "B",
+    "expl": "Doubt → stampede caused by a rumor → elephant demonstration to restore confidence. D misplaces the focus: the text is about the bridge's reputation, not Barnum's career."
+  },
+  {
+    "id": "tsp-013", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "The following text is from Jane Austen's 1813 novel *Pride and Prejudice*.\n[[It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.]] However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It states the narrator's sincere opinion about marriage, which the next sentence supports with examples.",
+      "It establishes a contrast between wealthy men and men without fortunes.",
+      "It summarizes the conflict that the rest of the novel will resolve.",
+      "It presents a supposedly universal claim that the next sentence reveals to be mainly the belief of eager neighboring families."
+    ],
+    "answer": "D",
+    "expl": "The next sentence admits nobody knows the man's own views; the \"truth\" lives in the neighbors' minds. That reveals the opening as ironic, so A (sincere opinion) is the trap."
+  },
+  {
+    "id": "tsp-014", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "The guidebook described the village as \"quaint.\" After two days without hot water, a bus that came whenever the driver felt like it, and a single restaurant whose only dish was a stew of uncertain origin, I had begun to suspect that \"quaint\" was a word chosen with great care.",
+    "prompt": "Which choice best describes the narrator's attitude toward the guidebook's description of the village?",
+    "choices": [
+      "Dry amusement at how the word disguises real inconveniences",
+      "Anger that the guidebook deliberately misled travelers",
+      "Appreciation for the charm the word accurately captures",
+      "Confusion about what the word \"quaint\" means"
+    ],
+    "answer": "A",
+    "expl": "\"Chosen with great care\" is understatement: the word was picked to hide the problems. The tone is wry, not furious, so B is too strong."
+  },
+  {
+    "id": "tsp-015", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Most plants rely on photosynthesis to make food. Dodder, a parasitic vine, does not; it has little or no chlorophyll. Instead, it wraps around a host plant and pushes structures called haustoria into the host's tissue to draw out water and nutrients. [[Remarkably, dodder seedlings appear to choose their hosts: in experiments, they grew toward the scent of tomato plants while ignoring wheat.]]",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It explains how dodder survives without performing photosynthesis.",
+      "It introduces a surprising behavior of the plant described in the previous sentences.",
+      "It describes a weakness that limits where dodder can grow.",
+      "It compares dodder with plants that rely on photosynthesis."
+    ],
+    "answer": "B",
+    "expl": "\"Remarkably\" flags something new and surprising: host selection by scent. The survival mechanism (A) was the previous sentence's job."
+  },
+  {
+    "id": "tsp-016", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "In her 1962 book *Silent Spring*, Rachel Carson documented the harmful effects of the pesticide DDT on birds and other wildlife. Chemical companies attacked the book and Carson's credentials, but public concern grew. In 1972, the US Environmental Protection Agency banned most uses of DDT, a decision that many historians trace directly to Carson's work.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To describe the influence of a book on environmental policy",
+      "To criticize the way chemical companies responded to the book",
+      "To explain how DDT harms birds and other wildlife",
+      "To argue that Carson's credentials were stronger than her critics claimed"
+    ],
+    "answer": "A",
+    "expl": "Book → backlash → public concern → ban traced to the book. B and C are details along the way, not the point."
+  },
+  {
+    "id": "tsp-017", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "Some urban planners argue that adding highway lanes reduces traffic congestion. Studies of induced demand, however, suggest the opposite: when a highway expands, driving becomes more convenient, so more people drive, and congestion soon returns to its earlier level. A 2011 analysis of US cities by economists Gilles Duranton and Matthew Turner found that miles driven rose nearly in proportion to new road capacity.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a problem and then proposes several possible solutions to it.",
+      "It summarizes a study and then questions the study's conclusions.",
+      "It presents a claim, introduces a concept that challenges it, and offers research supporting that challenge.",
+      "It explains a concept and then traces how the concept developed over time."
+    ],
+    "answer": "C",
+    "expl": "Claim (more lanes help) → challenge (induced demand) → evidence (the 2011 analysis). B is backwards: the study supports the challenge rather than being questioned."
+  },
+  {
+    "id": "tsp-018", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "Critics have called the novelist's latest book a minor work, and in length it is: barely 150 pages. But every one of those pages is so precisely weighted, so free of anything unnecessary, that I finished it with the feeling of having read something much larger.",
+    "prompt": "Which choice best describes the author's attitude toward the novel?",
+    "choices": ["Dismissive", "Ambivalent", "Puzzled", "Admiring"],
+    "answer": "D",
+    "expl": "The author concedes only the length, then praises the precision. \"Minor work\" is the critics' view, set up to be rejected."
+  },
+  {
+    "id": "tsp-019", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Electric vehicles produce no tailpipe emissions. [[Manufacturing their batteries, admittedly, requires mining lithium and cobalt and consumes considerable energy, so a new electric car begins its life with a larger carbon footprint than a comparable gasoline car.]] Over a typical vehicle's lifetime, however, studies consistently find that electric cars produce substantially lower total emissions, since the savings from driving outweigh the initial manufacturing cost.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It presents the main argument of the text.",
+      "It acknowledges a drawback that the following sentence argues is outweighed.",
+      "It explains why electric vehicles produce no tailpipe emissions.",
+      "It introduces a criticism that the author ultimately accepts as decisive."
+    ],
+    "answer": "B",
+    "expl": "\"Admittedly\" marks a concession, and \"however\" in the next sentence answers it. D gets the ending wrong: the author rejects the criticism as decisive."
+  },
+  {
+    "id": "tsp-020", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "Every morning for forty years, Ines had opened the bakery at five. Her son, who now owned the building, told her she could sleep late; the new staff could handle things. She thanked him, agreed, and the next morning was at the door at a quarter to five, flour already under her nails, because she did not know what else her hands were for.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To describe a conflict between a mother and son over who owns a business",
+      "To explain how the bakery became successful over forty years",
+      "To portray a character whose sense of self is closely tied to her work",
+      "To suggest that the new staff are unprepared to run the bakery"
+    ],
+    "answer": "C",
+    "expl": "The last clause (\"did not know what else her hands were for\") is the key: work is who she is. There's no real conflict (A); she agrees, then shows up anyway."
+  },
+  {
+    "id": "tsp-021", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "Tardigrades, microscopic animals sometimes called water bears, can survive conditions that would kill nearly any other organism. When their environment dries out, they curl into a dormant state called a tun, reducing their metabolism to less than 0.01 percent of normal. In this state, they have survived temperatures near absolute zero, intense radiation, and even exposure to the vacuum of space. Researchers hope that understanding the proteins that protect tardigrade cells could help preserve vaccines without refrigeration.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It presents a scientific debate about tardigrades and argues for one side.",
+      "It describes an experiment on tardigrades and identifies weaknesses in its design.",
+      "It compares tardigrades with other animals that survive extreme conditions.",
+      "It introduces an organism's notable ability, explains how the organism achieves it, and identifies a possible practical application."
+    ],
+    "answer": "D",
+    "expl": "Ability → mechanism (tun state) → application (vaccines). No debate or comparison appears anywhere."
+  },
+  {
+    "id": "tsp-022", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Researchers once assumed that babies begin learning the sounds of their language only once they start to speak. Studies led by psychologist Patricia Kuhl, however, found that six-month-old infants in the United States and Japan distinguished between the English sounds \"r\" and \"l\" about equally well. By ten to twelve months, the American babies had become better at the distinction, while the Japanese babies, whose language does not use it, had become worse. [[Babies, it seems, begin tuning their perception to their native language well before they say their first words.]]",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It states a conclusion drawn from the findings described in the previous sentences.",
+      "It introduces a hypothesis that Kuhl's studies later disproved.",
+      "It describes a limitation of the studies led by Kuhl.",
+      "It restates the assumption described in the first sentence."
+    ],
+    "answer": "A",
+    "expl": "\"It seems\" signals the takeaway from the r/l results. D is the trap: the underlined sentence contradicts the first sentence rather than restating it."
+  },
+  {
+    "id": "tsp-023", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "The Hopi language was once claimed to contain no words referring to time, a claim that helped popularize the idea that the language people speak shapes how they think. Later research by linguist Ekkehart Malotki, however, documented hundreds of Hopi expressions concerning time, including terms for parts of the day, seasons, and units such as days and years.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To argue that the language people speak has no effect on how they think",
+      "To describe how later research undermined a claim that had supported a broader idea",
+      "To explain how Hopi speakers divide the year into seasons",
+      "To defend the original claim about the Hopi language against its critics"
+    ],
+    "answer": "B",
+    "expl": "The text refutes one supporting claim; it doesn't refute the broader idea itself. A overreaches from \"this example was wrong\" to \"the whole theory is wrong.\""
+  },
+  {
+    "id": "tsp-024", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "The new stadium, its supporters promised, would revitalize the neighborhood. Ten years later, the revitalized neighborhood consists of the stadium, eleven acres of parking, and a sports bar that opens on game days.",
+    "prompt": "Which choice best describes the author's attitude toward the claim made by the stadium's supporters?",
+    "choices": ["Cautious optimism", "Neutral description", "Sardonic disapproval", "Nostalgic regret"],
+    "answer": "C",
+    "expl": "Repeating \"revitalized\" next to a parking lot and a part-time bar is sarcasm. Flat delivery isn't neutrality (B); the facts are chosen to mock the promise."
+  },
+  {
+    "id": "tsp-025", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Some animals use tools in ways that seem to require planning. [[New Caledonian crows, for example, have been observed bending straight pieces of wire into hooks in order to retrieve food from narrow tubes.]] Such behavior suggests that the crows can picture a tool's shape before they make it.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It describes a conclusion that the final sentence calls into question.",
+      "It explains why most animals are unable to plan their use of tools.",
+      "It identifies a behavior that researchers had mistaken for planning.",
+      "It provides an example illustrating the general claim made in the first sentence."
+    ],
+    "answer": "D",
+    "expl": "\"For example\" plus a specific case of planned tool use. The final sentence builds on the example (A has it backwards), and nothing says researchers were mistaken (C)."
+  },
+  {
+    "id": "tsp-026", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "At first the letters came every week, thick with news: the weather, the neighbors, the price of eggs. By spring they came monthly, and shorter. In August a single card arrived, with a picture of a lighthouse and four words on the back. Mara pinned it to the wall above her desk and did not take it down for years.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It traces a gradual decline in a correspondence and ends with a character's response to its final piece.",
+      "It describes a conflict between two characters and then explains how it was resolved.",
+      "It presents the full text of several letters and then comments on their style.",
+      "It compares two characters' attitudes toward writing letters."
+    ],
+    "answer": "A",
+    "expl": "Weekly and long → monthly and shorter → one card → Mara keeps it for years. B invents a conflict the text never states."
+  },
+  {
+    "id": "tsp-027", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "Most museum visitors spend less than thirty seconds looking at any single artwork. Some museums have responded by hosting \"slow looking\" events, in which participants spend an hour or more studying one piece. Organizers report that participants often notice details, such as a hidden figure, a reflection, or an unexpected color, that they had missed on earlier visits.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To describe a practice meant to counter a common habit of museum visitors and report one of its effects",
+      "To argue that museums should reduce the number of artworks they display",
+      "To criticize museum visitors for paying too little attention to art",
+      "To explain why most museum visitors look at artworks so briefly"
+    ],
+    "answer": "A",
+    "expl": "Habit (under 30 seconds) → response (slow looking) → effect (noticing details). C reads blame into a neutral statistic."
+  },
+  {
+    "id": "tsp-028", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "The following text is from Frederick Douglass's 1845 *Narrative of the Life of Frederick Douglass, an American Slave*.\nI have often been utterly astonished, since I came to the north, to find persons who could speak of the singing, among slaves, as evidence of their contentment and happiness. [[It is impossible to conceive of a greater mistake.]] Slaves sing most when they are most unhappy.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It concedes that the interpretation described in the previous sentence has some merit.",
+      "It introduces new evidence about the narrator's life in the north.",
+      "It emphatically rejects the interpretation described in the previous sentence.",
+      "It summarizes the narrator's experiences since arriving in the north."
+    ],
+    "answer": "C",
+    "expl": "\"Impossible to conceive of a greater mistake\" is as strong a rejection as there is. The next sentence then gives the correction."
+  },
+  {
+    "id": "tsp-029", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "In 1928, Alexander Fleming noticed that mold had contaminated one of his bacterial cultures and that the bacteria around the mold had died. He identified the mold's active substance, which he named penicillin, but could not produce it in useful quantities. More than a decade later, Howard Florey and Ernst Chain developed methods to purify and mass-produce penicillin, and by 1944 it was being used to treat wounded Allied soldiers.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a failed experiment and explains why it failed.",
+      "It compares the approaches of two scientists and argues that one was superior.",
+      "It presents a hypothesis, describes a test of it, and reports that it was rejected.",
+      "It recounts an accidental discovery, notes an obstacle to using it, and describes how later researchers overcame that obstacle."
+    ],
+    "answer": "D",
+    "expl": "Accidental discovery → couldn't produce enough → Florey and Chain solved production. Nothing failed outright (A) and no one is ranked (B)."
+  },
+  {
+    "id": "tsp-030", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "My aunt's letters were models of their kind. She never once complained of her health; she merely described it, at length and in every particular, so that her correspondents might have the pleasure of worrying on her behalf.",
+    "prompt": "Which choice best describes the narrator's attitude toward the aunt?",
+    "choices": ["Deeply concerned", "Gently mocking", "Openly hostile", "Respectfully admiring"],
+    "answer": "B",
+    "expl": "\"Never complained; merely described it, at length\" is a joke: describing your ailments in detail is complaining. \"Models of their kind\" is the admiration trap. The tone is light, not hostile."
+  },
+  {
+    "id": "tsp-031", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Sharks are often called living fossils, animals that have barely changed in hundreds of millions of years. [[It is true that the basic shark body plan, with its cartilage skeleton, multiple gill slits, and continually replaced teeth, has persisted since before the dinosaurs.]] But sharks have diversified enormously within that plan: the more than 500 living species range from the 20-centimeter dwarf lanternshark to the whale shark, with feeding strategies from filter feeding to ambush hunting.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It acknowledges what is accurate in a common view that the next sentence then complicates.",
+      "It provides the main evidence for a view that the author fully endorses.",
+      "It introduces a counterargument that the author dismisses as baseless.",
+      "It explains why sharks have diversified into so many species."
+    ],
+    "answer": "A",
+    "expl": "\"It is true that...\" followed by \"But\" is the concede-then-complicate pattern. C is too strong: the author agrees with this part."
+  },
+  {
+    "id": "tsp-032", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "When architect Zaha Hadid opened her London office in 1980, many of her designs were considered impossible to build. For years she was known as a \"paper architect,\" famous for drawings rather than buildings. Advances in computer modeling and construction techniques eventually allowed her to realize her flowing, curved forms, and in 2004 she became the first woman to win the Pritzker Architecture Prize.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To argue that computer modeling has replaced drawing in architecture",
+      "To explain why Hadid's early designs were impractical",
+      "To describe how an architect's once-unbuildable designs came to be built and recognized",
+      "To compare Hadid's work with that of other Pritzker Prize winners"
+    ],
+    "answer": "C",
+    "expl": "Unbuildable → \"paper architect\" → technology made them buildable → Pritzker. B stops at the first half of the story."
+  },
+  {
+    "id": "tsp-033", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "Why do cats purr? The obvious answer is that purring signals contentment, and cats do often purr when stroked. But they also purr when injured, when giving birth, and even when dying. One hypothesis is that the vibrations, which fall between about 25 and 150 hertz, promote the healing of bone and tissue; frequencies in that range have been shown to improve bone density in humans. If so, purring may be less an expression of pleasure than a form of self-repair.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It presents a hypothesis and then describes evidence that refutes it.",
+      "It describes a study of cats and then identifies flaws in its methods.",
+      "It contrasts how cats and humans respond to vibration.",
+      "It poses a question, notes a problem with the obvious answer, and presents an alternative hypothesis."
+    ],
+    "answer": "D",
+    "expl": "Question → contentment answer → counterexamples (injury, birth) → healing hypothesis. The human bone-density detail supports the hypothesis; it isn't a comparison (C)."
+  },
+  {
+    "id": "tsp-034", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "The Great Pacific Garbage Patch is often imagined as a floating island of trash. [[In reality, the vast majority of the pieces in it are tiny fragments called microplastics, scattered through the water and largely invisible from a passing boat.]] This makes the patch far harder to clean up than an island would be: there is no solid mass to scoop out.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It provides an example that supports the image described in the first sentence.",
+      "It corrects a misconception described in the first sentence.",
+      "It introduces a cleanup method that the final sentence evaluates.",
+      "It explains how the garbage patch originally formed."
+    ],
+    "answer": "B",
+    "expl": "\"In reality\" directly answers \"often imagined.\" A gets it backwards: invisible fragments contradict the island image."
+  },
+  {
+    "id": "tsp-035", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "The study's authors are careful to note that their sample was small and drawn from a single hospital. These limitations are real. But the effect they found was large, it appeared consistently across every subgroup they examined, and it matches what clinicians have reported anecdotally for years. It would be a mistake to dismiss the findings simply because more research is needed.",
+    "prompt": "Which choice best describes the author's attitude toward the study?",
+    "choices": [
+      "Cautiously supportive, acknowledging its limitations while defending its significance",
+      "Dismissive, because the sample was too small to support any conclusion",
+      "Uncritically enthusiastic, overlooking the study's limitations",
+      "Neutral, presenting arguments on both sides without taking a position"
+    ],
+    "answer": "A",
+    "expl": "\"These limitations are real\" (acknowledges) + \"would be a mistake to dismiss\" (defends). D fails because the last sentence takes a clear position."
+  },
+  {
+    "id": "tsp-036", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "The house had been empty for six years when we bought it. Wallpaper hung in long curls from the dining room walls, and something (raccoons, my father insisted; ghosts, my sister insisted) lived in the attic. My mother walked through every room without speaking. Then, in the kitchen, she ran her hand along the windowsill, looked out at the overgrown garden, and said, \"Yes. This is the one.\"",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To describe a family argument about whether to buy a house",
+      "To explain the history of a house that had been abandoned",
+      "To suggest that the house the family bought is haunted",
+      "To show a character recognizing value in a place that seems mainly neglected"
+    ],
+    "answer": "D",
+    "expl": "Decay details build up, then the mother's quiet certainty at the end. The raccoons-vs-ghosts aside is humor, not an argument about buying (A) or a real haunting (C)."
+  },
+  {
+    "id": "tsp-037", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "For centuries, sailors navigated by the stars, the sun, and eventually the magnetic compass. Determining longitude, however, remained a serious problem, because it requires knowing the exact time at a reference location while at sea, and pendulum clocks could not keep accurate time on a rocking ship. [[On a voyage from England to Jamaica that began in 1761, clockmaker John Harrison's marine timekeeper H4 lost only about five seconds.]]",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It describes an achievement that addressed the problem explained in the previous sentence.",
+      "It gives an example of how sailors used the stars to navigate.",
+      "It explains why pendulum clocks failed at sea.",
+      "It introduces a problem that remained unsolved for centuries."
+    ],
+    "answer": "A",
+    "expl": "The problem was keeping accurate time at sea; losing only five seconds on a long voyage solves it. C belongs to the previous sentence."
+  },
+  {
+    "id": "tsp-038", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "Many people assume that the Sahara has always been a desert. Yet rock paintings in southeastern Algeria depict giraffes, hippopotamuses, and herds of cattle, and sediment cores from the nearby Atlantic contain pollen from grasses and trees. Together, this evidence indicates that between roughly 11,000 and 5,000 years ago, much of the Sahara was green, with lakes and grasslands, a period known as the African Humid Period.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It proposes a hypothesis and describes an experiment designed to test it.",
+      "It states a common assumption, presents evidence against it, and draws a conclusion from that evidence.",
+      "It describes a historical event and then explains its consequences for modern Algeria.",
+      "It compares the climates of two regions of Africa."
+    ],
+    "answer": "B",
+    "expl": "Assumption (always desert) → \"Yet\" + two kinds of evidence → \"Together, this evidence indicates...\" (conclusion). Paintings and cores are observations, not an experiment (A)."
+  },
+  {
+    "id": "tsp-039", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Bilingual children sometimes mix their two languages within a single sentence, a practice called code-switching. Parents and teachers have often worried that this habit signals confusion. [[Research by linguist Elizabeth Lanza, however, found that a bilingual toddler she studied adjusted her language mixing depending on whom she was speaking with, using more of one language with the parent who preferred it.]] Code-switching, in other words, may reflect awareness of an audience rather than an inability to keep languages apart.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It summarizes the main conclusion of the text.",
+      "It provides evidence that supports the worry described in the previous sentence.",
+      "It describes a finding that challenges the concern described in the previous sentence.",
+      "It explains why code-switching becomes less common as children grow older."
+    ],
+    "answer": "C",
+    "expl": "\"However\" plus adjusting to the listener means the mixing is controlled, not confused. The conclusion comes in the final sentence (\"in other words\"), so A is wrong."
+  },
+  {
+    "id": "tsp-040", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "The senator's speech was, in fairness, a masterpiece of a certain kind. In forty minutes he managed to praise farmers, teachers, veterans, and small-business owners without once explaining what his bill would do for any of them.",
+    "prompt": "Which choice best describes the author's attitude toward the speech?",
+    "choices": ["Impressed", "Neutral", "Confused", "Critical"],
+    "answer": "D",
+    "expl": "\"A masterpiece of a certain kind\" is a backhanded compliment; the payoff is that the speech said nothing. Same trap as the Nightingale scare quotes."
+  },
+  {
+    "id": "tsp-041", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "In 1912, Alfred Wegener proposed that the continents had once been joined and had slowly drifted apart, pointing to the matching coastlines of South America and Africa and to identical fossils found on both continents. But Wegener could not explain what force could move entire continents, and most geologists rejected his idea. Only after the discovery of seafloor spreading in the 1960s did scientists accept a version of his theory, now known as plate tectonics.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To explain why a theory was initially rejected and how it later came to be accepted",
+      "To argue that Wegener deserves more credit than plate tectonics usually gives him",
+      "To describe the evidence that revealed seafloor spreading",
+      "To compare Wegener's methods with those of geologists in the 1960s"
+    ],
+    "answer": "A",
+    "expl": "No mechanism → rejected; seafloor spreading supplied one → accepted. B adds an argument about credit that the text never makes."
+  },
+  {
+    "id": "tsp-042", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Antonio Stradivari crafted his violins in Cremona, Italy, in the late 1600s and early 1700s. His instruments are among the most valuable in the world, and many musicians believe they produce a superior sound. [[In blind tests conducted by acoustics researcher Claudia Fritz, however, professional violinists could not reliably tell Stradivari violins from high-quality modern ones, and many preferred the modern instruments.]]",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It explains why Stradivari violins are so valuable.",
+      "It presents evidence that calls into question a belief described in the previous sentence.",
+      "It identifies a flaw in the tests Fritz conducted.",
+      "It offers support for the musicians' belief described in the previous sentence."
+    ],
+    "answer": "B",
+    "expl": "If experts can't hear the difference blind, the \"superior sound\" belief is in doubt. D is the reversed-relationship trap."
+  },
+  {
+    "id": "tsp-043", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Grandfather's watch had stopped in 1974, and he refused to have it repaired. When we asked why, he would only say that it was right twice a day, which was more than he could say for most people. [[After he died, we found inside the case a slip of paper with a date, the day my grandmother had died, written in his small, careful hand.]]",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It contradicts the narrator's earlier description of the grandfather.",
+      "It explains how the family finally had the watch repaired.",
+      "It reveals a likely reason for a behavior that the grandfather had explained only with a joke.",
+      "It introduces a new character who becomes the focus of the rest of the story."
+    ],
+    "answer": "C",
+    "expl": "The joke (\"right twice a day\") deflected the question; the slip of paper suggests the watch marked his wife's death. Nothing earlier is contradicted (A)."
+  },
+  {
+    "id": "tsp-044", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "In 2019, the Event Horizon Telescope collaboration released the first image of a black hole, located at the center of the galaxy M87, about 55 million light-years from Earth. No single telescope is large enough to resolve a black hole's shadow at such a distance. The collaboration solved this problem by linking radio observatories around the world, effectively creating a virtual telescope as wide as Earth.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To describe the physical characteristics of black holes",
+      "To argue that more radio observatories should be built",
+      "To compare radio telescopes with optical telescopes",
+      "To explain how researchers overcame a technical obstacle to produce an image"
+    ],
+    "answer": "D",
+    "expl": "Goal (image) → obstacle (no telescope big enough) → solution (Earth-sized virtual telescope). A is a topic the text never describes."
+  },
+  {
+    "id": "tsp-045", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "Some readers will find the author's prose too plain. I count myself among those who are grateful for it. In a field where writers routinely bury simple ideas under layers of jargon, a book that says exactly what it means, in words anyone can understand, is no small achievement.",
+    "prompt": "Which choice best describes the author's attitude toward the book's prose style?",
+    "choices": ["Appreciative", "Critical", "Indifferent", "Uncertain"],
+    "answer": "A",
+    "expl": "\"Grateful\" and \"no small achievement\" (understatement meaning a big achievement). \"Too plain\" belongs to other readers, the view the author sets aside."
+  },
+  {
+    "id": "tsp-046", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "Digital photographs might seem easier to preserve than film, since they can be copied endlessly without any loss of quality. [[But file formats become obsolete, storage media degrade, and the software needed to open old files may no longer run on modern computers.]] Archivists warn that without active maintenance, much of today's digital record could become unreadable within decades.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It lists additional advantages of digital photographs over film.",
+      "It introduces obstacles that complicate the apparent advantage described in the previous sentence.",
+      "It explains how archivists keep digital files readable.",
+      "It summarizes the main conclusion of the text."
+    ],
+    "answer": "B",
+    "expl": "\"Might seem\" sets up the advantage; \"But\" brings in the problems. The warning in the last sentence is the conclusion, so D is wrong."
+  },
+  {
+    "id": "tsp-047", "type": "Text Structure and Purpose", "sub": "overall structure",
+    "passage": "Bird migration routes were once tracked mainly by attaching numbered metal bands to birds' legs and hoping that someone would later find a banded bird. For small songbirds, only a tiny fraction of bands were ever recovered. Today, tracking devices weighing less than a gram allow researchers to follow individual birds across entire journeys, revealing, for instance, that blackpoll warblers can fly nonstop for up to three days over the Atlantic Ocean.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It presents two competing explanations for bird migration and evaluates each.",
+      "It describes a migration route and then explains why it is dangerous.",
+      "It describes an older research method and its limitation, then explains how newer technology improved on it, with an example finding.",
+      "It argues that banding should be abandoned in favor of electronic tracking."
+    ],
+    "answer": "C",
+    "expl": "Banding → low recovery (limitation) → tiny trackers → warbler example. D overstates: the text compares methods without arguing for abandoning one."
+  },
+  {
+    "id": "tsp-048", "type": "Text Structure and Purpose", "sub": "sentence function",
+    "passage": "The poet Elizabeth Bishop worked slowly, sometimes taking years to finish a single poem. [[Her poem \"The Moose,\" for example, was begun in the 1940s and not completed until 1972.]] This slow, meticulous process helps explain why her complete poems fill only a slim volume, yet many critics consider her one of the finest American poets of the twentieth century.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It contradicts the claim made in the first sentence.",
+      "It explains why critics consider Bishop one of the finest American poets.",
+      "It identifies the poem that first made Bishop famous.",
+      "It provides a specific illustration of the claim made in the first sentence."
+    ],
+    "answer": "D",
+    "expl": "\"For example\" + decades on one poem = illustration of \"worked slowly.\" Critics' praise (B) is in the final sentence, not this one."
+  },
+  {
+    "id": "tsp-049", "type": "Text Structure and Purpose", "sub": "tone",
+    "passage": "Every generation, it seems, discovers that the young are reading less, thinking less, and caring less than their elders did. Socrates, if Plato is to be believed, worried that writing itself would weaken people's memories. Perhaps the young really are in decline. But the complaint is old enough that it deserves at least a little skepticism.",
+    "prompt": "Which choice best describes the author's attitude toward claims that young people are in decline?",
+    "choices": ["Mildly skeptical", "Strongly supportive", "Hostile toward the young", "Completely indifferent"],
+    "answer": "A",
+    "expl": "\"Perhaps\" leaves room, while \"at least a little skepticism\" is mild doubt. The Socrates example shows the complaint is ancient. B grabs \"Perhaps the young really are in decline\" out of context."
+  },
+  {
+    "id": "tsp-050", "type": "Text Structure and Purpose", "sub": "main purpose",
+    "passage": "In the 1840s, Hungarian physician Ignaz Semmelweis observed that women giving birth in a hospital ward staffed by doctors died of fever at much higher rates than those in a ward staffed by midwives. Suspecting that doctors carried \"cadaverous particles\" from autopsies to patients, he required them to wash their hands in a chlorine solution, and deaths fell dramatically. Yet many physicians rejected his conclusions, and handwashing was not widely adopted until decades later, after germ theory explained why it worked.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To argue that midwives in the 1840s were better trained than doctors",
+      "To describe a discovery whose acceptance was delayed until a later theory explained it",
+      "To explain how chlorine solutions kill bacteria",
+      "To criticize the methods Semmelweis used in his research"
+    ],
+    "answer": "B",
+    "expl": "Observation → intervention worked → rejected → accepted after germ theory. The midwife ward comparison is evidence, not the point (A)."
+  }
+]
