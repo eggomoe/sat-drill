@@ -1,0 +1,82 @@
+[
+  {
+    "id": "d01-01",
+    "type": "Boundaries",
+    "sub": "appositive commas",
+    "passage": "The rover's newest instrument, a laser _____ can identify minerals from seven meters away.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": ["spectrometer,", "spectrometer;", "spectrometer—", "spectrometer"],
+    "answer": "A",
+    "expl": "The appositive \"a laser spectrometer\" opens with a comma, so it has to close with a comma. A dash can't close a comma-opened interruption, and a semicolon would split the subject from its verb."
+  },
+  {
+    "id": "d01-02",
+    "type": "Boundaries",
+    "sub": "that vs. which",
+    "passage": "The bridge _____ connects the two islands was completed in 1932, decades before the ferry service ended.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": ["that", ", that", ", which", "which,"],
+    "answer": "A",
+    "expl": "\"That\" never takes a comma before it. A \", which\" clause would need a closing comma after \"islands,\" and there isn't one."
+  },
+  {
+    "id": "d01-03",
+    "type": "Boundaries",
+    "sub": "semicolons",
+    "passage": "Honeybees communicate the location of food through a \"waggle _____ the angle of the dance indicates direction relative to the sun.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": ["dance\";", "dance\",", "dance\"; as", "dance\" as,"],
+    "answer": "A",
+    "expl": "Both halves are full sentences, so a semicolon joins them. B is a comma splice. C puts a dependent clause (\"as the angle...\") after a semicolon, which is the trap you hit on the self-employment question."
+  },
+  {
+    "id": "d01-04",
+    "type": "Words in Context",
+    "sub": "uncommon sense",
+    "passage": "Although the senator supported the bill in principle, she _____ her endorsement, noting that she would vote for it only if the funding provisions were revised.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": ["qualified", "withdrew", "concealed", "amplified"],
+    "answer": "A",
+    "expl": "\"Qualified\" here means limited or attached a condition to. \"Withdrew\" is the trap: she didn't drop her support, she made it conditional."
+  },
+  {
+    "id": "d01-05",
+    "type": "Text Structure and Purpose",
+    "sub": "tone",
+    "passage": "The company's new \"flexible\" scheduling policy allows managers to change employees' shifts with two hours' notice, and the \"opportunity\" to work weekends is now mandatory for all staff.",
+    "prompt": "Which choice best describes the author's attitude toward the policy?",
+    "choices": ["Approving", "Critical", "Neutral", "Uncertain"],
+    "answer": "B",
+    "expl": "The quotation marks around \"flexible\" and \"opportunity\" signal sarcasm. A mandatory opportunity isn't one. Same signal as the Nightingale question."
+  },
+  {
+    "id": "d01-06",
+    "type": "Text Structure and Purpose",
+    "sub": "sentence function",
+    "passage": "Many assume that octopuses, being solitary, have little need for complex social cognition. [[Yet researchers studying Octopus tetricus off the coast of Australia have observed dense colonies where individuals signal aggression through color changes and posture.]] Such findings complicate the assumption that intelligence in octopuses evolved independently of social pressures.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It presents evidence that challenges an assumption stated earlier.",
+      "It summarizes the main conclusion of the text.",
+      "It provides an example that supports the assumption in the first sentence.",
+      "It introduces a hypothesis that the third sentence rejects."
+    ],
+    "answer": "A",
+    "expl": "\"Yet\" signals a turn: the sentence gives observations (evidence) against the first sentence's assumption. The third sentence draws the conclusion, so B is wrong, and C reverses the relationship."
+  },
+  {
+    "id": "d01-07",
+    "type": "Inferences",
+    "sub": "complete the logic",
+    "passage": "In a study of urban gardens, researchers found that vegetables from plots near busy roads had higher lead levels than vegetables from plots farther away. However, vegetables grown near the same roads in raised beds filled with imported soil showed no elevated lead levels. These results suggest that _____",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "lead reaches vegetables mainly through contaminated soil rather than through the air.",
+      "vegetables are unable to absorb lead from their surroundings.",
+      "raised beds produce larger harvests than ground-level plots.",
+      "proximity to busy roads has no effect on lead levels in vegetables."
+    ],
+    "answer": "A",
+    "expl": "The location (and its air) stayed the same; only the soil changed, and the lead disappeared. So soil is the pathway. B and D contradict the first finding, and C is outside the passage."
+  }
+]

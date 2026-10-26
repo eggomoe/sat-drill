@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>SAT Drill Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: one 760px column. Home = bank + per-type stats; Drill = sticky progress/timer bar over passage, prompt, answer-sheet bubbles. */
+:root {
+  --bg: #eef0f3;
+  --surface: #ffffff;
+  --ink: #1a1e26;
+  --muted: #5b6270;
+  --line: #d6dae2;
+  --pencil: #d99a06;   /* No. 2 pencil yellow */
+  --pencil-soft: #fbefc9;
+  --good: #1d7a4c;
+  --good-soft: #def3e7;
+  --bad: #c03a2b;
+  --bad-soft: #fbe3df;
+  --font-ui: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-head: "IBM Plex Sans Condensed", "IBM Plex Sans", system-ui, sans-serif;
+  --font-read: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-num: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121519; --surface: #1b1f26; --ink: #e6e8ec; --muted: #9aa1ad; --line: #2d333d;
+    --pencil: #f0b429; --pencil-soft: #3a2f12; --good: #45b980; --good-soft: #15301f;
+    --bad: #ef6b5b; --bad-soft: #3a1c18; color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink); font: 15px/1.5 var(--font-ui);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  -webkit-text-size-adjust: 100%;
+}
+[hidden] { display: none !important; }
+main { max-width: 760px; margin: 0 auto; padding-block: 20px 48px; display: grid; gap: 20px; }
+h1, h2, h3 { font-family: var(--font-head); font-weight: 600; margin: 0; text-wrap: balance; }
+h1 { font-size: 26px; letter-spacing: .01em; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.num { font-family: var(--font-num); font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, .row:focus-visible { outline: 2px solid var(--pencil); outline-offset: 2px; }
+
+/* header */
+.top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.top .sub { font-size: 13px; color: var(--muted); }
+
+/* summary strip */
+.strip { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.strip > div { padding: 12px 14px; display: grid; gap: 2px; }
+.strip > div + div { border-left: 1px solid var(--line); }
+.strip .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.strip .v { font-family: var(--font-num); font-size: 20px; }
+
+/* type table */
+.types { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.row { display: grid; grid-template-columns: 22px 1fr 92px 56px; gap: 10px; align-items: center; padding: 11px 14px; border: 0; background: none; width: 100%; text-align: left; }
+.row + .row { border-top: 1px solid var(--line); }
+.row.head { font-size: 11px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); cursor: default; padding-block: 8px; }
+.row .name { min-width: 0; }
+.row .name b { font-weight: 500; display: block; }
+.row .name span { font-size: 12px; color: var(--muted); }
+.row .acc { display: grid; gap: 4px; }
+.bar { height: 5px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--ink); }
+.row .t { text-align: right; font-size: 13px; }
+.check { width: 18px; height: 18px; border: 1.5px solid var(--muted); border-radius: 4px; display: grid; place-items: center; }
+.row[aria-pressed="true"] { background: var(--pencil-soft); }
+.row[aria-pressed="true"] .check { background: var(--ink); border-color: var(--ink); }
+.row[aria-pressed="true"] .check::after { content: ""; width: 8px; height: 4px; border: 2px solid var(--surface); border-top: 0; border-right: 0; transform: rotate(-45deg) translate(1px,-1px); }
+
+/* controls */
+.controls { display: grid; gap: 12px; }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 13px; font-size: 14px; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.ctl-row { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.ctl-row label { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); min-width: 52px; }
+.go { background: var(--pencil); color: #1a1e26; border: 0; border-radius: 8px; padding: 13px 18px; font-weight: 600; font-size: 16px; width: 100%; }
+.go:disabled { opacity: .45; cursor: not-allowed; }
+.hint { font-size: 13px; color: var(--muted); margin: 0; }
+
+/* reasons */
+.reasons { display: grid; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+.rline { display: grid; grid-template-columns: 130px 1fr 34px; gap: 10px; align-items: center; font-size: 14px; }
+.rline .bar i { background: var(--bad); }
+.rline .num { text-align: right; font-size: 13px; }
+
+/* drill */
+.drillbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; display: grid; gap: 8px; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.drillbar .line { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.quit { border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 4px 10px; font-size: 13px; }
+.timer { font-family: var(--font-num); font-size: 15px; padding: 2px 8px; border-radius: 6px; }
+.timer.over { background: var(--pencil-soft); color: var(--ink); }
+.prog { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
+.prog i { display: block; height: 100%; background: var(--pencil); transition: width .2s; }
+.tag { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+.passage { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; font-family: var(--font-read); font-size: 17px; line-height: 1.6; }
+.passage p { margin: 0 0 .7em; max-width: 65ch; }
+.passage p:last-child { margin-bottom: 0; }
+.passage ul { margin: 0 0 .7em; padding-left: 1.2em; }
+.passage u { text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.tablewrap { overflow-x: auto; margin-top: 12px; }
+table { border-collapse: collapse; font-family: var(--font-ui); font-size: 14px; min-width: 100%; }
+caption { text-align: left; font-weight: 600; padding-bottom: 6px; }
+th, td { border: 1px solid var(--line); padding: 6px 9px; text-align: left; font-variant-numeric: tabular-nums; }
+th { background: var(--bg); font-weight: 600; }
+.prompt { font-weight: 500; font-size: 16px; margin: 0; }
+.choices { display: grid; gap: 8px; }
+.choice { display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: start; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font-size: 16px; }
+.choice .bub { width: 28px; height: 28px; border-radius: 50%; border: 1.5px solid var(--muted); display: grid; place-items: center; font-family: var(--font-num); font-size: 13px; }
+.choice[aria-pressed="true"] { border-color: var(--ink); }
+.choice[aria-pressed="true"] .bub { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.choice.right { border-color: var(--good); background: var(--good-soft); }
+.choice.right .bub { background: var(--good); border-color: var(--good); color: #fff; }
+.choice.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.choice.wrong .bub { background: var(--bad); border-color: var(--bad); color: #fff; }
+.choice:disabled { cursor: default; color: var(--ink); }
+.feedback { border-radius: 10px; padding: 14px 16px; display: grid; gap: 10px; border: 1px solid var(--line); background: var(--surface); }
+.feedback .verdict { font-family: var(--font-head); font-weight: 600; font-size: 18px; }
+.feedback.ok .verdict { color: var(--good); }
+.feedback.no .verdict { color: var(--bad); }
+.feedback p { margin: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips button { border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 6px 12px; font-size: 14px; }
+.chips button[aria-pressed="true"] { background: var(--bad); color: #fff; border-color: var(--bad); }
+
+/* summary */
+.score { font-family: var(--font-num); font-size: 44px; line-height: 1; }
+.misslist { display: grid; gap: 8px; }
+.miss { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 14px; display: grid; gap: 2px; }
+.btns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.ghost { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 13px 18px; font-weight: 600; }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 18px; }
+
+@media (max-width: 480px) {
+  .row { grid-template-columns: 22px 1fr 70px 44px; gap: 8px; padding-inline: 12px; }
+  .strip .v { font-size: 17px; }
+  .rline { grid-template-columns: 110px 1fr 30px; }
+  .passage { font-size: 16px; padding: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<main id="app"><p class="muted">Loading question bank…</p></main>
+<script>
+"use strict";
+const TYPE_ORDER = [
+  "Words in Context", "Text Structure and Purpose", "Cross-Text Connections",
+  "Central Ideas and Details", "Command of Evidence", "Inferences",
+  "Boundaries", "Form, Structure, and Sense", "Transitions", "Rhetorical Synthesis"
+];
+const REASONS = [["misread", "Misread"], ["two", "Down to two"], ["rule", "Didn't know rule/word"], ["rushed", "Rushed"], ["guess", "Guessed"]];
+const REASON_LABEL = Object.fromEntries(REASONS);
+const INTERVALS = [1, 3, 7];       // days until a missed question returns, by review box
+const PACE_MS = 71000;             // R&W pace: 32 min / 27 questions
+const DAY = 86400000;
+const KEY = "satdrill.v1";
+const LETTERS = ["A", "B", "C", "D"];
+
+/* ---------- storage (per device) ---------- */
+function loadStore() {
+  try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && Array.isArray(s.attempts)) return { attempts: s.attempts, review: s.review || {} }; } catch (e) {}
+  return { attempts: [], review: {} };
+}
+let store = loadStore();
+let storageOk = true;
+function save() {
+  if (store.attempts.length > 5000) store.attempts = store.attempts.slice(-5000);
+  try { localStorage.setItem(KEY, JSON.stringify(store)); storageOk = true; } catch (e) { storageOk = false; }
+}
+
+/* ---------- question bank ---------- */
+let Q = new Map();
+let loadError = null;
+async function loadBank() {
+  try {
+    const idx = await fetch("questions/index.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error("index.json " + r.status); return r.json(); });
+    const lists = await Promise.all(idx.files.map(f => fetch("questions/" + f, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(f + " " + r.status); return r.json(); })));
+    for (const list of lists) for (const q of list) {
+      const ans = typeof q.answer === "string" ? LETTERS.indexOf(q.answer.toUpperCase()) : q.answer;
+      if (!q.id || !q.type || !Array.isArray(q.choices) || ans < 0) continue;
+      Q.set(q.id, { ...q, answer: ans });
+    }
+  } catch (e) { loadError = e.message; }
+}
+
+/* ---------- helpers ---------- */
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+// [[text]] = underlined, *text* = italic, lines starting "- " = bullet list
+const inline = s => esc(s).replace(/\[\[(.+?)\]\]/g, "<u>$1</u>").replace(/\*(.+?)\*/g, "<em>$1</em>");
+function rich(s) {
+  let html = "", list = [];
+  const flush = () => { if (list.length) { html += "<ul>" + list.map(l => "<li>" + inline(l) + "</li>").join("") + "</ul>"; list = []; } };
+  for (const l of String(s || "").split("\n")) {
+    if (/^\s*-\s+/.test(l)) list.push(l.replace(/^\s*-\s+/, ""));
+    else { flush(); if (l.trim()) html += "<p>" + inline(l) + "</p>"; }
+  }
+  flush();
+  return html;
+}
+function tableHtml(t) {
+  if (!t) return "";
+  return '<div class="tablewrap"><table>' + (t.title ? "<caption>" + inline(t.title) + "</caption>" : "") +
+    "<thead><tr>" + t.cols.map(c => "<th>" + inline(c) + "</th>").join("") + "</tr></thead><tbody>" +
+    t.rows.map(r => "<tr>" + r.map(c => "<td>" + inline(c) + "</td>").join("") + "</tr>").join("") + "</tbody></table></div>";
+}
+function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+const secs = ms => (ms / 1000).toFixed(0) + "s";
+const pct = (a, b) => b ? Math.round(100 * a / b) : null;
+function typesInBank() {
+  const present = new Set([...Q.values()].map(q => q.type));
+  return [...TYPE_ORDER.filter(t => present.has(t)), ...[...present].filter(t => !TYPE_ORDER.includes(t)).sort()];
+}
+const isDue = (r, now) => r && !r.done && r.due <= now;
+
+/* ---------- state ---------- */
+const ui = { view: "home", sel: new Set(), mode: "new", count: 20 };
+let S = null; // active session
+let tick = null;
+const app = document.getElementById("app");
+
+/* ---------- home ---------- */
+function typeStats(type, now) {
+  const qs = [...Q.values()].filter(q => q.type === type);
+  const seen = new Set(store.attempts.map(a => a.qid));
+  const att = store.attempts.filter(a => a.type === type);
+  const last = att.slice(-20);
+  return {
+    bank: qs.length,
+    fresh: qs.filter(q => !seen.has(q.id)).length,
+    due: qs.filter(q => isDue(store.review[q.id], now)).length,
+    answered: att.length,
+    acc: pct(last.filter(a => a.ok).length, last.length),
+    avg: last.length ? last.reduce((s, a) => s + a.ms, 0) / last.length : null
+  };
+}
+function renderHome() {
+  const now = Date.now();
+  const types = typesInBank();
+  if (loadError || !Q.size) {
+    app.innerHTML = '<div class="top"><h1>SAT Drill Room</h1></div><div class="empty"><b>No questions loaded.</b><p class="hint">' +
+      (loadError ? "Couldn't read the question files (" + esc(loadError) + ")." : "The question bank is empty. Ask Claude to add a block to the repo.") + "</p></div>";
+    return;
+  }
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const t = store.attempts.filter(a => a.at >= today.getTime());
+  const allDue = Object.entries(store.review).filter(([id, r]) => Q.has(id) && isDue(r, now)).length;
+  const last50 = store.attempts.slice(-50);
+
+  const rows = types.map(type => {
+    const s = typeStats(type, now);
+    const on = ui.sel.has(type);
+    const sub = [s.bank + " in bank", s.fresh + " new", s.due ? s.due + " due" : null].filter(Boolean).join(" · ");
+    return `<button class="row" data-act="type" data-type="${esc(type)}" aria-pressed="${on}">
+      <span class="check"></span>
+      <span class="name"><b>${esc(type)}</b><span>${sub}</span></span>
+      <span class="acc"><span class="num">${s.acc == null ? "—" : s.acc + "%"}</span><span class="bar"><i style="width:${s.acc || 0}%"></i></span></span>
+      <span class="t num muted">${s.avg == null ? "—" : secs(s.avg)}</span></button>`;
+  }).join("");
+
+  const misses = store.attempts.filter(a => !a.ok).slice(-200);
+  const rc = Object.fromEntries(REASONS.map(([k]) => [k, 0]));
+  let untagged = 0;
+  for (const m of misses) m.reason && rc[m.reason] != null ? rc[m.reason]++ : untagged++;
+  const maxR = Math.max(1, ...Object.values(rc));
+  const reasonsHtml = misses.length ? `<section class="reasons"><h2>Why you miss (last ${misses.length} misses)</h2>${REASONS.map(([k, l]) =>
+    `<div class="rline"><span>${l}</span><span class="bar"><i style="width:${100 * rc[k] / maxR}%"></i></span><span class="num">${rc[k]}</span></div>`).join("")}
+    ${untagged ? `<p class="hint">${untagged} untagged</p>` : ""}</section>` : "";
+
+  const pool = buildPool();
+  const modeBtn = (m, l) => `<button data-act="mode" data-mode="${m}" aria-pressed="${ui.mode === m}">${l}</button>`;
+  const cntBtn = n => `<button data-act="count" data-n="${n}" aria-pressed="${ui.count === n}">${n}</button>`;
+  const selLabel = ui.sel.size ? ui.sel.size === 1 ? [...ui.sel][0] : ui.sel.size + " types mixed" : "all types mixed";
+
+  app.innerHTML = `
+    <div class="top"><h1>SAT Drill Room</h1><span class="sub">${Q.size} questions${storageOk ? "" : " · progress can't be saved in this browser"}</span></div>
+    <div class="strip">
+      <div><span class="k">Today</span><span class="v">${t.length}${t.length ? ` <span class="muted" style="font-size:14px">${pct(t.filter(a => a.ok).length, t.length)}%</span>` : ""}</span></div>
+      <div><span class="k">Last 50</span><span class="v">${last50.length ? pct(last50.filter(a => a.ok).length, last50.length) + "%" : "—"}</span></div>
+      <div><span class="k">Reviews due</span><span class="v">${allDue}</span></div>
+    </div>
+    <section class="types">
+      <div class="row head"><span></span><span>Type · tap to select</span><span>Last 20</span><span style="text-align:right">Avg</span></div>
+      ${rows}
+    </section>
+    <section class="controls">
+      <div class="ctl-row"><label>Mode</label><div class="seg">${modeBtn("new", "New first")}${modeBtn("due", "Reviews due")}${modeBtn("all", "Everything")}</div></div>
+      <div class="ctl-row"><label>Length</label><div class="seg">${[10, 20, 30, 50].map(cntBtn).join("")}</div></div>
+      <button class="go" data-act="start" ${pool.length ? "" : "disabled"}>Start ${Math.min(ui.count, pool.length)} · ${esc(selLabel)}</button>
+      <p class="hint">${pool.length ? "" : ui.mode === "due" ? "Nothing due for this selection. Missed questions return 1, 3, then 7 days later." : "No questions match this selection."}</p>
+    </section>
+    ${reasonsHtml}`;
+}
+
+/* ---------- session ---------- */
+function buildPool() {
+  const now = Date.now();
+  const types = ui.sel.size ? ui.sel : new Set(typesInBank());
+  const all = [...Q.values()].filter(q => types.has(q.type));
+  if (ui.mode === "due") return shuffle(all.filter(q => isDue(store.review[q.id], now))).map(q => q.id);
+  if (ui.mode === "all") return shuffle(all).map(q => q.id);
+  const lastSeen = {};
+  for (const a of store.attempts) lastSeen[a.qid] = a.at;
+  const fresh = shuffle(all.filter(q => !(q.id in lastSeen)));
+  const old = all.filter(q => q.id in lastSeen).sort((a, b) => lastSeen[a.id] - lastSeen[b.id]);
+  return [...fresh, ...old].map(q => q.id);
+}
+function startSession(ids) {
+  S = { ids, i: 0, results: [], pick: null, checked: false };
+  ui.view = "drill";
+  beginQuestion();
+}
+function beginQuestion() {
+  S.pick = null; S.checked = false; S.acc = 0; S.since = document.hidden ? null : performance.now();
+  renderDrill();
+  window.scrollTo(0, 0);
+  clearInterval(tick);
+  tick = setInterval(updateTimer, 250);
+}
+function elapsed() { return S.acc + (S.since == null ? 0 : performance.now() - S.since); }
+document.addEventListener("visibilitychange", () => {
+  if (!S || S.checked) return;
+  if (document.hidden) { if (S.since != null) { S.acc += performance.now() - S.since; S.since = null; } }
+  else if (S.since == null) S.since = performance.now();
+});
+function updateTimer() {
+  const el = document.getElementById("timer");
+  if (!el || !S) return;
+  const ms = S.checked ? S.ms : elapsed();
+  const s = Math.floor(ms / 1000);
+  el.textContent = Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0");
+  el.classList.toggle("over", ms > PACE_MS);
+}
+function renderDrill() {
+  const q = Q.get(S.ids[S.i]);
+  const n = S.ids.length;
+  const choices = q.choices.map((c, k) => {
+    let cls = "choice";
+    if (S.checked) { if (k === q.answer) cls += " right"; else if (k === S.pick) cls += " wrong"; }
+    return `<button class="${cls}" data-act="pick" data-k="${k}" aria-pressed="${S.pick === k}" ${S.checked ? "disabled" : ""}>
+      <span class="bub">${LETTERS[k]}</span><span>${inline(c)}</span></button>`;
+  }).join("");
+  let fb = "";
+  if (S.checked) {
+    const ok = S.pick === q.answer;
+    const res = S.results[S.results.length - 1];
+    fb = `<section class="feedback ${ok ? "ok" : "no"}">
+      <span class="verdict">${ok ? "Correct" : "Answer: " + LETTERS[q.answer]} <span class="num muted" style="font-size:14px">${secs(S.ms)}</span></span>
+      ${q.expl ? `<p>${inline(q.expl)}</p>` : ""}
+      ${ok ? "" : `<div><h2 style="margin-bottom:6px">Why did you miss it?</h2><div class="chips">${REASONS.map(([k, l]) =>
+        `<button data-act="reason" data-r="${k}" aria-pressed="${res.reason === k}">${l}</button>`).join("")}</div></div>`}
+      <button class="go" data-act="next">${S.i + 1 < n ? "Next" : "Finish"}</button></section>`;
+  }
+  app.innerHTML = `
+    <div class="drillbar">
+      <div class="line"><button class="quit" data-act="quit">End</button>
+        <span class="num muted">${S.i + 1} / ${n}</span><span id="timer" class="timer">0:00</span></div>
+      <div class="prog"><i style="width:${100 * S.i / n}%"></i></div>
+    </div>
+    <span class="tag">${esc(q.type)}${q.sub ? " · " + esc(q.sub) : ""}</span>
+    ${q.passage || q.table ? `<section class="passage">${rich(q.passage)}${tableHtml(q.table)}</section>` : ""}
+    <p class="prompt">${inline(q.prompt)}</p>
+    <div class="choices">${choices}</div>
+    ${S.checked ? fb : `<button class="go" data-act="check" ${S.pick == null ? "disabled" : ""}>Check</button>`}`;
+  updateTimer();
+}
+function check() {
+  if (S.pick == null || S.checked) return;
+  const q = Q.get(S.ids[S.i]);
+  S.ms = Math.round(elapsed());
+  S.checked = true;
+  clearInterval(tick);
+  const ok = S.pick === q.answer;
+  const at = Date.now();
+  const rec = { qid: q.id, type: q.type, pick: S.pick, ok, ms: S.ms, at, reason: null };
+  store.attempts.push(rec);
+  S.results.push(rec);
+  const r = store.review[q.id];
+  if (!ok) store.review[q.id] = { box: 0, due: at + INTERVALS[0] * DAY, misses: (r ? r.misses : 0) + 1, done: false };
+  else if (r && !r.done && r.due <= at) {
+    const box = r.box + 1;
+    store.review[q.id] = box >= INTERVALS.length ? { ...r, box, done: true, due: null } : { ...r, box, due: at + INTERVALS[box] * DAY };
+  }
+  save();
+  renderDrill();
+}
+function next() {
+  if (S.i + 1 < S.ids.length) { S.i++; beginQuestion(); }
+  else finish();
+}
+function finish() {
+  clearInterval(tick);
+  ui.view = "summary";
+  renderSummary();
+  window.scrollTo(0, 0);
+}
+function renderSummary() {
+  const R = S.results;
+  const right = R.filter(r => r.ok).length;
+  const avg = R.length ? R.reduce((s, r) => s + r.ms, 0) / R.length : 0;
+  const slow = R.filter(r => r.ms > PACE_MS).length;
+  const missed = R.filter(r => !r.ok);
+  app.innerHTML = `
+    <div class="top"><h1>Session done</h1></div>
+    <section class="strip">
+      <div><span class="k">Score</span><span class="v">${right}/${R.length}</span></div>
+      <div><span class="k">Avg time</span><span class="v">${R.length ? secs(avg) : "—"}</span></div>
+      <div><span class="k">Over 71s</span><span class="v">${slow}</span></div>
+    </section>
+    ${missed.length ? `<section class="misslist"><h2>Missed · back for review tomorrow</h2>${missed.map(m => {
+      const q = Q.get(m.qid);
+      const snip = String(q.passage || q.prompt).replace(/\[\[|\]\]|\*/g, "").slice(0, 90);
+      return `<div class="miss"><b>${esc(q.type)}</b><span>${esc(snip)}…</span><span class="muted">Picked ${LETTERS[m.pick]}, answer ${LETTERS[q.answer]} · ${secs(m.ms)} · ${m.reason ? REASON_LABEL[m.reason] : "untagged"}</span></div>`;
+    }).join("")}</section>` : R.length ? '<p class="hint">No misses this round.</p>' : ""}
+    <div class="btns">
+      ${missed.length ? `<button class="ghost" data-act="retry">Redo misses now</button>` : "<span></span>"}
+      <button class="go" data-act="home">Back to bank</button>
+    </div>`;
+}
+
+/* ---------- events ---------- */
+app.addEventListener("click", e => {
+  const b = e.target.closest("[data-act]");
+  if (!b || b.disabled) return;
+  const act = b.dataset.act;
+  if (act === "type") { ui.sel.has(b.dataset.type) ? ui.sel.delete(b.dataset.type) : ui.sel.add(b.dataset.type); renderHome(); }
+  else if (act === "mode") { ui.mode = b.dataset.mode; renderHome(); }
+  else if (act === "count") { ui.count = +b.dataset.n; renderHome(); }
+  else if (act === "start") { const p = buildPool().slice(0, ui.count); if (p.length) startSession(p); }
+  else if (act === "pick") { if (!S.checked) { S.pick = +b.dataset.k; renderDrill(); } }
+  else if (act === "check") check();
+  else if (act === "reason") { const res = S.results[S.results.length - 1]; res.reason = res.reason === b.dataset.r ? null : b.dataset.r; save(); renderDrill(); }
+  else if (act === "next") next();
+  else if (act === "quit") finish();
+  else if (act === "retry") startSession(shuffle(S.results.filter(r => !r.ok).map(r => r.qid)));
+  else if (act === "home") { S = null; ui.view = "home"; renderHome(); window.scrollTo(0, 0); }
+});
+document.addEventListener("keydown", e => {
+  if (ui.view !== "drill" || !S || e.metaKey || e.ctrlKey || e.altKey) return;
+  const k = e.key.toUpperCase();
+  const idx = LETTERS.indexOf(k) >= 0 ? LETTERS.indexOf(k) : "1234".indexOf(e.key);
+  if (!S.checked && idx >= 0 && idx < Q.get(S.ids[S.i]).choices.length) { S.pick = idx; renderDrill(); }
+  else if (e.key === "Enter") { e.preventDefault(); S.checked ? next() : check(); }
+});
+
+loadBank().then(renderHome);
+</script>
+</body>
+</html>
