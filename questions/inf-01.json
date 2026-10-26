@@ -1,0 +1,752 @@
+[
+ {
+  "id": "inf-001",
+  "type": "Inferences",
+  "sub": "apply a rule",
+  "passage": "Tomato flowers release their pollen only when vibrated at a particular frequency, a technique known as buzz pollination. Bumblebees can perform buzz pollination, but honeybees cannot. Therefore, greenhouse tomato growers who want insects to pollinate their plants would most likely _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "avoid insects, since tomato flowers produce little pollen.",
+   "use bumblebees rather than honeybees.",
+   "use both species equally to increase pollination.",
+   "use honeybees, since they are more common on farms."
+  ],
+  "answer": "B",
+  "expl": "Only bumblebees can release tomato pollen, so they're the ones to use. Nothing says honeybees help at all."
+ },
+ {
+  "id": "inf-002",
+  "type": "Inferences",
+  "sub": "trade-off",
+  "passage": "Researchers studying a songbird population found that males with longer songs attracted mates earlier in the breeding season. But males with longer songs were also more often detected and attacked by hawks. These findings suggest that song length in this species _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "has no effect on reproductive success.",
+   "involves a trade-off between attracting mates and avoiding predators.",
+   "will steadily increase over generations because longer songs attract mates.",
+   "is determined mainly by the preferences of hawks."
+  ],
+  "answer": "B",
+  "expl": "One benefit (mates) plus one cost (hawks) is a trade-off. The last choice ignores the cost."
+ },
+ {
+  "id": "inf-003",
+  "type": "Inferences",
+  "sub": "study result",
+  "passage": "In a study, participants estimated the number of jellybeans in a jar. When they made estimates alone, the average of all estimates was close to the true number. When participants could see others' estimates before making their own, individual estimates became more similar to one another, but the average moved further from the true number. The study suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "groups always reach less accurate conclusions than individuals do.",
+   "people estimate more accurately when they see others' estimates first.",
+   "jellybean jars are unusually difficult to estimate.",
+   "a group's average estimate can become less accurate when members are influenced by one another's guesses."
+  ],
+  "answer": "D",
+  "expl": "Influence made the average worse. “Always” in the second choice overreaches from one task."
+ },
+ {
+  "id": "inf-004",
+  "type": "Inferences",
+  "sub": "source vs. style",
+  "passage": "Archaeologists excavating an ancient settlement found pottery decorated in a style typical of a coastal culture located several hundred kilometers away. Chemical analysis showed that the clay in the pottery came from deposits near the settlement, not from the coast. This finding suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "potters at the settlement made pottery in a style that originated on the coast.",
+   "the pottery was carried to the settlement from the coast.",
+   "the coastal culture copied designs that originated at the settlement.",
+   "the settlement had no contact with the coastal culture."
+  ],
+  "answer": "A",
+  "expl": "Local clay means it was made locally; coastal style means the style came from the coast. Transport is ruled out by the clay."
+ },
+ {
+  "id": "inf-005",
+  "type": "Inferences",
+  "sub": "apply a pattern",
+  "passage": "Flowers pollinated by bees are often blue or purple, colors bees see well, while flowers pollinated by birds tend to be red. Bees are relatively insensitive to red light, but birds see it easily. A botanist who discovers a new plant species with bright red flowers would most reasonably hypothesize that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "bees are the species' main pollinators.",
+   "the species does not require pollination.",
+   "the flowers were originally blue and later turned red.",
+   "the species is pollinated mainly by birds rather than by bees."
+  ],
+  "answer": "D",
+  "expl": "Red flowers fit the bird-pollinated pattern, and bees barely see red."
+ },
+ {
+  "id": "inf-006",
+  "type": "Inferences",
+  "sub": "prediction",
+  "passage": "Most volcanoes form at boundaries between tectonic plates. The Hawaiian Islands, however, lie in the middle of the Pacific Plate. Geologists explain this by proposing that a stationary hot spot beneath the plate creates volcanoes as the plate slowly moves over it. If this explanation is correct, the islands' volcanoes should _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "be progressively older the farther they are from the hot spot.",
+   "be most active at the end of the chain farthest from the hot spot.",
+   "be located near a plate boundary.",
+   "all be roughly the same age."
+  ],
+  "answer": "A",
+  "expl": "A moving plate carries each volcano away from the hot spot over time, so distance tracks age."
+ },
+ {
+  "id": "inf-007",
+  "type": "Inferences",
+  "sub": "controlled comparison",
+  "passage": "A city replaced its bright streetlights with dimmer, warmer LED lights in one neighborhood. The following year, the number of migrating birds that collided with buildings there fell by 40 percent, while collisions in similar neighborhoods with the old lights did not change. These results suggest that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "bird collisions are unrelated to street lighting.",
+   "the new lights reduced the city's energy costs.",
+   "the brighter lights had contributed to bird collisions.",
+   "migrating birds avoid neighborhoods with warm lighting."
+  ],
+  "answer": "C",
+  "expl": "Collisions fell only where lighting changed. The text measures collisions, not whether birds avoid the area."
+ },
+ {
+  "id": "inf-008",
+  "type": "Inferences",
+  "sub": "constraint",
+  "passage": "A historian examining shipping records from a nineteenth-century port found that tea imports rose sharply in years when silk imports fell, and vice versa. The port had only a limited number of warehouses suitable for storing delicate goods, and both tea and silk required such storage. This evidence suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "tea and silk were usually shipped on the same vessels.",
+   "demand for silk declined steadily throughout the century.",
+   "merchants generally preferred tea to silk.",
+   "limited storage space may have restricted how much of the two goods the port could import in a given year."
+  ],
+  "answer": "D",
+  "expl": "A shared, limited resource explains why one rose as the other fell."
+ },
+ {
+  "id": "inf-009",
+  "type": "Inferences",
+  "sub": "dependency",
+  "passage": "Some fig tree species can be pollinated only by a single species of tiny wasp, and each of those wasp species can reproduce only inside the flowers of its partner fig. If one of these wasp species were to go extinct, it is most likely that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "another wasp species would begin pollinating the partner fig.",
+   "all other fig species would also lose their pollinators.",
+   "its partner fig species would no longer be pollinated.",
+   "the partner fig would produce more fruit."
+  ],
+  "answer": "C",
+  "expl": "“Only by a single species” rules out a replacement pollinator. Other figs have their own wasps."
+ },
+ {
+  "id": "inf-010",
+  "type": "Inferences",
+  "sub": "correlation vs. cause",
+  "passage": "In a survey of 2,000 adults, people who read fiction regularly scored higher on a test of empathy than those who did not. The researchers caution, however, that the survey cannot show whether reading fiction increases empathy or whether people who are already empathetic are drawn to fiction. The researchers would most likely agree that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "empathy has no relationship to reading habits.",
+   "an experiment that assigned some participants to read fiction would help determine whether fiction increases empathy.",
+   "survey responses about reading habits are usually inaccurate.",
+   "reading fiction causes people to become more empathetic."
+  ],
+  "answer": "B",
+  "expl": "They say the survey can't separate the two directions. Random assignment is how you separate them."
+ },
+ {
+  "id": "inf-011",
+  "type": "Inferences",
+  "sub": "evidence to conclusion",
+  "passage": "As glaciers move slowly downhill, they scrape the bedrock beneath them, leaving long parallel grooves called striations. Geologists have found extensive striations in the bedrock of a region in Ohio that is now far from any glacier. This evidence suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "glaciers will soon return to the region.",
+   "the region's bedrock is unusually soft.",
+   "glaciers once covered the region.",
+   "striations often form without glaciers."
+  ],
+  "answer": "C",
+  "expl": "Striations are glacier marks, so a glacier was there in the past."
+ },
+ {
+  "id": "inf-012",
+  "type": "Inferences",
+  "sub": "behavior change",
+  "passage": "When a city raised the price of single-ride bus tickets by 20 percent, total ridership fell only slightly, but sales of monthly passes, whose price did not change, rose substantially. This suggests that many riders _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "stopped riding the bus entirely.",
+   "did not notice the price increase.",
+   "responded to the price increase by switching to monthly passes rather than giving up the bus.",
+   "continued to prefer single-ride tickets despite the higher price."
+  ],
+  "answer": "C",
+  "expl": "Ridership held while pass sales jumped, so riders switched tickets, not modes."
+ },
+ {
+  "id": "inf-013",
+  "type": "Inferences",
+  "sub": "evaluate reasoning",
+  "passage": "The ancient Greek historian Herodotus reported that some people believed the Nile's annual flood was caused by melting snow in the lands to the south of Egypt. Herodotus rejected this explanation, reasoning that those lands were extremely hot. Modern scientists have determined that the flood is caused mainly by heavy summer rains in the Ethiopian Highlands. Thus, Herodotus _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "was right to reject the snowmelt explanation, even though he did not identify the actual cause.",
+   "was proved wrong by modern scientists.",
+   "correctly identified rainfall as the cause of the flood.",
+   "based his reasoning on visits to the Ethiopian Highlands."
+  ],
+  "answer": "A",
+  "expl": "Rain, not snow, causes the flood, so rejecting snow was correct; the text never says he named the real cause."
+ },
+ {
+  "id": "inf-014",
+  "type": "Inferences",
+  "sub": "conditional",
+  "passage": "Coral reefs depend on algae that live inside coral tissues and provide food. When ocean temperatures rise too high, corals expel the algae, a process called bleaching. Bleached corals can survive for a time and may recover if temperatures return to normal, but prolonged bleaching often kills them. Therefore, a reef that experiences a short period of high temperatures followed by rapid cooling _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "has a better chance of recovering than a reef exposed to high temperatures for a long period.",
+   "will certainly die.",
+   "will lose its algae permanently.",
+   "will not experience any bleaching."
+  ],
+  "answer": "A",
+  "expl": "Recovery is possible if temperatures return to normal, and death follows prolonged bleaching."
+ },
+ {
+  "id": "inf-015",
+  "type": "Inferences",
+  "sub": "localized function",
+  "passage": "In the 1800s, many scientists believed the brain worked as a single unit, with no region specialized for any task. In 1861, physician Paul Broca examined the brain of a patient who could understand language but could say only one word, and found damage confined to a small area of the left frontal lobe. Broca's finding provided evidence that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "any brain damage results in a loss of language.",
+   "the brain functions as a single unit.",
+   "particular regions of the brain may be specialized for particular functions, such as producing speech.",
+   "understanding language and producing speech depend on the same brain region."
+  ],
+  "answer": "C",
+  "expl": "Damage to one small area knocked out speech but left understanding, so speech production is localized."
+ },
+ {
+  "id": "inf-016",
+  "type": "Inferences",
+  "sub": "indirect effect",
+  "passage": "Ecologists compared two similar lakes, one with a population of a predatory fish and one without. In the lake with the predator, small fish, which feed on zooplankton, spent most of their time hiding among plants near the shore, and zooplankton in open water were far more abundant. In the lake without the predator, small fish fed freely in open water. The researchers concluded that the predator indirectly _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "reduced zooplankton numbers by eating them.",
+   "increased zooplankton numbers by keeping small fish out of open water.",
+   "caused small fish to feed more in open water.",
+   "had no effect on zooplankton."
+  ],
+  "answer": "B",
+  "expl": "Predator → small fish hide → fewer zooplankton eaten → more zooplankton. “Indirectly” means through the small fish."
+ },
+ {
+  "id": "inf-017",
+  "type": "Inferences",
+  "sub": "explain a difference",
+  "passage": "Rubber trees are native to the Amazon basin, where a fungal disease called South American leaf blight has repeatedly destroyed large rubber plantations. Rubber plantations in Southeast Asia, where the fungus does not occur, have thrived since the early 1900s. This history suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "the fungus later spread to Southeast Asia.",
+   "rubber trees grow better in Southeast Asian soil.",
+   "the absence of the fungus helps explain why rubber plantations succeeded in Southeast Asia.",
+   "rubber trees cannot grow naturally in the Amazon."
+  ],
+  "answer": "C",
+  "expl": "The one stated difference between the regions is the fungus. Soil is never mentioned, and the trees are native to the Amazon."
+ },
+ {
+  "id": "inf-018",
+  "type": "Inferences",
+  "sub": "apply a finding",
+  "passage": "Studies show that people remember information better when they are tested on it than when they simply reread it, even when the total study time is the same. Students preparing for an exam with limited time would therefore most likely benefit from _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "avoiding practice tests until they have finished rereading.",
+   "rereading their notes several times.",
+   "studying for longer periods.",
+   "spending more of their time answering practice questions and less time rereading notes."
+  ],
+  "answer": "D",
+  "expl": "Same time, better retention from testing, so shift time to testing. That's why you're using this site."
+ },
+ {
+  "id": "inf-019",
+  "type": "Inferences",
+  "sub": "cause",
+  "passage": "In the 1930s, the Dust Bowl devastated farms across the southern Great Plains. Before the disaster, farmers had plowed up millions of acres of native prairie grasses, whose deep roots held the soil in place, to plant wheat. When severe drought struck, the exposed soil dried out and was carried away by strong winds. The text suggests that the severity of the Dust Bowl was due in part to _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "the removal of plants that had helped keep soil from eroding.",
+   "the deep roots of the wheat that farmers planted.",
+   "strong winds alone, regardless of how the land was used.",
+   "unusually heavy rainfall."
+  ],
+  "answer": "A",
+  "expl": "The grasses held soil; removing them left it exposed. “Alone, regardless” ignores the land-use point."
+ },
+ {
+  "id": "inf-020",
+  "type": "Inferences",
+  "sub": "hedge the conclusion",
+  "passage": "When a large meteorite strikes Earth, the extreme pressure can transform ordinary quartz into a rare form called shocked quartz. Geologists who find shocked quartz in a layer of rock can therefore reasonably conclude that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "ordinary quartz is rare in that region.",
+   "the layer is made entirely of shocked quartz.",
+   "an event involving extreme pressure likely occurred when that layer formed.",
+   "the layer formed during a period of volcanic activity."
+  ],
+  "answer": "C",
+  "expl": "Shocked quartz signals extreme pressure. The other choices aren't supported by its presence."
+ },
+ {
+  "id": "inf-021",
+  "type": "Inferences",
+  "sub": "distributed control",
+  "passage": "Octopuses have about 500 million neurons, but roughly two-thirds of them are located in the arms rather than in the brain. In experiments, an octopus arm that had been separated from the body continued to reach for and grasp food. These observations suggest that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "an octopus's arms can carry out some actions without direct control from the brain.",
+   "octopuses have more neurons than any other animal.",
+   "octopus arms are controlled entirely by the brain.",
+   "an octopus's brain plays no role in its behavior."
+  ],
+  "answer": "A",
+  "expl": "A detached arm still grasping shows local control. “No role” overreaches."
+ },
+ {
+  "id": "inf-022",
+  "type": "Inferences",
+  "sub": "rule out an explanation",
+  "passage": "Many early photographs show people with stern, unsmiling faces. Some historians attribute this to long exposure times, which made it hard to hold a smile. But by the 1880s, exposure times had dropped to a fraction of a second, and unsmiling expressions remained common in formal portraits for decades. This suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "factors other than technical limits, such as conventions of formal portraiture, also contributed to the unsmiling expressions.",
+   "people in the 1800s were generally less happy than people today.",
+   "exposure times were never long enough to affect expressions.",
+   "exposure times did not actually decrease in the 1800s."
+  ],
+  "answer": "A",
+  "expl": "Short exposures didn't bring smiles, so something besides exposure time was at work. Happiness is never discussed."
+ },
+ {
+  "id": "inf-023",
+  "type": "Inferences",
+  "sub": "missing control group",
+  "passage": "A company tested a new pain reliever by giving it to 200 patients after surgery. The patients reported 30 percent less pain afterward. However, the study included no group of patients given a placebo, and pain typically decreases on its own in the days after surgery. Therefore, the study's results _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "prove that the drug is effective.",
+   "do not show how much of the improvement was caused by the drug.",
+   "show that placebos work better than the drug.",
+   "indicate that the drug increases pain."
+  ],
+  "answer": "B",
+  "expl": "Pain drops anyway after surgery, and there's no comparison group, so the drug's share is unknown."
+ },
+ {
+  "id": "inf-024",
+  "type": "Inferences",
+  "sub": "association",
+  "passage": "Monarch butterflies that migrate from Canada to Mexico each fall can live up to eight months, while monarchs born in early summer live only two to six weeks. Researchers have found that migrating monarchs delay reproduction until spring. This finding suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "migrating monarchs live longer because Mexico is warmer.",
+   "summer monarchs never reproduce.",
+   "delaying reproduction may be associated with the longer life span of migrating monarchs.",
+   "all monarchs migrate to Mexico."
+  ],
+  "answer": "C",
+  "expl": "The finding pairs delayed reproduction with long life. Climate isn't mentioned."
+ },
+ {
+  "id": "inf-025",
+  "type": "Inferences",
+  "sub": "plausible cause",
+  "passage": "Ancient Maya cities often had large reservoirs that collected rainwater. Analysis of sediments from one city's central reservoirs revealed high levels of mercury and toxic algae dating to the 800s CE, around the time the city was abandoned. The researchers suggest that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "the residents added mercury to purify their water.",
+   "contamination of the water supply may have contributed to the city's abandonment.",
+   "the city was abandoned because of too much rainfall.",
+   "the reservoirs were built after the city was abandoned."
+  ],
+  "answer": "B",
+  "expl": "Toxic water appears right when people left. The hedge “may have contributed” fits the evidence."
+ },
+ {
+  "id": "inf-026",
+  "type": "Inferences",
+  "sub": "reinterpret behavior",
+  "passage": "In a classic experiment, children were offered one marshmallow immediately or two if they waited 15 minutes. Later researchers found that children waited much less time if they had just seen the experimenter break an earlier promise. This suggests that a child's choice to take one marshmallow right away may reflect _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "a lack of interest in marshmallows.",
+   "an inability to understand the instructions.",
+   "a reasonable judgment about whether the promised reward would actually arrive.",
+   "a fixed personality trait unaffected by experience."
+  ],
+  "answer": "C",
+  "expl": "A broken promise changed behavior, so trust in the reward matters. A fixed trait wouldn't respond to experience."
+ },
+ {
+  "id": "inf-027",
+  "type": "Inferences",
+  "sub": "follow the mechanism",
+  "passage": "When mammals hibernate, their body temperature, heart rate, and breathing drop sharply, cutting their energy use by up to 98 percent. Before hibernating, many of these animals eat heavily and build up fat reserves. Because hibernating animals use so little energy, they can survive the winter _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "only if their body temperature stays high.",
+   "by eating frequently throughout the winter.",
+   "by increasing their heart rate.",
+   "on stored fat rather than needing to find food."
+  ],
+  "answer": "D",
+  "expl": "Low energy use plus stored fat means the fat lasts. The other choices contradict the description."
+ },
+ {
+  "id": "inf-028",
+  "type": "Inferences",
+  "sub": "caution about causation",
+  "passage": "Many news articles report that a particular food “causes” a disease based on studies that track what people eat and whether they become sick. Such studies, however, show only that two things occur together. People who eat a lot of a certain food may also share other habits, such as exercising less, that could explain the link. A reader who encounters such an article should therefore _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "stop eating the food immediately.",
+   "conclude that a lack of exercise causes the disease.",
+   "assume that the food is completely safe.",
+   "be cautious about concluding that the food itself causes the disease."
+  ],
+  "answer": "D",
+  "expl": "The text warns about confounds, not that the food is safe or that exercise is the cause."
+ },
+ {
+  "id": "inf-029",
+  "type": "Inferences",
+  "sub": "rule out a factor",
+  "passage": "Venus and Earth are similar in size, yet Venus's surface temperature is about 465°C, hot enough to melt lead, while Earth's average is about 15°C. Venus is closer to the Sun than Earth is, but Mercury, which is closer still, has a lower maximum surface temperature than Venus. This suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "Earth will eventually become as hot as Venus.",
+   "Venus's size explains its high temperature.",
+   "Mercury is farther from the Sun than Venus is.",
+   "distance from the Sun alone cannot explain Venus's extreme heat."
+  ],
+  "answer": "D",
+  "expl": "If distance explained it, Mercury would be hotter. Size is ruled out because Venus and Earth are similar."
+ },
+ {
+  "id": "inf-030",
+  "type": "Inferences",
+  "sub": "counterintuitive finding",
+  "passage": "Psychologists have found that people are more likely to donate to charity when shown a photograph of a single child in need than when shown statistics about millions of people suffering. In one study, adding statistics to the photograph of a single child actually reduced donations. These findings suggest that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "information about the scale of a problem does not necessarily make people more willing to help.",
+   "people donate more when given more information.",
+   "people are generally unwilling to donate.",
+   "photographs are less effective than statistics."
+  ],
+  "answer": "A",
+  "expl": "Adding scale reduced giving. The second choice reverses the result."
+ },
+ {
+  "id": "inf-031",
+  "type": "Inferences",
+  "sub": "barrier",
+  "passage": "Researchers placed motion-activated cameras in a forest before and after a highway was built through it. Before construction, the cameras on both sides recorded the same individual bobcats, identified by their spot patterns. After the highway opened, no bobcat was recorded on both sides. The findings suggest that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "bobcat populations increased after the highway was built.",
+   "the highway may have prevented bobcats from crossing between the two sides of the forest.",
+   "the bobcats' spot patterns changed.",
+   "the cameras stopped working after construction."
+  ],
+  "answer": "B",
+  "expl": "Same cats on both sides before, none after: the road blocked movement."
+ },
+ {
+  "id": "inf-032",
+  "type": "Inferences",
+  "sub": "isolate the variable",
+  "passage": "In 1971, astronaut David Scott dropped a hammer and a feather at the same time on the Moon, and both hit the ground at the same moment. On Earth, the feather would have fallen much more slowly. Because the Moon has almost no atmosphere, the demonstration supports the conclusion that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "the difference in falling speeds on Earth is caused by air resistance rather than by the objects' masses.",
+   "the Moon's gravity is stronger than Earth's.",
+   "heavier objects always fall faster than lighter ones.",
+   "feathers are denser on the Moon than on Earth."
+  ],
+  "answer": "A",
+  "expl": "Remove air and the difference disappears, so air was the cause."
+ },
+ {
+  "id": "inf-033",
+  "type": "Inferences",
+  "sub": "language and cognition",
+  "passage": "Some languages, such as Guugu Yimithirr in Australia, use cardinal directions (north, south, east, west) rather than “left” and “right” to describe locations, even for nearby objects. Researchers have found that speakers of such languages keep track of their orientation with remarkable accuracy, even in unfamiliar places. This finding suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "Guugu Yimithirr has no words for “left” or “right” in any context.",
+   "speakers of all languages have an equally strong sense of direction.",
+   "using “left” and “right” improves a person's sense of direction.",
+   "regularly using a language that requires knowing directions may help speakers develop a strong sense of orientation."
+  ],
+  "answer": "D",
+  "expl": "The language demands constant direction-tracking, and its speakers are good at it. The hedge “may help” fits."
+ },
+ {
+  "id": "inf-034",
+  "type": "Inferences",
+  "sub": "local adaptation",
+  "passage": "In the 1800s, the British began growing tea in India using plants and seeds obtained from China. Many of the Chinese plants did poorly, while a variety of tea plant found growing wild in India's Assam region thrived. Today, Assam tea is one of the most widely produced teas in the world. The text suggests that the success of tea cultivation in India depended in part on _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "the plants imported from China.",
+   "a local variety of tea plant that was well suited to the region.",
+   "the British refusal to use local plants.",
+   "Chinese farmers moving to India."
+  ],
+  "answer": "B",
+  "expl": "The Chinese plants did poorly; the Assam variety thrived."
+ },
+ {
+  "id": "inf-035",
+  "type": "Inferences",
+  "sub": "illustrate a purpose",
+  "passage": "The Svalbard Global Seed Vault stores seeds from crop varieties around the world inside a mountain on a remote Arctic island, where permafrost keeps the seeds cold even if the cooling system fails. In 2015, researchers whose seed bank in Syria had been disrupted by war withdrew seeds from the vault to rebuild their collection. This example illustrates that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "the vault can serve as a backup when other seed collections are lost or damaged.",
+   "the vault's cooling system frequently fails.",
+   "Syria was the vault's largest contributor.",
+   "seeds stored in the Arctic cannot be grown elsewhere."
+  ],
+  "answer": "A",
+  "expl": "A damaged collection was rebuilt from the vault, which is exactly a backup role."
+ },
+ {
+  "id": "inf-036",
+  "type": "Inferences",
+  "sub": "unintended effect",
+  "passage": "Squirrels bury thousands of nuts each fall but recover only a portion of them. Researchers have found that in years when squirrels bury more nuts than usual, more oak seedlings appear the following spring. This suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "squirrels deliberately plant oak trees.",
+   "oak trees produce fewer nuts in years when squirrels are active.",
+   "nuts that squirrels fail to recover may grow into new oak trees.",
+   "squirrels eventually recover all the nuts they bury."
+  ],
+  "answer": "C",
+  "expl": "Unrecovered buried nuts are positioned to sprout. “Deliberately” assigns intent the text doesn't."
+ },
+ {
+  "id": "inf-037",
+  "type": "Inferences",
+  "sub": "cause of adoption",
+  "passage": "Paper money first came into wide use in China during the Song dynasty, in part because carrying large quantities of heavy iron coins was impractical for merchants engaged in long-distance trade. This suggests that one factor that encouraged the use of paper money was _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "a shortage of paper in China.",
+   "the difficulty of transporting the metal coins in use at the time.",
+   "a decline in long-distance trade.",
+   "merchants' preference for heavy coins."
+  ],
+  "answer": "B",
+  "expl": "The text names the impracticality of carrying heavy coins."
+ },
+ {
+  "id": "inf-038",
+  "type": "Inferences",
+  "sub": "controlled observation",
+  "passage": "A study of hospital patients found that those whose rooms had windows overlooking trees recovered from surgery slightly faster and requested fewer pain medications than those whose windows faced a brick wall. The two groups were similar in age, health, and type of surgery. The findings suggest that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "pain medications slow recovery from surgery.",
+   "older patients recover more slowly than younger ones.",
+   "brick walls cause patients pain.",
+   "a view of nature may help patients recover from surgery."
+  ],
+  "answer": "D",
+  "expl": "Groups were matched on everything but the view, which points to the view."
+ },
+ {
+  "id": "inf-039",
+  "type": "Inferences",
+  "sub": "function of a trait",
+  "passage": "Cacti store water in thick, fleshy stems, and many have spines instead of leaves. Because leaves release water vapor through tiny pores, having spines rather than leaves likely helps cacti _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "attract pollinators.",
+   "grow taller.",
+   "absorb more sunlight.",
+   "lose less water."
+  ],
+  "answer": "D",
+  "expl": "Leaves leak water; spines don't. In a desert, that saves water."
+ },
+ {
+  "id": "inf-040",
+  "type": "Inferences",
+  "sub": "evaluate a claim",
+  "passage": "Some early accounts claimed that the Great Wall of China could be seen with the naked eye from the Moon. But the wall, though thousands of kilometers long, is only about 5 to 9 meters wide, and astronauts have reported being unable to see it even from low Earth orbit, which is far closer than the Moon. This evidence suggests that the early accounts _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "were accurate.",
+   "were mistaken.",
+   "were based on astronauts' reports.",
+   "referred to a different structure."
+  ],
+  "answer": "B",
+  "expl": "If it's invisible from much closer, it's invisible from the Moon. The accounts were “early,” before astronauts."
+ },
+ {
+  "id": "inf-041",
+  "type": "Inferences",
+  "sub": "keystone species",
+  "passage": "Where sea otters disappeared from stretches of the Pacific coast because of hunting, sea urchin populations grew rapidly and kelp forests, which urchins eat, declined sharply. Where otters later returned, urchin numbers dropped and the kelp recovered. This suggests that sea otters _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "eat large amounts of kelp.",
+   "compete with urchins for food.",
+   "have no effect on kelp forests.",
+   "help protect kelp forests by keeping sea urchin populations in check."
+  ],
+  "answer": "D",
+  "expl": "Otters eat urchins, urchins eat kelp. Fewer urchins means more kelp."
+ },
+ {
+  "id": "inf-042",
+  "type": "Inferences",
+  "sub": "expectation effect",
+  "passage": "In a study, participants who were told that a wine cost $90 rated it as more pleasant than participants who tasted the same wine but were told it cost $10. Brain scans showed greater activity in a region associated with pleasure when participants believed the wine was expensive. This suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "brain activity is unrelated to how people rate wine.",
+   "beliefs about a product's price can affect how much pleasure people get from it.",
+   "expensive wines taste better than cheap ones.",
+   "participants could tell the difference between the two wines."
+  ],
+  "answer": "B",
+  "expl": "It was the same wine, so only the price belief changed."
+ },
+ {
+  "id": "inf-043",
+  "type": "Inferences",
+  "sub": "geography of evidence",
+  "passage": "Neanderthal DNA makes up about 1 to 2 percent of the genomes of people of non-African descent today, but very little appears in people whose ancestry is entirely from sub-Saharan Africa. Neanderthals lived in Europe and western Asia but not in sub-Saharan Africa. This pattern suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "interbreeding with Neanderthals occurred after some early modern humans had left Africa.",
+   "Neanderthals originated in sub-Saharan Africa.",
+   "modern humans never interbred with Neanderthals.",
+   "all modern humans carry the same amount of Neanderthal DNA."
+  ],
+  "answer": "A",
+  "expl": "The DNA shows up in the populations whose ancestors left Africa, where Neanderthals lived."
+ },
+ {
+  "id": "inf-044",
+  "type": "Inferences",
+  "sub": "research design",
+  "passage": "Children who learn to play a musical instrument often perform better in mathematics than children who do not. However, families who can afford music lessons also tend to have more resources for other educational activities. A researcher who wants to know whether music lessons themselves improve math performance would most likely want to _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "compare children with similar family resources, some of whom were randomly assigned to take music lessons.",
+   "study only children from the wealthiest families.",
+   "survey only children who already play instruments.",
+   "measure the math skills of professional musicians."
+  ],
+  "answer": "A",
+  "expl": "The confound is family resources. Holding it constant and randomizing isolates the lessons."
+ },
+ {
+  "id": "inf-045",
+  "type": "Inferences",
+  "sub": "apply the mechanism",
+  "passage": "Rivers in cities often rise faster and flood more suddenly after storms than rivers in forested areas. Pavement and rooftops prevent rain from soaking into the ground, so water runs directly into storm drains and then into rivers. Cities seeking to reduce sudden flooding would therefore likely benefit from _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "removing trees along riverbanks.",
+   "straightening rivers so they flow faster.",
+   "paving more surfaces.",
+   "adding areas, such as parks and green roofs, where rainwater can soak in or be absorbed."
+  ],
+  "answer": "D",
+  "expl": "If hard surfaces cause fast runoff, absorbent surfaces slow it."
+ },
+ {
+  "id": "inf-046",
+  "type": "Inferences",
+  "sub": "revise a date",
+  "passage": "The city of Pompeii was buried by ash from Mount Vesuvius in 79 CE. For centuries, historians accepted a date of August 24 for the eruption, based on a copy of a letter by Pliny the Younger. But archaeologists have since found an inscription in charcoal at Pompeii dated to mid-October, apparently written shortly before the eruption, along with remains of autumn fruits. This evidence suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "the eruption occurred in a different year.",
+   "the eruption may have occurred later in the year than historians long believed.",
+   "Pliny the Younger never wrote about the eruption.",
+   "Pompeii was abandoned months before the eruption."
+  ],
+  "answer": "B",
+  "expl": "An October inscription and autumn fruits push the date past August. The year isn't questioned."
+ },
+ {
+  "id": "inf-047",
+  "type": "Inferences",
+  "sub": "bioindicator",
+  "passage": "Lichens absorb water and nutrients directly from the air, so they also absorb air pollutants, and many lichen species die when pollution levels rise. Scientists surveying a city found many lichen species in its outer parks but very few near its central industrial district. The survey suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "air pollution is likely higher near the industrial district than in the outer parks.",
+   "lichens are a major source of air pollution.",
+   "the industrial district has more trees than the parks.",
+   "lichens can grow only in parks."
+  ],
+  "answer": "A",
+  "expl": "Lichens die with pollution, and few survive near industry."
+ },
+ {
+  "id": "inf-048",
+  "type": "Inferences",
+  "sub": "historical comparison",
+  "passage": "During the 1918 influenza pandemic, Philadelphia held a large parade on September 28 despite warnings from doctors. St. Louis, by contrast, closed schools, theaters, and churches soon after its first cases appeared. Philadelphia's death rate peaked much higher than St. Louis's. A historian would most likely use this comparison to suggest that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "influenza was less deadly in 1918 than in other years.",
+   "St. Louis had no influenza cases.",
+   "early public health measures may have reduced the severity of the outbreak in St. Louis.",
+   "large public gatherings slow the spread of disease."
+  ],
+  "answer": "C",
+  "expl": "The city that closed gatherings early fared better. St. Louis did have cases (“its first cases appeared”)."
+ },
+ {
+  "id": "inf-049",
+  "type": "Inferences",
+  "sub": "brain size vs. neurons",
+  "passage": "Crows and ravens can solve puzzles that require several steps, while many birds with similarly sized brains cannot. Researchers have found that crow brains contain densely packed neurons, giving them about as many forebrain neurons as some monkeys have, despite much smaller brains. This suggests that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "larger brains always produce greater intelligence.",
+   "crows have larger brains than monkeys.",
+   "the number and density of neurons, not just brain size, may matter for problem-solving ability.",
+   "monkeys are unable to solve multistep puzzles."
+  ],
+  "answer": "C",
+  "expl": "Small brains, many neurons, high ability, so neuron count matters. The last choice contradicts “much smaller brains.”"
+ },
+ {
+  "id": "inf-050",
+  "type": "Inferences",
+  "sub": "rapid adaptation",
+  "passage": "In 1971, researchers moved several Italian wall lizards from one small Croatian island, where the lizards ate mostly insects, to a nearby island with abundant plant life. About 35 years later, scientists found that the descendants of the transplanted lizards ate mostly plants and had developed larger heads and stronger bites. These changes suggest that _____",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "the lizards prefer insects to plants.",
+   "the lizards' traits changed in ways that may have helped them eat the food most available on their new island.",
+   "the original island had more plant life than the new one.",
+   "the lizards' physical traits stayed the same."
+  ],
+  "answer": "B",
+  "expl": "Stronger bites suit tough plants, the dominant food on the new island."
+ }
+]

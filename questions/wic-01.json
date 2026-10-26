@@ -1,0 +1,752 @@
+[
+ {
+  "id": "wic-001",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Although the new vaccine produced a strong immune response in laboratory animals, researchers were careful not to _____ these results to humans until clinical trials were complete.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "attribute",
+   "compare",
+   "concede",
+   "extrapolate"
+  ],
+  "answer": "D",
+  "expl": "To extrapolate is to extend findings beyond the cases studied, here from animals to humans. “Attribute” sounds scientific but doesn't fit “to humans” in this sense."
+ },
+ {
+  "id": "wic-002",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "In the novel, the narrator's account of events is deliberately _____: she leaves out key details, contradicts herself, and admits late in the book that she has lied about her age.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "exhaustive",
+   "unreliable",
+   "impartial",
+   "celebratory"
+  ],
+  "answer": "B",
+  "expl": "Omissions, contradictions, and an admitted lie all mean we can't trust her account. “Exhaustive” is the opposite of leaving out details."
+ },
+ {
+  "id": "wic-003",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The council's plan met with a cool reception; though no one openly opposed it, few members offered any support.",
+  "prompt": "As used in the text, what does the word “cool” most nearly mean?",
+  "choices": [
+   "Chilly",
+   "Calm",
+   "Unenthusiastic",
+   "Fashionable"
+  ],
+  "answer": "C",
+  "expl": "The second half defines it: no opposition, but little support. “Chilly” is the literal temperature meaning, and “calm” describes manner rather than lack of enthusiasm."
+ },
+ {
+  "id": "wic-004",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Marine biologist Sylvia Earle has spent decades advocating for ocean protection. Her persistence has been _____: she has led more than 100 expeditions and continued to dive well into her eighties.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "reluctant",
+   "tireless",
+   "sporadic",
+   "theoretical"
+  ],
+  "answer": "B",
+  "expl": "100+ expeditions and diving into her eighties show unflagging effort. “Sporadic” (occasional) contradicts the evidence."
+ },
+ {
+  "id": "wic-005",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The historian's argument rests on a single letter, a _____ foundation for such a sweeping claim about an entire century.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "slender",
+   "durable",
+   "ornate",
+   "familiar"
+  ],
+  "answer": "A",
+  "expl": "One letter supporting a claim about a whole century is a thin, weak basis. “Slender” means slight or inadequate here."
+ },
+ {
+  "id": "wic-006",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The senator met privately with several colleagues to sound out their views on a possible compromise before making any formal proposal.",
+  "prompt": "As used in the text, what does the phrase “sound out” most nearly mean?",
+  "choices": [
+   "Clearly pronounce",
+   "Cautiously find out",
+   "Loudly announce",
+   "Publicly criticize"
+  ],
+  "answer": "B",
+  "expl": "Privately, before a formal proposal, she's testing opinions. The trap choices use the literal “sound” (noise, pronunciation)."
+ },
+ {
+  "id": "wic-007",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Because the fossil was found in rock layers far older than expected, it forced paleontologists to _____ their timeline for when feathered dinosaurs first appeared.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "revise",
+   "endorse",
+   "obscure",
+   "celebrate"
+  ],
+  "answer": "A",
+  "expl": "An unexpectedly old fossil means the existing timeline was wrong and must be changed. “Endorse” would mean keeping it."
+ },
+ {
+  "id": "wic-008",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Some critics found the director's new film _____: its scenes jumped between decades without warning, and its characters were never clearly introduced.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "conventional",
+   "predictable",
+   "restrained",
+   "disorienting"
+  ],
+  "answer": "D",
+  "expl": "Unannounced time jumps and unintroduced characters leave viewers confused. “Conventional” and “predictable” say the opposite."
+ },
+ {
+  "id": "wic-009",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Economist Esther Duflo favors testing policies through small randomized trials before adopting them widely, an approach that reflects her _____ view of sweeping theories that have not been checked against evidence.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "naive",
+   "reverent",
+   "whimsical",
+   "skeptical"
+  ],
+  "answer": "D",
+  "expl": "Insisting on testing before adopting means she doubts untested theories. “Reverent” would mean she respects them as they are."
+ },
+ {
+  "id": "wic-010",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The team's early success was arrested by a series of injuries to its best players, and it finished the season with a losing record.",
+  "prompt": "As used in the text, what does the word “arrested” most nearly mean?",
+  "choices": [
+   "Halted",
+   "Attracted",
+   "Captured",
+   "Seized by police"
+  ],
+  "answer": "A",
+  "expl": "Injuries stopped the success. The police meaning is the obvious trap, and “captured” is its close cousin."
+ },
+ {
+  "id": "wic-011",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The first-edition maps were remarkably _____, showing even small streams and footpaths whose locations later surveys confirmed.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "outdated",
+   "speculative",
+   "decorative",
+   "meticulous"
+  ],
+  "answer": "D",
+  "expl": "Small details that later proved accurate show careful precision. “Speculative” implies guesswork, the opposite of confirmed."
+ },
+ {
+  "id": "wic-012",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The committee's decision was not _____; members had debated the proposal for months and reviewed hundreds of public comments before voting.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "unanimous",
+   "public",
+   "hasty",
+   "final"
+  ],
+  "answer": "C",
+  "expl": "Months of debate is the opposite of hasty. “Final” and “unanimous” aren't contradicted by anything in the evidence given."
+ },
+ {
+  "id": "wic-013",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Many deep-sea animals produce light through chemical reactions in their bodies. In the near-total darkness of the deep ocean, this ability is hardly a _____: it is used to attract prey, find mates, and confuse predators.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "weapon",
+   "necessity",
+   "luxury",
+   "mystery"
+  ],
+  "answer": "C",
+  "expl": "The list of essential uses shows it's not an extra. “Hardly a necessity” would contradict those uses, and confusing predators makes it partly a weapon."
+ },
+ {
+  "id": "wic-014",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The author's latest novel is a departure from her earlier work, which favored dense, sprawling plots; the new book follows a single character over one afternoon.",
+  "prompt": "As used in the text, what does the word “departure” most nearly mean?",
+  "choices": [
+   "Death",
+   "Journey",
+   "Exit from a place",
+   "Change from the usual"
+  ],
+  "answer": "D",
+  "expl": "One character over one afternoon breaks from her sprawling earlier books. The travel and death senses don't fit."
+ },
+ {
+  "id": "wic-015",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The evidence linking the two events is entirely _____: investigators have found no record that directly connects them, only a suspicious overlap in timing.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "fabricated",
+   "circumstantial",
+   "conclusive",
+   "irrelevant"
+  ],
+  "answer": "B",
+  "expl": "Indirect evidence (timing only, no direct record) is circumstantial. “Conclusive” contradicts “no record,” and “irrelevant” ignores the suspicious overlap."
+ },
+ {
+  "id": "wic-016",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The museum's new curator was praised for making the collection more _____: she added labels in four languages, lowered display cases for children and wheelchair users, and eliminated the entry fee on weekends.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "accessible",
+   "traditional",
+   "valuable",
+   "exclusive"
+  ],
+  "answer": "A",
+  "expl": "Every change lets more people reach and understand the art. “Exclusive” is the opposite."
+ },
+ {
+  "id": "wic-017",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Mathematician Maryam Mirzakhani was known for her patience with difficult problems; colleagues recalled that she would _____ a single question for years, returning to it again and again.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "dismiss",
+   "delegate",
+   "memorize",
+   "pursue"
+  ],
+  "answer": "D",
+  "expl": "Returning to it for years means continuing to work on it. “Dismiss” contradicts returning."
+ },
+ {
+  "id": "wic-018",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The new evidence does not discount the earlier theory entirely, but it does suggest that the theory needs revision.",
+  "prompt": "As used in the text, what does the word “discount” most nearly mean?",
+  "choices": [
+   "Borrow against",
+   "Reduce the price of",
+   "Disregard as untrue",
+   "Calculate"
+  ],
+  "answer": "C",
+  "expl": "“Not entirely, but needs revision” means it doesn't throw out the theory. The price meaning is the trap."
+ },
+ {
+  "id": "wic-019",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Zora Neale Hurston collected folktales throughout the American South, and her work was _____ by her training in anthropology, which taught her to record speech exactly as she heard it.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "informed",
+   "overshadowed",
+   "delayed",
+   "contradicted"
+  ],
+  "answer": "A",
+  "expl": "Her training shaped how she recorded tales, so it informed the work. Nothing suggests the training worked against it."
+ },
+ {
+  "id": "wic-020",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The engineers' first prototype was badly _____: it overheated within minutes, leaked fluid, and could not be restarted.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "promising",
+   "flawed",
+   "elegant",
+   "durable"
+  ],
+  "answer": "B",
+  "expl": "Three failures in a row point to defects. “Durable” is directly contradicted."
+ },
+ {
+  "id": "wic-021",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "For decades, physicists have tried to reconcile the theory of general relativity with quantum mechanics, two highly successful frameworks that appear to conflict.",
+  "prompt": "As used in the text, what does the word “reconcile” most nearly mean?",
+  "choices": [
+   "Accept reluctantly",
+   "Settle an argument between people",
+   "Make consistent",
+   "Compare"
+  ],
+  "answer": "C",
+  "expl": "Two frameworks that appear to conflict need to be made compatible. “Accept reluctantly” is a different sense (reconcile oneself to)."
+ },
+ {
+  "id": "wic-022",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "For many years, the composer's music was _____ by audiences, who considered it too dissonant; today, it is performed regularly by major orchestras.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "imitated",
+   "neglected",
+   "memorized",
+   "commissioned"
+  ],
+  "answer": "B",
+  "expl": "“For many years… today, performed regularly” sets up a contrast, so it was ignored before. The other words suggest popularity."
+ },
+ {
+  "id": "wic-023",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Chemist Percy Julian developed methods to make medically important hormones from soybeans, making several drugs far cheaper to produce. His innovations thus had _____ effects, extending well beyond the laboratory.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "negligible",
+   "unintended",
+   "far-reaching",
+   "temporary"
+  ],
+  "answer": "C",
+  "expl": "“Extending well beyond the laboratory” defines the blank. “Negligible” is the opposite."
+ },
+ {
+  "id": "wic-024",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The diplomat's statement was carefully _____; it could be read as either an endorsement of the treaty or a warning against it.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "spontaneous",
+   "ambiguous",
+   "hostile",
+   "detailed"
+  ],
+  "answer": "B",
+  "expl": "Two opposite readings means it's ambiguous, and “carefully” means deliberately so. “Spontaneous” contradicts “carefully.”"
+ },
+ {
+  "id": "wic-025",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Though the plan was ambitious, the mayor insisted it was sound, pointing to similar projects that had succeeded in other cities.",
+  "prompt": "As used in the text, what does the word “sound” most nearly mean?",
+  "choices": [
+   "Loud",
+   "Deep",
+   "Healthy",
+   "Well-founded"
+  ],
+  "answer": "D",
+  "expl": "She defends the plan by citing past successes: it's reliable. “Healthy” is close (sound body) but describes living things."
+ },
+ {
+  "id": "wic-026",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Unlike her predecessors, who wrote in an ornate and elaborate style, the poet favored _____ language: short lines, plain words, and few images.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "spare",
+   "lavish",
+   "technical",
+   "archaic"
+  ],
+  "answer": "A",
+  "expl": "“Unlike” ornate, with plain words and few images, means minimal. “Lavish” matches the predecessors instead."
+ },
+ {
+  "id": "wic-027",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The results of the experiment were _____: when other laboratories repeated the procedure, they consistently obtained the same outcome.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "controversial",
+   "preliminary",
+   "replicable",
+   "anomalous"
+  ],
+  "answer": "C",
+  "expl": "Others repeating it and getting the same outcome is the definition of replicable. “Anomalous” means unusual and isolated, the opposite."
+ },
+ {
+  "id": "wic-028",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The professor's lecture was so dense that students spent the following week unpacking its main arguments in small discussion groups.",
+  "prompt": "As used in the text, what does the word “unpacking” most nearly mean?",
+  "choices": [
+   "Discarding",
+   "Repeating",
+   "Analyzing in detail",
+   "Removing from a container"
+  ],
+  "answer": "C",
+  "expl": "A dense lecture discussed for a week is being examined closely. The suitcase meaning is the trap."
+ },
+ {
+  "id": "wic-029",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "While the two species look nearly identical, genetic tests reveal that their lineages _____ more than five million years ago, after which each evolved independently.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "diverged",
+   "disappeared",
+   "stabilized",
+   "merged"
+  ],
+  "answer": "A",
+  "expl": "“After which each evolved independently” means they split apart. “Merged” is the opposite."
+ },
+ {
+  "id": "wic-030",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Critics accused the company of _____ its environmental record, noting that its advertisements highlighted a small recycling program while ignoring the pollution produced by its factories.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "improving",
+   "neglecting",
+   "misrepresenting",
+   "documenting"
+  ],
+  "answer": "C",
+  "expl": "Highlighting the good and hiding the bad gives a false picture. “Neglecting” is tempting but means ignoring, not distorting."
+ },
+ {
+  "id": "wic-031",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The village's economy relied so _____ on fishing that when fish populations collapsed in the 1990s, nearly every family was affected.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "heavily",
+   "occasionally",
+   "reluctantly",
+   "briefly"
+  ],
+  "answer": "A",
+  "expl": "“Nearly every family was affected” only follows from heavy dependence."
+ },
+ {
+  "id": "wic-032",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The candidate's speech struck a chord with voters who felt that their concerns had long been ignored.",
+  "prompt": "As used in the text, what does the phrase “struck a chord” most nearly mean?",
+  "choices": [
+   "Played a musical note",
+   "Resonated emotionally",
+   "Hit physically",
+   "Created a conflict"
+  ],
+  "answer": "B",
+  "expl": "Voters who felt ignored connected with the speech. The music meaning is the literal trap."
+ },
+ {
+  "id": "wic-033",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Physicist Chien-Shiung Wu's 1956 experiment showed that a basic principle of physics, the conservation of parity, does not _____ in certain nuclear processes, overturning an assumption held for decades.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "begin",
+   "matter",
+   "hold",
+   "exist"
+  ],
+  "answer": "C",
+  "expl": "A principle that “holds” remains true. Overturning an assumption means it failed to hold in those cases."
+ },
+ {
+  "id": "wic-034",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The documentary's portrait of the musician is _____ rather than flattering: it includes interviews with former bandmates who describe him as difficult and controlling.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "misleading",
+   "superficial",
+   "affectionate",
+   "candid"
+  ],
+  "answer": "D",
+  "expl": "“Rather than flattering” plus unflattering interviews means honest and frank. “Affectionate” leans toward flattering."
+ },
+ {
+  "id": "wic-035",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Although Galileo is often credited with inventing the telescope, he actually _____ an existing design, increasing its magnification from about three times to about twenty times.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "copied",
+   "refined",
+   "abandoned",
+   "patented"
+  ],
+  "answer": "B",
+  "expl": "Increasing magnification is improving it. “Copied” misses that he made it better."
+ },
+ {
+  "id": "wic-036",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The archive contains a wealth of correspondence between the two writers, including more than 600 letters exchanged over thirty years.",
+  "prompt": "As used in the text, what does the word “wealth” most nearly mean?",
+  "choices": [
+   "Privilege",
+   "Large amount",
+   "Value",
+   "Money"
+  ],
+  "answer": "B",
+  "expl": "600+ letters is an abundance. “Money” is the literal trap."
+ },
+ {
+  "id": "wic-037",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Because the artist rarely dated her early sketches, scholars must _____ the order in which they were made by comparing changes in her technique.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "infer",
+   "dictate",
+   "publish",
+   "ignore"
+  ],
+  "answer": "A",
+  "expl": "Without dates, they reason from evidence (technique changes) to a conclusion. That's inferring."
+ },
+ {
+  "id": "wic-038",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The treaty's terms were _____ by both nations: neither side complied with the restrictions on troop movements.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "drafted",
+   "negotiated",
+   "honored",
+   "disregarded"
+  ],
+  "answer": "D",
+  "expl": "Neither side complied, so both ignored the terms. “Honored” is the opposite."
+ },
+ {
+  "id": "wic-039",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The biologist's claim was _____: she had collected data from thousands of birds over twenty years, and independent researchers had confirmed her findings.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "speculative",
+   "well-founded",
+   "unprecedented",
+   "controversial"
+  ],
+  "answer": "B",
+  "expl": "Large data and independent confirmation make it solidly supported. “Speculative” means the opposite."
+ },
+ {
+  "id": "wic-040",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The orchestra performed the piece at a measured tempo that allowed listeners to hear each instrument clearly.",
+  "prompt": "As used in the text, what does the word “measured” most nearly mean?",
+  "choices": [
+   "Recorded",
+   "Deliberate and steady",
+   "Limited",
+   "Calculated with a ruler"
+  ],
+  "answer": "B",
+  "expl": "A tempo that lets every instrument be heard is unhurried and controlled. The ruler sense is the trap."
+ },
+ {
+  "id": "wic-041",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Many early twentieth-century critics considered science fiction a _____ genre, unworthy of serious literary attention; today, novels by writers such as Octavia E. Butler are widely taught in universities.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "lowbrow",
+   "obsolete",
+   "controversial",
+   "prestigious"
+  ],
+  "answer": "A",
+  "expl": "“Unworthy of serious attention” defines it as low-status. “Obsolete” means outdated, not low-status."
+ },
+ {
+  "id": "wic-042",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The detective's conclusion was _____ by the evidence: the fingerprints, the timeline, and the witness statements all pointed to the same suspect.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "called off",
+   "ruled out",
+   "worn out",
+   "borne out"
+  ],
+  "answer": "D",
+  "expl": "“Borne out” means confirmed. All the evidence agreeing confirms it, and “ruled out” is the opposite."
+ },
+ {
+  "id": "wic-043",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The company's new chief executive moved quickly to _____ the firm's weak finances, closing unprofitable stores and cutting unnecessary expenses.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "hold off",
+   "give up",
+   "shore up",
+   "write off"
+  ],
+  "answer": "C",
+  "expl": "Cutting losses strengthens weak finances: “shore up” means support or reinforce. “Write off” means to treat as lost."
+ },
+ {
+  "id": "wic-044",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The novelist's descriptions of the city are so vivid that readers feel transported to its crowded streets and noisy markets.",
+  "prompt": "As used in the text, what does the word “transported” most nearly mean?",
+  "choices": [
+   "Carried away in imagination",
+   "Exiled",
+   "Delivered",
+   "Shipped"
+  ],
+  "answer": "A",
+  "expl": "Vivid descriptions make readers feel as if they're there, carried there mentally, not physically."
+ },
+ {
+  "id": "wic-045",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Despite the expedition's careful planning, a sudden storm _____ its progress, forcing the team to wait five days before continuing.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "documented",
+   "predicted",
+   "accelerated",
+   "impeded"
+  ],
+  "answer": "D",
+  "expl": "Waiting five days means the storm blocked progress. “Predicted” clashes with “sudden.”"
+ },
+ {
+  "id": "wic-046",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Rather than _____ the criticism of her research, the scientist addressed each objection directly in a follow-up paper.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "publishing",
+   "sidestepping",
+   "heeding",
+   "welcoming"
+  ],
+  "answer": "B",
+  "expl": "“Rather than” sets up the opposite of addressing directly: avoiding. “Heeding” is similar to addressing, so it can't be the contrast."
+ },
+ {
+  "id": "wic-047",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The painting's colors had been _____ by centuries of exposure to candle smoke; after cleaning, its original bright blues and reds became visible again.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "dulled",
+   "intensified",
+   "preserved",
+   "replaced"
+  ],
+  "answer": "A",
+  "expl": "Brightness returned after cleaning, so the smoke had muted the colors."
+ },
+ {
+  "id": "wic-048",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The city's plan to extend the subway was shelved after the budget was cut, and officials gave no date for reviving it.",
+  "prompt": "As used in the text, what does the word “shelved” most nearly mean?",
+  "choices": [
+   "Completed",
+   "Placed on a shelf",
+   "Organized",
+   "Set aside indefinitely"
+  ],
+  "answer": "D",
+  "expl": "No date for reviving means it was put aside. The literal shelf is the trap."
+ },
+ {
+  "id": "wic-049",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "The two research teams' findings were _____: one study found that the drug improved memory, while the other found no effect at all.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "consistent",
+   "identical",
+   "contradictory",
+   "preliminary"
+  ],
+  "answer": "C",
+  "expl": "Improvement vs. no effect is a conflict. “Consistent” and “identical” are opposites."
+ },
+ {
+  "id": "wic-050",
+  "type": "Words in Context",
+  "sub": "fill in blank",
+  "passage": "Gwendolyn Brooks's early poems focused on the everyday lives of residents of her Chicago neighborhood, portraying them with _____ and dignity rather than condescension.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "empathy",
+   "suspicion",
+   "amusement",
+   "indifference"
+  ],
+  "answer": "A",
+  "expl": "Paired with dignity and contrasted with condescension: understanding and care. “Amusement” leans toward condescension."
+ }
+]

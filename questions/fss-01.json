@@ -1,0 +1,752 @@
+[
+ {
+  "id": "fss-001",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "The collection of rare manuscripts, some dating to the twelfth century, _____ stored in a climate-controlled vault.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "were",
+   "is",
+   "are",
+   "have been"
+  ],
+  "answer": "B",
+  "expl": "The subject is “collection” (singular). Skip the phrase “of rare manuscripts” and the interrupter."
+ },
+ {
+  "id": "fss-002",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Each of the twelve paintings in the exhibit _____ a different season in rural Japan.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "depicts",
+   "depict",
+   "have depicted",
+   "are depicting"
+  ],
+  "answer": "A",
+  "expl": "“Each” is singular, so “depicts.”"
+ },
+ {
+  "id": "fss-003",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "The violinist and the cellist _____ performed together since they were students at the conservatory.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "was",
+   "is",
+   "has",
+   "have"
+  ],
+  "answer": "D",
+  "expl": "Two subjects joined by “and” are plural: “have.”"
+ },
+ {
+  "id": "fss-004",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Beneath the city's busy streets _____ a network of ancient tunnels once used by smugglers.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are lying",
+   "lies",
+   "lie",
+   "have lain"
+  ],
+  "answer": "B",
+  "expl": "Inverted sentence: the subject is “a network” (singular), which comes after the verb."
+ },
+ {
+  "id": "fss-005",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun agreement",
+  "passage": "When a honeybee colony grows too large, _____ splits, and the old queen leaves with about half of the workers to form a new colony.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "they",
+   "those",
+   "it",
+   "she"
+  ],
+  "answer": "C",
+  "expl": "The antecedent is “a honeybee colony” (singular)."
+ },
+ {
+  "id": "fss-006",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun agreement",
+  "passage": "The company announced that _____ would open three new factories next year.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "it",
+   "we",
+   "they",
+   "she"
+  ],
+  "answer": "A",
+  "expl": "“The company” is singular, so “it.”"
+ },
+ {
+  "id": "fss-007",
+  "type": "Form, Structure, and Sense",
+  "sub": "possessive pronoun",
+  "passage": "Each spring, the robin repairs _____ nest from the previous year.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "it's",
+   "its",
+   "its'",
+   "their"
+  ],
+  "answer": "B",
+  "expl": "“Its” is possessive; “it's” means “it is.” “Its'” isn't a word."
+ },
+ {
+  "id": "fss-008",
+  "type": "Form, Structure, and Sense",
+  "sub": "plural possessive",
+  "passage": "The three _____ findings, published together in 2020, challenged earlier assumptions about how the virus spreads.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "studies",
+   "studys'",
+   "study's",
+   "studies'"
+  ],
+  "answer": "D",
+  "expl": "Three studies own the findings: plural possessive “studies'.”"
+ },
+ {
+  "id": "fss-009",
+  "type": "Form, Structure, and Sense",
+  "sub": "dangling modifier",
+  "passage": "Having studied the ancient texts for decades, _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the historian finally identified the author of the anonymous poem.",
+   "the anonymous poem's author was finally identified by the historian.",
+   "the identity of the poem's author was finally discovered.",
+   "it was finally possible to identify the poem's author."
+  ],
+  "answer": "A",
+  "expl": "Whoever “studied the texts” must come right after the comma: the historian."
+ },
+ {
+  "id": "fss-010",
+  "type": "Form, Structure, and Sense",
+  "sub": "dangling modifier",
+  "passage": "Discovered in a cave in southern France in 1994, _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "archaeologists consider the Chauvet Cave paintings among the oldest known examples of figurative art.",
+   "the Chauvet Cave paintings are among the oldest known examples of figurative art.",
+   "the age of the Chauvet Cave paintings has astonished researchers.",
+   "experts say that the Chauvet Cave paintings are among the oldest known examples of figurative art."
+  ],
+  "answer": "B",
+  "expl": "The paintings were discovered, not the archaeologists, experts, or “the age.”"
+ },
+ {
+  "id": "fss-011",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb tense",
+  "passage": "In 1969, Apollo 11 astronauts Neil Armstrong and Buzz Aldrin _____ on the Moon while Michael Collins orbited overhead.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "walked",
+   "walk",
+   "will walk",
+   "have walked"
+  ],
+  "answer": "A",
+  "expl": "A completed event in 1969, parallel with “orbited”: simple past."
+ },
+ {
+  "id": "fss-012",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb tense",
+  "passage": "By the time the rescue team arrived, the hikers _____ for nearly two days.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have been waiting",
+   "had been waiting",
+   "are waiting",
+   "will have waited"
+  ],
+  "answer": "B",
+  "expl": "An action continuing up to a past moment (“arrived”) takes past perfect progressive."
+ },
+ {
+  "id": "fss-013",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb form",
+  "passage": "The novelist has _____ more than twenty books, many of which have been translated into several languages.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "writing",
+   "wrote",
+   "writes",
+   "written"
+  ],
+  "answer": "D",
+  "expl": "After “has,” use the past participle: “written.”"
+ },
+ {
+  "id": "fss-014",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Neither the students nor the teacher _____ aware that the fire alarm was only a drill.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "was",
+   "have been",
+   "are",
+   "were"
+  ],
+  "answer": "A",
+  "expl": "With “neither… nor,” the verb agrees with the closer subject, “teacher.” The past tense matches “was only a drill.”"
+ },
+ {
+  "id": "fss-015",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "The measurements collected by the satellite _____ that the ice sheet is shrinking faster than predicted.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "has shown",
+   "is showing",
+   "shows",
+   "show"
+  ],
+  "answer": "D",
+  "expl": "The subject is “measurements” (plural)."
+ },
+ {
+  "id": "fss-016",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun case",
+  "passage": "The coach gave the final instructions to the team captain and _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "I.",
+   "mine.",
+   "me.",
+   "myself."
+  ],
+  "answer": "C",
+  "expl": "Object of the preposition “to” takes the object pronoun. Test it alone: “to me.”"
+ },
+ {
+  "id": "fss-017",
+  "type": "Form, Structure, and Sense",
+  "sub": "plural noun",
+  "passage": "The museum displays several _____ from the early twentieth century, including one owned by a famous composer.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "violin",
+   "violins'",
+   "violin's",
+   "violins"
+  ],
+  "answer": "D",
+  "expl": "Plain plural, no ownership shown."
+ },
+ {
+  "id": "fss-018",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "One of the oldest living trees in the world _____ in California's White Mountains.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "grows",
+   "grow",
+   "have grown",
+   "are growing"
+  ],
+  "answer": "A",
+  "expl": "The subject is “One” (singular), not “trees.”"
+ },
+ {
+  "id": "fss-019",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb tense",
+  "passage": "The research team _____ its findings at a conference in Tokyo last spring.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "presented",
+   "presents",
+   "will present",
+   "has presented"
+  ],
+  "answer": "A",
+  "expl": "“Last spring” is a finished past time, so simple past. Present perfect doesn't go with a specific past time."
+ },
+ {
+  "id": "fss-020",
+  "type": "Form, Structure, and Sense",
+  "sub": "parallel structure",
+  "passage": "The program teaches students to write code, design websites, and _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "build simple apps.",
+   "how to build simple apps.",
+   "building simple apps.",
+   "builds simple apps."
+  ],
+  "answer": "A",
+  "expl": "Match the other items: “(to) write… design… build.”"
+ },
+ {
+  "id": "fss-021",
+  "type": "Form, Structure, and Sense",
+  "sub": "dangling modifier",
+  "passage": "Stretching more than 6,600 kilometers, _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "it is the Nile that many geographers consider the world's longest river.",
+   "the length of the Nile makes it the world's longest river.",
+   "the Nile has long been considered the world's longest river.",
+   "many geographers consider the Nile the world's longest river."
+  ],
+  "answer": "C",
+  "expl": "The Nile stretches, so “the Nile” must follow the comma."
+ },
+ {
+  "id": "fss-022",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun agreement",
+  "passage": "Each of the island's bird species has adapted _____ beak to a particular food source.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "it's",
+   "its",
+   "their",
+   "they're"
+  ],
+  "answer": "B",
+  "expl": "“Each” is singular, so “its.”"
+ },
+ {
+  "id": "fss-023",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun agreement",
+  "passage": "Hummingbirds can hover in place because _____ wings move in a figure-eight pattern.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "there",
+   "they're",
+   "its",
+   "their"
+  ],
+  "answer": "D",
+  "expl": "Plural possessive for “hummingbirds.” “They're” = they are; “there” = a place."
+ },
+ {
+  "id": "fss-024",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Scientists have found that octopuses _____ able to recognize individual humans.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "was",
+   "has been",
+   "is",
+   "are"
+  ],
+  "answer": "D",
+  "expl": "“Octopuses” is plural, and present tense matches a general finding."
+ },
+ {
+  "id": "fss-025",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb form",
+  "passage": "The ancient city _____ buried beneath the sand for centuries before archaeologists uncovered it in the 1800s.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "had lain",
+   "has lain",
+   "had laid",
+   "lays"
+  ],
+  "answer": "A",
+  "expl": "“Lie” (rest) → past participle “lain.” “Laid” is from “lay” (to put). Past perfect fits “before… uncovered.”"
+ },
+ {
+  "id": "fss-026",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "The number of species threatened by habitat loss _____ grown significantly over the past century.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have",
+   "has",
+   "are",
+   "were"
+  ],
+  "answer": "B",
+  "expl": "“The number” is singular."
+ },
+ {
+  "id": "fss-027",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "A number of scientists _____ questioned the study's methods.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "has",
+   "is",
+   "have",
+   "was"
+  ],
+  "answer": "C",
+  "expl": "“A number of” means “many,” so it takes a plural verb."
+ },
+ {
+  "id": "fss-028",
+  "type": "Form, Structure, and Sense",
+  "sub": "possessive pronoun",
+  "passage": "The city council voted to expand _____ network of bike lanes by 50 miles.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "its",
+   "its'",
+   "it's",
+   "their"
+  ],
+  "answer": "A",
+  "expl": "“The city council” is singular, so “its.”"
+ },
+ {
+  "id": "fss-029",
+  "type": "Form, Structure, and Sense",
+  "sub": "dangling modifier",
+  "passage": "While hiking through the rainforest, _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "an unfamiliar frog species was noticed by the biologist.",
+   "the biologist's attention was drawn to an unfamiliar frog species.",
+   "the biologist noticed a frog species she had never seen before.",
+   "a frog species caught the biologist's attention."
+  ],
+  "answer": "C",
+  "expl": "The biologist was hiking, not the frog or her attention."
+ },
+ {
+  "id": "fss-030",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "The mayor, along with several members of the city council, _____ expected to attend the opening ceremony.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have been",
+   "is",
+   "are",
+   "were"
+  ],
+  "answer": "B",
+  "expl": "“Along with…” doesn't add to the subject. “The mayor” is singular."
+ },
+ {
+  "id": "fss-031",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb tense",
+  "passage": "If the bridge had been inspected earlier, engineers _____ the cracks before they became dangerous.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "will find",
+   "would find",
+   "had found",
+   "would have found"
+  ],
+  "answer": "D",
+  "expl": "Past unreal conditional: “If… had been…, … would have found.”"
+ },
+ {
+  "id": "fss-032",
+  "type": "Form, Structure, and Sense",
+  "sub": "plural possessive",
+  "passage": "Several of the _____ suggestions were adopted by the city's planning department.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "residents",
+   "resident's",
+   "residents'",
+   "residents's"
+  ],
+  "answer": "C",
+  "expl": "Several residents own the suggestions: plural possessive."
+ },
+ {
+  "id": "fss-033",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun agreement",
+  "passage": "Mosses lack true roots; instead, _____ absorb water directly through their leaves.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "this",
+   "one",
+   "they",
+   "it"
+  ],
+  "answer": "C",
+  "expl": "“Mosses” is plural."
+ },
+ {
+  "id": "fss-034",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb form",
+  "passage": "The coach insisted that every player _____ at practice by 7:00 a.m.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "will arrive",
+   "arrives",
+   "arrive",
+   "arrived"
+  ],
+  "answer": "C",
+  "expl": "After “insisted that,” use the base form (subjunctive): “arrive.”"
+ },
+ {
+  "id": "fss-035",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "There _____ several reasons why the first experiment failed.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "were",
+   "was",
+   "is",
+   "has been"
+  ],
+  "answer": "A",
+  "expl": "The subject after “there” is “reasons” (plural), past to match “failed.”"
+ },
+ {
+  "id": "fss-036",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb form",
+  "passage": "The new policy aims _____ the number of cars entering the city center.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "reduces",
+   "having reduced",
+   "to reduce",
+   "reducing"
+  ],
+  "answer": "C",
+  "expl": "“Aims” takes an infinitive: “aims to reduce.”"
+ },
+ {
+  "id": "fss-037",
+  "type": "Form, Structure, and Sense",
+  "sub": "dangling modifier",
+  "passage": "Founded in 1909, _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the NAACP is one of the oldest civil rights organizations in the United States.",
+   "the NAACP's history spans more than a century.",
+   "many historians consider the NAACP one of the oldest civil rights organizations in the United States.",
+   "historians regard the NAACP as one of the oldest civil rights organizations in the United States."
+  ],
+  "answer": "A",
+  "expl": "The NAACP was founded, not historians or “the NAACP's history.”"
+ },
+ {
+  "id": "fss-038",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Each of the astronauts _____ required to complete two years of training before the mission.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are",
+   "were",
+   "is",
+   "have been"
+  ],
+  "answer": "C",
+  "expl": "“Each” is singular."
+ },
+ {
+  "id": "fss-039",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun agreement",
+  "passage": "When researchers publish a study, _____ must describe the methods clearly enough for others to repeat the experiment.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "one",
+   "he or she",
+   "it",
+   "they"
+  ],
+  "answer": "D",
+  "expl": "The antecedent “researchers” is plural."
+ },
+ {
+  "id": "fss-040",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb form",
+  "passage": "By 1900, the railroad had _____ the trip between the two coasts from months to about a week.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "shrinking",
+   "shrinked",
+   "shrank",
+   "shrunk"
+  ],
+  "answer": "D",
+  "expl": "After “had,” use the past participle “shrunk.” “Shrank” is simple past."
+ },
+ {
+  "id": "fss-041",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "The scientist, whose studies of coral reefs _____ widely cited, received an award for her work.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "is",
+   "has been",
+   "are",
+   "was"
+  ],
+  "answer": "C",
+  "expl": "Inside the clause, the subject is “studies” (plural)."
+ },
+ {
+  "id": "fss-042",
+  "type": "Form, Structure, and Sense",
+  "sub": "logical comparison",
+  "passage": "The population of Tokyo's metropolitan area is larger than _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "any other metropolitan area in the world.",
+   "that of any other metropolitan area in the world.",
+   "any metropolitan area in the world.",
+   "those of other metropolitan areas in the world."
+  ],
+  "answer": "B",
+  "expl": "Compare population to population: “that of.” Without it, you're comparing a population to an area."
+ },
+ {
+  "id": "fss-043",
+  "type": "Form, Structure, and Sense",
+  "sub": "irregular possessive",
+  "passage": "The store expanded its _____ section to include more toys and books.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "childrens",
+   "children's",
+   "children",
+   "childrens'"
+  ],
+  "answer": "B",
+  "expl": "“Children” is already plural, so add 's."
+ },
+ {
+  "id": "fss-044",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Either the manager or the employees _____ responsible for locking the doors each night.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "was",
+   "is",
+   "has been",
+   "are"
+  ],
+  "answer": "D",
+  "expl": "With “either… or,” the verb matches the closer subject, “employees.”"
+ },
+ {
+  "id": "fss-045",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb tense",
+  "passage": "Since 2010, the city _____ more than 200 miles of bike lanes.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "added",
+   "adds",
+   "has added",
+   "had added"
+  ],
+  "answer": "C",
+  "expl": "“Since 2010” (up to now) calls for present perfect."
+ },
+ {
+  "id": "fss-046",
+  "type": "Form, Structure, and Sense",
+  "sub": "dangling modifier",
+  "passage": "Known for its bright colors and intricate patterns, _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the Asante and Ewe peoples of Ghana created kente cloth.",
+   "kente cloth originated among the Asante and Ewe peoples of Ghana.",
+   "Ghana's Asante and Ewe peoples are credited with creating kente cloth.",
+   "historians trace kente cloth to the Asante and Ewe peoples of Ghana."
+  ],
+  "answer": "B",
+  "expl": "The cloth is known for its colors, so “kente cloth” must follow the comma."
+ },
+ {
+  "id": "fss-047",
+  "type": "Form, Structure, and Sense",
+  "sub": "relative pronoun",
+  "passage": "The architect, _____ designs include several art museums, was awarded the prize in 2019.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "whom",
+   "who's",
+   "who",
+   "whose"
+  ],
+  "answer": "D",
+  "expl": "Possession (her designs): “whose.” “Who's” means “who is.”"
+ },
+ {
+  "id": "fss-048",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Planting trees along city streets _____ been shown to lower summer temperatures.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are",
+   "has",
+   "have",
+   "were"
+  ],
+  "answer": "B",
+  "expl": "A gerund phrase (“Planting trees…”) is a singular subject."
+ },
+ {
+  "id": "fss-049",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "The team of engineers _____ been working on the new bridge design for three years.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "were",
+   "has",
+   "have",
+   "are"
+  ],
+  "answer": "B",
+  "expl": "The subject is “team” (singular); “of engineers” is just a description."
+ },
+ {
+  "id": "fss-050",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "The rings of Saturn _____ made mostly of chunks of ice, some as small as grains of sand and others as large as houses.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are",
+   "has been",
+   "was",
+   "is"
+  ],
+  "answer": "A",
+  "expl": "The subject is “rings” (plural)."
+ }
+]

@@ -1,0 +1,752 @@
+[
+ {
+  "id": "rs-001",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize significance",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Hedy Lamarr was a Hollywood actress in the 1930s and 1940s.\n- With composer George Antheil, she developed a frequency-hopping system to keep radio-guided torpedoes from being jammed.\n- They received a patent for the system in 1942.\n- Frequency hopping later became a foundation for technologies such as Wi-Fi and Bluetooth.\n- Lamarr was inducted into the National Inventors Hall of Fame in 2014.",
+  "prompt": "The student wants to emphasize the significance of Lamarr's invention for modern technology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Hedy Lamarr, a Hollywood actress, was inducted into the National Inventors Hall of Fame in 2014.",
+   "The frequency-hopping system that Hedy Lamarr co-developed and patented in 1942 later became a foundation for Wi-Fi and Bluetooth.",
+   "Hedy Lamarr was a Hollywood actress who also developed a system for radio-guided torpedoes.",
+   "In 1942, Hedy Lamarr and composer George Antheil received a patent for a frequency-hopping system."
+  ],
+  "answer": "B",
+  "expl": "“Modern technology” is the goal, so the answer must mention Wi-Fi and Bluetooth."
+ },
+ {
+  "id": "rs-002",
+  "type": "Rhetorical Synthesis",
+  "sub": "introduce to new audience",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Tardigrades are microscopic animals about 0.5 millimeters long.\n- They have eight legs.\n- They are sometimes called water bears.\n- When dried out, they enter a dormant state called a tun.\n- In 2007, tardigrades survived ten days of exposure to outer space.",
+  "prompt": "The student wants to introduce tardigrades to an audience unfamiliar with them. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Tardigrades are sometimes called water bears.",
+   "When dried out, water bears enter a dormant state known as a tun.",
+   "In 2007, tardigrades survived ten days of exposure to outer space.",
+   "Tardigrades, eight-legged animals about half a millimeter long, can survive extreme conditions, including exposure to outer space."
+  ],
+  "answer": "D",
+  "expl": "An unfamiliar audience needs to know what a tardigrade is. Only the answer describes the animal, then adds its key ability."
+ },
+ {
+  "id": "rs-003",
+  "type": "Rhetorical Synthesis",
+  "sub": "explain a claim",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Mount Everest's summit is 8,849 meters above sea level, the highest on Earth.\n- Mauna Kea, a volcano in Hawaii, rises 4,207 meters above sea level.\n- Mauna Kea's base lies about 6,000 meters below the ocean surface.\n- Measured from its base, Mauna Kea is about 10,200 meters tall.",
+  "prompt": "The student wants to explain why Mauna Kea could be considered taller than Mount Everest. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Mount Everest's summit, at 8,849 meters above sea level, is the highest on Earth.",
+   "Mauna Kea, a volcano in Hawaii, rises 4,207 meters above sea level.",
+   "Mauna Kea's base lies about 6,000 meters below the surface of the ocean.",
+   "Although its summit is only 4,207 meters above sea level, Mauna Kea measures about 10,200 meters from its base on the ocean floor, more than Everest's 8,849 meters."
+  ],
+  "answer": "D",
+  "expl": "The explanation needs the base-to-peak height compared with Everest."
+ },
+ {
+  "id": "rs-004",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize achievement",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Octavia E. Butler (1947–2006) was an American science fiction writer.\n- Her novel *Kindred* was published in 1979.\n- *Parable of the Sower* was published in 1993.\n- In 1995, she became the first science fiction writer to receive a MacArthur Fellowship.",
+  "prompt": "The student wants to emphasize a distinction that Butler achieved. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Octavia E. Butler's novel *Parable of the Sower* was published in 1993.",
+   "In 1995, Octavia E. Butler became the first science fiction writer to receive a MacArthur Fellowship.",
+   "Octavia E. Butler (1947–2006) was an American science fiction writer.",
+   "Octavia E. Butler published *Kindred* in 1979 and *Parable of the Sower* in 1993."
+  ],
+  "answer": "B",
+  "expl": "A “distinction” is a first or an honor. Only the fellowship fits."
+ },
+ {
+  "id": "rs-005",
+  "type": "Rhetorical Synthesis",
+  "sub": "highlight an injustice",
+  "passage": "While researching a topic, a student has taken the following notes:\n- In 1956, Tsung-Dao Lee and Chen-Ning Yang proposed that a principle called parity might not hold in some nuclear processes.\n- Physicist Chien-Shiung Wu designed and led the experiment that confirmed their proposal.\n- Lee and Yang received the 1957 Nobel Prize in Physics.\n- Wu was not included in the prize.",
+  "prompt": "The student wants to highlight that Wu's contribution went unrecognized by the Nobel committee. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Tsung-Dao Lee and Chen-Ning Yang received the 1957 Nobel Prize in Physics.",
+   "In 1956, Lee and Yang proposed that parity might not hold in some nuclear processes.",
+   "Although Chien-Shiung Wu led the experiment confirming Lee and Yang's proposal, only Lee and Yang received the 1957 Nobel Prize in Physics.",
+   "Chien-Shiung Wu designed and led an experiment on parity in 1956."
+  ],
+  "answer": "C",
+  "expl": "The goal needs both Wu's role and her exclusion, joined by contrast (“Although… only”)."
+ },
+ {
+  "id": "rs-006",
+  "type": "Rhetorical Synthesis",
+  "sub": "explain a mechanism",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Honeybees perform a “waggle dance” to share the location of food.\n- The angle of the dance indicates the direction of the food relative to the Sun.\n- The duration of the waggle indicates the distance to the food.\n- Karl von Frisch decoded the dance and shared a Nobel Prize in 1973.",
+  "prompt": "The student wants to explain how the waggle dance communicates distance. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "In the waggle dance, the duration of the waggle indicates how far away the food is.",
+   "In the waggle dance, the angle of the dance indicates the direction of the food relative to the Sun.",
+   "Karl von Frisch decoded the honeybee's waggle dance and shared a Nobel Prize in 1973.",
+   "Honeybees perform a waggle dance to share the location of food with other bees."
+  ],
+  "answer": "A",
+  "expl": "Distance, not direction: the duration note is the only one about distance."
+ },
+ {
+  "id": "rs-007",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize similarity",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Frida Kahlo (1907–1954) was a Mexican painter.\n- About 55 of her roughly 140 paintings are self-portraits.\n- Vincent van Gogh (1853–1890) was a Dutch painter.\n- Van Gogh painted more than 35 self-portraits.",
+  "prompt": "The student wants to emphasize a similarity between Kahlo and van Gogh. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "About 55 of Frida Kahlo's roughly 140 paintings are self-portraits.",
+   "Vincent van Gogh died in 1890, seventeen years before Frida Kahlo was born.",
+   "Both Frida Kahlo and Vincent van Gogh painted many self-portraits.",
+   "Frida Kahlo was Mexican, while Vincent van Gogh was Dutch."
+  ],
+  "answer": "C",
+  "expl": "Similarity requires both painters and something shared. Nationality is a difference."
+ },
+ {
+  "id": "rs-008",
+  "type": "Rhetorical Synthesis",
+  "sub": "present evidence",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Today the Sahara is the largest hot desert on Earth.\n- Rock paintings in southeastern Algeria depict giraffes, hippopotamuses, and herds of cattle.\n- Sediment cores from the nearby Atlantic contain ancient pollen from grasses and trees.\n- Researchers conclude the Sahara was green between about 11,000 and 5,000 years ago.",
+  "prompt": "The student wants to present evidence for the claim that the Sahara was once much wetter. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Rock paintings of giraffes and hippopotamuses in southeastern Algeria, along with ancient pollen from grasses and trees, suggest the Sahara was once much wetter.",
+   "The Sahara, now a desert, was once green.",
+   "Researchers conclude that the Sahara was green between about 11,000 and 5,000 years ago.",
+   "Today, the Sahara is the largest hot desert on Earth."
+  ],
+  "answer": "A",
+  "expl": "“Present evidence” means the paintings and pollen, not just the conclusion."
+ },
+ {
+  "id": "rs-009",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize timing",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Ida B. Wells (1862–1931) was a journalist and activist.\n- Her 1892 pamphlet *Southern Horrors* documented lynching in the American South.\n- She was a founding member of the NAACP in 1909.\n- In 2020, she was awarded a special citation by the Pulitzer Prize board.",
+  "prompt": "The student wants to emphasize how long after her death Wells was honored by the Pulitzer board. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "In 2020, nearly ninety years after her death, journalist Ida B. Wells received a special citation from the Pulitzer Prize board.",
+   "Journalist Ida B. Wells received a special citation from the Pulitzer Prize board.",
+   "In 1892, Ida B. Wells published *Southern Horrors*, which documented lynching in the American South.",
+   "Ida B. Wells, a journalist and activist, was a founding member of the NAACP in 1909."
+  ],
+  "answer": "A",
+  "expl": "The goal is the gap in time, so the answer has to show it (1931 → 2020). The last choice omits it."
+ },
+ {
+  "id": "rs-010",
+  "type": "Rhetorical Synthesis",
+  "sub": "contrast",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Aluminum has a density of about 2.7 grams per cubic centimeter.\n- Steel has a density of about 7.85 grams per cubic centimeter.\n- Aluminum is widely used in aircraft because it is light.\n- Steel is generally stronger than aluminum.",
+  "prompt": "The student wants to contrast the densities of aluminum and steel. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Steel has a density of about 7.85 grams per cubic centimeter.",
+   "Aluminum, with a density of about 2.7 grams per cubic centimeter, is far less dense than steel, at about 7.85.",
+   "Steel is generally stronger than aluminum.",
+   "Aluminum is widely used in aircraft because it is light."
+  ],
+  "answer": "B",
+  "expl": "A density contrast needs both densities."
+ },
+ {
+  "id": "rs-011",
+  "type": "Rhetorical Synthesis",
+  "sub": "explain purpose",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Svalbard Global Seed Vault opened in 2008.\n- It is located on a Norwegian island in the Arctic.\n- It stores more than a million seed samples from around the world.\n- It serves as a backup in case seed collections elsewhere are lost or damaged.",
+  "prompt": "The student wants to explain the vault's purpose to an audience unfamiliar with it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Svalbard Global Seed Vault opened in 2008.",
+   "The Svalbard Global Seed Vault is located on a Norwegian island in the Arctic.",
+   "More than a million seed samples are stored at the Svalbard Global Seed Vault.",
+   "The Svalbard Global Seed Vault, on a Norwegian island in the Arctic, stores more than a million seed samples as a backup in case collections elsewhere are lost."
+  ],
+  "answer": "D",
+  "expl": "The purpose is the backup function. Only the answer states it."
+ },
+ {
+  "id": "rs-012",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize brevity",
+  "passage": "While researching a topic, a student has taken the following notes:\n- On December 17, 1903, Orville and Wilbur Wright made the first powered, controlled airplane flight.\n- The flight took place near Kitty Hawk, North Carolina.\n- Orville piloted the first flight.\n- It lasted 12 seconds and covered 120 feet.",
+  "prompt": "The student wants to emphasize how short the first flight was. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "On December 17, 1903, the Wright brothers made the first powered, controlled airplane flight.",
+   "The Wright brothers' first powered flight, in 1903, lasted just 12 seconds and covered only 120 feet.",
+   "The Wright brothers' first powered flight took place near Kitty Hawk, North Carolina.",
+   "Orville Wright piloted the first powered, controlled airplane flight in 1903."
+  ],
+  "answer": "B",
+  "expl": "“How short” requires the duration and distance."
+ },
+ {
+  "id": "rs-013",
+  "type": "Rhetorical Synthesis",
+  "sub": "present uncertainty",
+  "passage": "While researching a topic, a student has taken the following notes:\n- A 2014 study found that students who took notes by hand understood lectures better than students who typed on laptops.\n- The study's authors suggested that handwriting forces students to summarize rather than transcribe.\n- A 2019 study attempted to replicate the 2014 findings.\n- The 2019 study found no clear difference between the two groups.",
+  "prompt": "The student wants to present the research on handwritten notes as unsettled. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "A 2019 study attempted to replicate earlier findings about note-taking.",
+   "Handwriting may force students to summarize rather than transcribe, according to a 2014 study.",
+   "A 2014 study found that students who took notes by hand understood lectures better than students who used laptops.",
+   "While a 2014 study found that students who took notes by hand understood lectures better than laptop users, a 2019 replication attempt found no clear difference."
+  ],
+  "answer": "D",
+  "expl": "“Unsettled” needs the conflict: one study found an effect and the replication didn't."
+ },
+ {
+  "id": "rs-014",
+  "type": "Rhetorical Synthesis",
+  "sub": "explain fame",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Machu Picchu is a fifteenth-century Inca site in Peru.\n- It sits at about 2,430 meters above sea level.\n- American explorer Hiram Bingham publicized the site internationally in 1911.\n- It was named a UNESCO World Heritage Site in 1983.",
+  "prompt": "The student wants to explain how Machu Picchu came to international attention. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Machu Picchu is a fifteenth-century Inca site in Peru.",
+   "Machu Picchu, a fifteenth-century Inca site in Peru, came to international attention after American explorer Hiram Bingham publicized it in 1911.",
+   "Machu Picchu sits at about 2,430 meters above sea level.",
+   "Machu Picchu was named a UNESCO World Heritage Site in 1983."
+  ],
+  "answer": "B",
+  "expl": "Bingham's 1911 publicity is the “how.” UNESCO status came after it was already famous."
+ },
+ {
+  "id": "rs-015",
+  "type": "Rhetorical Synthesis",
+  "sub": "contrast endurance",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Cheetahs can reach about 110 kilometers per hour.\n- Cheetahs can maintain top speed for only a few hundred meters.\n- Pronghorns can reach about 88 kilometers per hour.\n- Pronghorns can maintain high speeds for several kilometers.",
+  "prompt": "The student wants to emphasize a difference in endurance between cheetahs and pronghorns. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "While cheetahs can hold their top speed for only a few hundred meters, pronghorns can maintain high speeds for several kilometers.",
+   "Cheetahs are faster than pronghorns.",
+   "Pronghorns can reach about 88 kilometers per hour.",
+   "Cheetahs can reach about 110 kilometers per hour, while pronghorns can reach about 88."
+  ],
+  "answer": "A",
+  "expl": "Endurance = how long they sustain speed, not top speed. The speed comparison is the trap."
+ },
+ {
+  "id": "rs-016",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize range",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Harlem Renaissance flourished in the 1920s and 1930s.\n- Langston Hughes was one of its leading poets.\n- Zora Neale Hurston wrote novels and collected folklore.\n- Duke Ellington's orchestra performed regularly at Harlem's Cotton Club.",
+  "prompt": "The student wants to emphasize the range of art forms in the Harlem Renaissance. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Harlem Renaissance spanned many art forms, including the poetry of Langston Hughes, the novels of Zora Neale Hurston, and the music of Duke Ellington.",
+   "The Harlem Renaissance flourished in the 1920s and 1930s.",
+   "Langston Hughes was one of the leading poets of the Harlem Renaissance.",
+   "Duke Ellington's orchestra performed regularly at Harlem's Cotton Club."
+  ],
+  "answer": "A",
+  "expl": "Range = several forms at once: poetry, novels, music."
+ },
+ {
+  "id": "rs-017",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize productivity",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Kepler space telescope launched in 2009.\n- It monitored the brightness of about 150,000 stars.\n- It discovered more than 2,600 confirmed planets outside our solar system.\n- It was retired in 2018.",
+  "prompt": "The student wants to emphasize how productive the Kepler telescope was. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Before it was retired in 2018, the Kepler space telescope discovered more than 2,600 confirmed planets outside our solar system.",
+   "The Kepler space telescope launched in 2009.",
+   "The Kepler space telescope operated from 2009 until 2018.",
+   "The Kepler space telescope monitored the brightness of about 150,000 stars."
+  ],
+  "answer": "A",
+  "expl": "Productivity = output: 2,600+ planets."
+ },
+ {
+  "id": "rs-018",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize surprise",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Coelacanths are fish that were known only from fossils.\n- Scientists believed they had gone extinct about 66 million years ago.\n- In 1938, museum curator Marjorie Courtenay-Latimer identified a living coelacanth caught off South Africa.\n- A second species was later found in Indonesia.",
+  "prompt": "The student wants to emphasize why the 1938 discovery was surprising. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "A second species of coelacanth was later found in Indonesia.",
+   "Marjorie Courtenay-Latimer was a museum curator in South Africa.",
+   "In 1938, a coelacanth, a fish believed to have gone extinct about 66 million years ago, was found alive off the coast of South Africa.",
+   "Coelacanths are fish that were once known only from fossils."
+  ],
+  "answer": "C",
+  "expl": "The surprise: thought extinct for 66 million years, then found alive."
+ },
+ {
+  "id": "rs-019",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize achievement despite obstacle",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Ludwig van Beethoven began losing his hearing in his late twenties.\n- By his later years, he was almost completely deaf.\n- His Ninth Symphony premiered in 1824.\n- He composed the Ninth Symphony during his later years.",
+  "prompt": "The student wants to emphasize Beethoven's achievement in spite of his hearing loss. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "By his later years, Beethoven was almost completely deaf.",
+   "Beethoven composed his Ninth Symphony, which premiered in 1824, when he was almost completely deaf.",
+   "Beethoven began losing his hearing in his late twenties.",
+   "Beethoven's Ninth Symphony premiered in 1824."
+  ],
+  "answer": "B",
+  "expl": "The goal joins the achievement (the Ninth) with the obstacle (deafness)."
+ },
+ {
+  "id": "rs-020",
+  "type": "Rhetorical Synthesis",
+  "sub": "explain classification",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Deserts are defined by low precipitation, not by high temperatures.\n- Antarctica receives very little precipitation each year.\n- Antarctica covers about 14 million square kilometers.\n- It is the largest desert on Earth.",
+  "prompt": "The student wants to explain why Antarctica is classified as a desert. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Antarctica covers about 14 million square kilometers.",
+   "Deserts are defined by low precipitation, not by high temperatures.",
+   "Because deserts are defined by low precipitation rather than heat, Antarctica, which receives very little precipitation, is classified as a desert.",
+   "Antarctica is the largest desert on Earth."
+  ],
+  "answer": "C",
+  "expl": "“Why” needs the definition plus Antarctica meeting it."
+ },
+ {
+  "id": "rs-021",
+  "type": "Rhetorical Synthesis",
+  "sub": "explain an outcome",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Rosalind Franklin produced an X-ray image of DNA, known as Photo 51, in 1952.\n- James Watson and Francis Crick used the image in determining DNA's structure in 1953.\n- Watson, Crick, and Maurice Wilkins received the Nobel Prize in 1962.\n- Franklin died in 1958.\n- The Nobel Prize is not awarded posthumously.",
+  "prompt": "The student wants to explain why Franklin did not share the 1962 Nobel Prize. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Rosalind Franklin produced Photo 51, an X-ray image of DNA, in 1952.",
+   "Rosalind Franklin did not share the 1962 Nobel Prize because she had died in 1958, and the prize is not awarded posthumously.",
+   "Watson, Crick, and Wilkins received the Nobel Prize in 1962.",
+   "Watson and Crick used Rosalind Franklin's Photo 51 in determining DNA's structure."
+  ],
+  "answer": "B",
+  "expl": "The reason is her death plus the no-posthumous-prize rule."
+ },
+ {
+  "id": "rs-022",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize impact",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Panama Canal opened in 1914.\n- It is about 82 kilometers long.\n- Before the canal, ships sailing between New York and San Francisco had to go around South America.\n- The canal shortened that voyage by about 13,000 kilometers.",
+  "prompt": "The student wants to emphasize the canal's impact on shipping distances. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Panama Canal opened in 1914.",
+   "The Panama Canal, which opened in 1914, is about 82 kilometers long.",
+   "Ships once sailed around South America to travel between New York and San Francisco.",
+   "By opening in 1914, the Panama Canal shortened the voyage between New York and San Francisco by about 13,000 kilometers."
+  ],
+  "answer": "D",
+  "expl": "Impact on distance = the 13,000 km saved. The canal's own length is a different measurement."
+ },
+ {
+  "id": "rs-023",
+  "type": "Rhetorical Synthesis",
+  "sub": "contrast approaches",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Emily Dickinson wrote nearly 1,800 poems.\n- Fewer than a dozen were published during her lifetime.\n- Walt Whitman self-published *Leaves of Grass* in 1855.\n- Whitman revised and republished it repeatedly over his life.",
+  "prompt": "The student wants to contrast Dickinson's and Whitman's approaches to publishing. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Emily Dickinson wrote nearly 1,800 poems.",
+   "Both Emily Dickinson and Walt Whitman were American poets of the nineteenth century.",
+   "Walt Whitman self-published *Leaves of Grass* in 1855.",
+   "While Emily Dickinson published fewer than a dozen of her nearly 1,800 poems during her lifetime, Walt Whitman self-published *Leaves of Grass* and republished it repeatedly."
+  ],
+  "answer": "D",
+  "expl": "A contrast needs both poets' publishing habits side by side."
+ },
+ {
+  "id": "rs-024",
+  "type": "Rhetorical Synthesis",
+  "sub": "present a surprising fact",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Octopuses can open jars and escape from tanks.\n- They have about 500 million neurons.\n- About two-thirds of those neurons are in the arms rather than the brain.",
+  "prompt": "The student wants to present a surprising fact about the octopus nervous system. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Octopuses have about 500 million neurons.",
+   "Octopuses can open jars and escape from tanks.",
+   "Octopuses are intelligent animals that can open jars.",
+   "About two-thirds of an octopus's roughly 500 million neurons are located in its arms rather than its brain."
+  ],
+  "answer": "D",
+  "expl": "Escaping tanks is behavior, not the nervous system. The surprise is where the neurons are."
+ },
+ {
+  "id": "rs-025",
+  "type": "Rhetorical Synthesis",
+  "sub": "illustrate a pattern",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Hawaiian Islands formed as the Pacific Plate moved over a hot spot.\n- The islands get older toward the northwest.\n- Kauai, in the northwest, formed about 5 million years ago.\n- The Big Island, in the southeast, is less than 1 million years old.",
+  "prompt": "The student wants to illustrate the age pattern of the Hawaiian Islands with specific examples. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Kauai formed about 5 million years ago.",
+   "The Hawaiian Islands formed as the Pacific Plate moved over a hot spot.",
+   "The Hawaiian Islands get older toward the northwest.",
+   "Kauai, in the northwest of the Hawaiian chain, formed about 5 million years ago, while the Big Island, in the southeast, is less than a million years old."
+  ],
+  "answer": "D",
+  "expl": "“With specific examples” requires two islands, positions, and ages."
+ },
+ {
+  "id": "rs-026",
+  "type": "Rhetorical Synthesis",
+  "sub": "explain a role",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Library of Congress was founded in 1800.\n- British troops burned the Capitol, including the library, in 1814.\n- In 1815, Thomas Jefferson sold the library his personal collection of 6,487 books.\n- Today it is one of the largest libraries in the world.",
+  "prompt": "The student wants to explain how Jefferson helped rebuild the Library of Congress. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "British troops burned the Capitol, including the Library of Congress, in 1814.",
+   "After British troops burned the Library of Congress in 1814, Thomas Jefferson sold it his personal collection of 6,487 books.",
+   "The Library of Congress, founded in 1800, is one of the largest libraries in the world.",
+   "Thomas Jefferson owned a personal collection of 6,487 books."
+  ],
+  "answer": "B",
+  "expl": "“Rebuild” needs the loss (1814) and Jefferson's sale."
+ },
+ {
+  "id": "rs-027",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize age difference",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Lascaux Cave in France was discovered in 1940.\n- Its paintings are about 17,000 years old.\n- Chauvet Cave in France was discovered in 1994.\n- Its oldest paintings are about 36,000 years old.",
+  "prompt": "The student wants to emphasize that the Chauvet paintings are much older than the Lascaux paintings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Lascaux Cave was discovered in 1940, and Chauvet Cave was discovered in 1994.",
+   "Both Lascaux and Chauvet are caves in France with ancient paintings.",
+   "The oldest paintings in Chauvet Cave, about 36,000 years old, are roughly twice as old as those in Lascaux Cave, which date to about 17,000 years ago.",
+   "The paintings in Lascaux Cave are about 17,000 years old."
+  ],
+  "answer": "C",
+  "expl": "Discovery dates are the trap: Chauvet was found later but painted earlier."
+ },
+ {
+  "id": "rs-028",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize an effect",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Mansa Musa ruled the Mali Empire in the fourteenth century.\n- In 1324, he made a pilgrimage to Mecca.\n- He traveled through Cairo with an enormous amount of gold.\n- He gave away so much gold in Cairo that its value there fell for years.",
+  "prompt": "The student wants to emphasize the effect of Mansa Musa's wealth on Cairo. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Mansa Musa traveled through Cairo with an enormous amount of gold.",
+   "In 1324, Mansa Musa made a pilgrimage to Mecca.",
+   "Mansa Musa ruled the Mali Empire in the fourteenth century.",
+   "During his 1324 pilgrimage to Mecca, Mansa Musa gave away so much gold in Cairo that the metal's value there fell for years."
+  ],
+  "answer": "D",
+  "expl": "The effect is the drop in gold's value. Carrying gold through Cairo isn't an effect on Cairo."
+ },
+ {
+  "id": "rs-029",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize study length",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Dunedin Study began in New Zealand in 1972.\n- It followed about 1,000 children born in the city of Dunedin.\n- Researchers tracked participants from birth to age 32 in a 2011 analysis.\n- They found that childhood self-control predicted adult health and wealth.",
+  "prompt": "The student wants to emphasize the long duration of the Dunedin Study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Dunedin Study followed about 1,000 children from birth until age 32.",
+   "The Dunedin Study found that childhood self-control predicted adult health and wealth.",
+   "The Dunedin Study began in New Zealand in 1972.",
+   "The Dunedin Study followed about 1,000 children born in Dunedin, New Zealand."
+  ],
+  "answer": "A",
+  "expl": "Duration = birth to 32. The start year alone doesn't say how long."
+ },
+ {
+  "id": "rs-030",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize prevalence",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Bioluminescence is the production of light by living organisms.\n- A 2017 study analyzed video of more than 350,000 deep-sea animals off California.\n- About three-quarters of the observed animals could produce light.",
+  "prompt": "The student wants to emphasize how common bioluminescence is among deep-sea animals. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Some deep-sea animals produce their own light.",
+   "A 2017 study analyzed video of more than 350,000 deep-sea animals off California.",
+   "A 2017 study found that about three-quarters of observed deep-sea animals could produce their own light.",
+   "Bioluminescence is the production of light by living organisms."
+  ],
+  "answer": "C",
+  "expl": "“How common” needs the proportion. “Some” understates it."
+ },
+ {
+  "id": "rs-031",
+  "type": "Rhetorical Synthesis",
+  "sub": "describe activism",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Jovita Idar (1885–1946) was a journalist from Laredo, Texas.\n- She wrote for her family's newspaper, *La Crónica*.\n- She helped organize the First Mexican Congress in 1911, which addressed discrimination against Mexican Americans.\n- She was the first president of the League of Mexican Women.\n- In 2023, she appeared on a US quarter.",
+  "prompt": "The student wants to describe Idar's activism. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Jovita Idar wrote for her family's newspaper, *La Crónica*.",
+   "Jovita Idar (1885–1946) was a journalist from Laredo, Texas.",
+   "Jovita Idar, a journalist from Laredo, Texas, appeared on a US quarter in 2023.",
+   "Jovita Idar helped organize the 1911 First Mexican Congress, which addressed discrimination against Mexican Americans, and served as the first president of the League of Mexican Women."
+  ],
+  "answer": "D",
+  "expl": "Activism = the congress and the league. The quarter is an honor, not activism."
+ },
+ {
+  "id": "rs-032",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize a role",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Emperor penguins breed during the Antarctic winter.\n- After laying an egg, the female returns to the sea to feed.\n- The male incubates the egg on his feet for about two months.\n- During incubation, the male eats nothing.",
+  "prompt": "The student wants to emphasize the male emperor penguin's role in raising young. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Male emperor penguins incubate the eggs on their feet for about two months, eating nothing while the females feed at sea.",
+   "Emperor penguins breed during the Antarctic winter.",
+   "Emperor penguins live and breed in Antarctica.",
+   "After laying an egg, the female emperor penguin returns to the sea to feed."
+  ],
+  "answer": "A",
+  "expl": "The male's role: incubation and fasting."
+ },
+ {
+  "id": "rs-033",
+  "type": "Rhetorical Synthesis",
+  "sub": "compare size",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Hubble Space Telescope launched in 1990.\n- Hubble's primary mirror is 2.4 meters across.\n- The James Webb Space Telescope launched in 2021.\n- Webb's primary mirror is 6.5 meters across.",
+  "prompt": "The student wants to emphasize a difference in mirror size between the two telescopes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Hubble's primary mirror is 2.4 meters across.",
+   "Both Hubble and Webb are space telescopes with large primary mirrors.",
+   "The James Webb Space Telescope's 6.5-meter primary mirror is nearly three times as wide as Hubble's 2.4-meter mirror.",
+   "The Hubble Space Telescope launched in 1990, and the James Webb Space Telescope launched in 2021."
+  ],
+  "answer": "C",
+  "expl": "Mirror sizes, both of them, compared."
+ },
+ {
+  "id": "rs-034",
+  "type": "Rhetorical Synthesis",
+  "sub": "present a challenge",
+  "passage": "While researching a topic, a student has taken the following notes:\n- “Tulip mania” refers to a period in the 1630s when tulip bulb prices in the Netherlands soared and then collapsed.\n- Popular accounts describe widespread financial ruin.\n- Historian Anne Goldgar studied records from the period.\n- Goldgar argues that the economic effects were much smaller than popular accounts claim.",
+  "prompt": "The student wants to present a historian's challenge to the popular view of tulip mania. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Popular accounts describe tulip mania as causing widespread financial ruin.",
+   "Tulip mania refers to a period in the 1630s when tulip bulb prices soared and then collapsed.",
+   "Although popular accounts describe tulip mania as causing widespread financial ruin, historian Anne Goldgar argues that its economic effects were much smaller.",
+   "Historian Anne Goldgar studied records from the 1630s."
+  ],
+  "answer": "C",
+  "expl": "A challenge requires the popular view and Goldgar's opposing argument."
+ },
+ {
+  "id": "rs-035",
+  "type": "Rhetorical Synthesis",
+  "sub": "explain a cause",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Mercury is the closest planet to the Sun.\n- It has almost no atmosphere to trap heat.\n- Daytime temperatures reach about 430°C.\n- Nighttime temperatures drop to about –180°C.",
+  "prompt": "The student wants to explain why Mercury's temperature swings so widely. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Mercury is the closest planet to the Sun.",
+   "Because it has almost no atmosphere to trap heat, Mercury swings from about 430°C during the day to about –180°C at night.",
+   "Mercury, the closest planet to the Sun, reaches about 430°C during the day.",
+   "Mercury's nighttime temperatures drop to about –180°C."
+  ],
+  "answer": "B",
+  "expl": "“Why” = no atmosphere. Being close to the Sun doesn't explain the cold nights."
+ },
+ {
+  "id": "rs-036",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize youth",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Maya Lin designed the Vietnam Veterans Memorial in Washington, DC.\n- Her design was chosen in 1981 from more than 1,400 entries in a national competition.\n- She was a 21-year-old undergraduate at Yale at the time.\n- The memorial was dedicated in 1982.",
+  "prompt": "The student wants to emphasize how young Lin was when her design was chosen. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Maya Lin designed the Vietnam Veterans Memorial in Washington, DC.",
+   "The Vietnam Veterans Memorial, designed by Maya Lin, was dedicated in 1982.",
+   "Maya Lin's design was chosen from more than 1,400 entries in a national competition.",
+   "Maya Lin was a 21-year-old undergraduate when her design for the Vietnam Veterans Memorial was chosen in 1981."
+  ],
+  "answer": "D",
+  "expl": "Only the answer mentions her age."
+ },
+ {
+  "id": "rs-037",
+  "type": "Rhetorical Synthesis",
+  "sub": "describe a discovery",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Glass frogs have translucent skin on their undersides.\n- Their hearts and other organs can be seen through the skin.\n- In 2022, researchers found that sleeping glass frogs become nearly transparent.\n- They do so by storing most of their red blood cells in their livers.",
+  "prompt": "The student wants to describe the 2022 discovery and how it works. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Glass frogs have translucent skin through which their hearts can be seen.",
+   "In 2022, researchers found that sleeping glass frogs become nearly transparent by storing most of their red blood cells in their livers.",
+   "Glass frogs have translucent skin on their undersides.",
+   "In 2022, researchers studied sleeping glass frogs."
+  ],
+  "answer": "B",
+  "expl": "The discovery and the mechanism, the liver storage."
+ },
+ {
+  "id": "rs-038",
+  "type": "Rhetorical Synthesis",
+  "sub": "establish priority",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Johannes Gutenberg developed a printing press with movable metal type around 1440.\n- Around 1040, Bi Sheng invented movable type in China.\n- Bi Sheng's characters were made of baked clay.",
+  "prompt": "The student wants to emphasize that movable type existed long before Gutenberg. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Bi Sheng's movable type characters were made of baked clay.",
+   "Johannes Gutenberg developed a printing press with movable metal type around 1440.",
+   "About four centuries before Gutenberg developed his printing press, Bi Sheng invented movable type in China using baked clay characters.",
+   "Movable type was used in both China and Europe."
+  ],
+  "answer": "C",
+  "expl": "“Long before” needs both dates or the gap (about 400 years)."
+ },
+ {
+  "id": "rs-039",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize distance",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Monarch butterflies in eastern North America migrate each fall.\n- Some travel up to about 4,800 kilometers.\n- They spend the winter in forests in central Mexico.\n- The generation that migrates lives up to eight months.",
+  "prompt": "The student wants to emphasize the distance of the monarch migration. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Some monarch butterflies travel as far as 4,800 kilometers to reach their winter grounds in central Mexico.",
+   "Monarch butterflies in eastern North America migrate each fall.",
+   "Monarch butterflies spend the winter in forests in central Mexico.",
+   "Monarch butterflies that migrate can live up to eight months."
+  ],
+  "answer": "A",
+  "expl": "Distance = 4,800 km."
+ },
+ {
+  "id": "rs-040",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize historic appointment",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Sonia Sotomayor was born in the Bronx in 1954.\n- She graduated from Princeton and Yale Law School.\n- In 2009, she was appointed to the US Supreme Court.\n- She was the first Hispanic justice to serve on the Court.",
+  "prompt": "The student wants to emphasize the historic nature of Sotomayor's appointment. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Sonia Sotomayor was born in the Bronx in 1954.",
+   "In 2009, Sonia Sotomayor was appointed to the US Supreme Court.",
+   "In 2009, Sonia Sotomayor became the first Hispanic justice on the US Supreme Court.",
+   "Sonia Sotomayor graduated from Princeton and Yale Law School."
+  ],
+  "answer": "C",
+  "expl": "“Historic” = first Hispanic justice. Appointment alone isn't historic."
+ },
+ {
+  "id": "rs-041",
+  "type": "Rhetorical Synthesis",
+  "sub": "highlight the surprise",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Placebos are inactive treatments, such as sugar pills.\n- In most placebo studies, patients do not know they are receiving a placebo.\n- In a 2010 study, patients with irritable bowel syndrome were openly told their pills were placebos.\n- These patients still reported greater improvement than patients who received no treatment.",
+  "prompt": "The student wants to highlight what was surprising about the 2010 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Even though patients in the 2010 study knew their pills were placebos, they reported greater improvement than patients who received no treatment.",
+   "In most placebo studies, patients do not know they are receiving a placebo.",
+   "Placebos are inactive treatments, such as sugar pills.",
+   "A 2010 study examined patients with irritable bowel syndrome."
+  ],
+  "answer": "A",
+  "expl": "The surprise: improvement even though they knew."
+ },
+ {
+  "id": "rs-042",
+  "type": "Rhetorical Synthesis",
+  "sub": "present a disagreement",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Ecologist Suzanne Simard's research in the 1990s suggested that trees share carbon through underground fungal networks.\n- The idea became popular as the “wood wide web.”\n- A 2023 review led by ecologist Justine Karst examined the evidence.\n- The review argued that claims about such networks have been overstated.",
+  "prompt": "The student wants to present the scientific disagreement about fungal networks. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "While Suzanne Simard's research suggested that trees share carbon through fungal networks, a 2023 review led by Justine Karst argued that such claims have been overstated.",
+   "The idea that trees share resources through fungal networks became known as the “wood wide web.”",
+   "Suzanne Simard's research suggested that trees share carbon through underground fungal networks.",
+   "A 2023 review led by Justine Karst examined evidence about fungal networks."
+  ],
+  "answer": "A",
+  "expl": "A disagreement needs both sides."
+ },
+ {
+  "id": "rs-043",
+  "type": "Rhetorical Synthesis",
+  "sub": "challenge a belief",
+  "passage": "While researching a topic, a student has taken the following notes:\n- A popular belief holds that the pyramids at Giza were built by enslaved people.\n- Archaeologists have found a workers' village near the pyramids.\n- Workers were buried in tombs near the pyramids, an honor.\n- This evidence suggests the builders were paid laborers.",
+  "prompt": "The student wants to challenge the popular belief about who built the pyramids. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Archaeologists have found a workers' village near the pyramids at Giza.",
+   "Workers at Giza were buried in tombs near the pyramids.",
+   "A popular belief holds that the pyramids at Giza were built by enslaved people.",
+   "Contrary to the popular belief that enslaved people built the pyramids at Giza, evidence such as workers' tombs near the pyramids suggests the builders were paid laborers."
+  ],
+  "answer": "D",
+  "expl": "Challenge = belief + counterevidence + conclusion."
+ },
+ {
+  "id": "rs-044",
+  "type": "Rhetorical Synthesis",
+  "sub": "contrast distinctions",
+  "passage": "While researching a topic, a student has taken the following notes:\n- The Nile is about 6,650 kilometers long.\n- It is generally considered the longest river in the world.\n- The Amazon is about 6,400 kilometers long.\n- The Amazon carries more water than any other river.",
+  "prompt": "The student wants to contrast the distinctions held by the Nile and the Amazon. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Amazon carries more water than any other river.",
+   "The Nile and the Amazon are two of the world's great rivers.",
+   "The Nile is generally considered the world's longest river, while the Amazon carries the most water.",
+   "The Nile is about 6,650 kilometers long, and the Amazon is about 6,400 kilometers long."
+  ],
+  "answer": "C",
+  "expl": "Each river's distinction: longest vs. most water."
+ },
+ {
+  "id": "rs-045",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize a contribution",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Grace Hopper (1906–1992) was a computer scientist and US Navy rear admiral.\n- In 1952, she developed one of the first compilers.\n- A compiler translates human-readable instructions into machine code.\n- Her work made computers much easier to program.",
+  "prompt": "The student wants to emphasize how Hopper's work made programming easier. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "In 1952, Grace Hopper developed one of the first compilers.",
+   "Grace Hopper developed one of the first compilers, which translate human-readable instructions into machine code, making computers much easier to program.",
+   "Grace Hopper was a computer scientist and US Navy rear admiral.",
+   "A compiler translates human-readable instructions into machine code."
+  ],
+  "answer": "B",
+  "expl": "Needs the compiler, what it does, and the ease-of-programming result."
+ },
+ {
+  "id": "rs-046",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize importance",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Antarctic krill are crustaceans about 5 centimeters long.\n- They feed on tiny algae.\n- They are a key food source for whales, seals, and penguins.",
+  "prompt": "The student wants to emphasize the ecological importance of Antarctic krill. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Antarctic krill feed on tiny algae.",
+   "Antarctic krill are crustaceans about 5 centimeters long.",
+   "Though only about 5 centimeters long, Antarctic krill are a key food source for whales, seals, and penguins.",
+   "Antarctic krill are small crustaceans that feed on algae."
+  ],
+  "answer": "C",
+  "expl": "Importance = what depends on them."
+ },
+ {
+  "id": "rs-047",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize contrast",
+  "passage": "While researching a topic, a student has taken the following notes:\n- In a 2015 study, researchers measured oxytocin, a hormone linked to bonding.\n- When dogs and their owners gazed at each other, oxytocin rose in both.\n- Wolves raised by humans were also tested.\n- Mutual gazing did not raise oxytocin in the wolves.",
+  "prompt": "The student wants to emphasize a difference between dogs and wolves. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Mutual gazing raised oxytocin levels in dogs and their owners, but it did not have the same effect in wolves raised by humans.",
+   "In a 2015 study, researchers tested both dogs and wolves raised by humans.",
+   "Oxytocin is a hormone linked to bonding.",
+   "When dogs and their owners gazed at each other, oxytocin rose in both."
+  ],
+  "answer": "A",
+  "expl": "The difference needs both results."
+ },
+ {
+  "id": "rs-048",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize historic significance",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Phillis Wheatley was born in West Africa around 1753.\n- She was enslaved and brought to Boston in 1761.\n- In 1773, she published *Poems on Various Subjects, Religious and Moral*.\n- It was the first book of poetry published by an African American.",
+  "prompt": "The student wants to emphasize the historic significance of Wheatley's book. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "In 1773, Phillis Wheatley published *Poems on Various Subjects, Religious and Moral*.",
+   "Phillis Wheatley's 1773 *Poems on Various Subjects, Religious and Moral* was the first book of poetry published by an African American.",
+   "Phillis Wheatley was brought to Boston in 1761.",
+   "Phillis Wheatley was born in West Africa around 1753."
+  ],
+  "answer": "B",
+  "expl": "Historic significance = the first."
+ },
+ {
+  "id": "rs-049",
+  "type": "Rhetorical Synthesis",
+  "sub": "present a finding",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Some flowers produce nectar containing small amounts of caffeine.\n- In a 2013 study, some bees were fed caffeine and others were not.\n- Bees that consumed caffeine were three times as likely to remember a flower's scent 24 hours later.",
+  "prompt": "The student wants to present the main finding of the 2013 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Some flowers produce nectar containing small amounts of caffeine.",
+   "A 2013 study found that bees that consumed caffeine were three times as likely to remember a flower's scent 24 hours later.",
+   "Bees are attracted to the scent of flowers.",
+   "In a 2013 study, some bees were fed caffeine and others were not."
+  ],
+  "answer": "B",
+  "expl": "The finding is the result, not the setup."
+ },
+ {
+  "id": "rs-050",
+  "type": "Rhetorical Synthesis",
+  "sub": "emphasize foreign influence",
+  "passage": "While researching a topic, a student has taken the following notes:\n- Katsushika Hokusai made *The Great Wave off Kanagawa* around 1831.\n- It is a woodblock print from the series *Thirty-six Views of Mount Fuji*.\n- The print uses Prussian blue, a pigment imported from Europe.\n- It is one of the most recognized works of Japanese art.",
+  "prompt": "The student wants to emphasize a foreign influence on Hokusai's print. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Hokusai's woodblock print *The Great Wave off Kanagawa* used Prussian blue, a pigment imported from Europe.",
+   "*The Great Wave off Kanagawa* is one of the most recognized works of Japanese art.",
+   "*The Great Wave off Kanagawa* is part of the series *Thirty-six Views of Mount Fuji*.",
+   "Hokusai made *The Great Wave off Kanagawa* around 1831."
+  ],
+  "answer": "A",
+  "expl": "Foreign influence = the European pigment."
+ }
+]

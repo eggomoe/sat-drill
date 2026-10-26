@@ -1,0 +1,1303 @@
+[
+ {
+  "id": "coe-001",
+  "type": "Command of Evidence",
+  "sub": "quotation",
+  "passage": "“‘Hope’ is the thing with feathers” is an 1861 poem by Emily Dickinson. In the poem, the speaker suggests that hope sustains people without asking anything of them in return: _____",
+  "prompt": "Which quotation from the text most effectively illustrates the claim?",
+  "choices": [
+   "“‘Hope’ is the thing with feathers - / That perches in the soul -”",
+   "“I've heard it in the chillest land - / And on the strangest Sea - / Yet - never - in Extremity, / It asked a crumb - of me.”",
+   "“And sweetest - in the Gale - is heard - / And sore must be the storm -”",
+   "“And sings the tune without the words - / And never stops - at all -”"
+  ],
+  "answer": "B",
+  "expl": "Only the last stanza says hope never asked for anything (“a crumb”). The others describe hope's presence and persistence, not that it costs nothing."
+ },
+ {
+  "id": "coe-002",
+  "type": "Command of Evidence",
+  "sub": "quotation",
+  "passage": "“The Road Not Taken” is a 1916 poem by Robert Frost. In the poem, the speaker imagines looking back on the decision long after making it: _____",
+  "prompt": "Which quotation from the text most effectively illustrates the claim?",
+  "choices": [
+   "“I shall be telling this with a sigh / Somewhere ages and ages hence:”",
+   "“And both that morning equally lay / In leaves no step had trodden black.”",
+   "“Two roads diverged in a yellow wood, / And sorry I could not travel both”",
+   "“Then took the other, as just as fair, / And having perhaps the better claim,”"
+  ],
+  "answer": "A",
+  "expl": "“Ages and ages hence” is the only line about the future. The others describe the choice itself."
+ },
+ {
+  "id": "coe-003",
+  "type": "Command of Evidence",
+  "sub": "quotation",
+  "passage": "In Jane Austen's 1813 novel *Pride and Prejudice*, Elizabeth Bennet acknowledges that her dislike of Mr. Darcy is connected to the way he has wounded her own self-regard. In a conversation with her sister, Elizabeth says, _____",
+  "prompt": "Which quotation from the text most effectively illustrates the claim?",
+  "choices": [
+   "“I could easily forgive his pride, if he had not mortified mine.”",
+   "“She is tolerable; but not handsome enough to tempt me.”",
+   "“It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.”",
+   "“Pride relates more to our opinion of ourselves, vanity to what we would have others think of us.”"
+  ],
+  "answer": "A",
+  "expl": "“Mortified mine” = he hurt her pride. The other lines are spoken by the narrator, Darcy, and Mary, and aren't about Elizabeth's feelings."
+ },
+ {
+  "id": "coe-004",
+  "type": "Command of Evidence",
+  "sub": "quotation",
+  "passage": "In Mary Shelley's 1818 novel *Frankenstein*, the creature claims that his cruelty is the result of his suffering rather than of his original nature. Speaking to Victor Frankenstein, the creature says, _____",
+  "prompt": "Which quotation from the text most effectively illustrates the claim?",
+  "choices": [
+   "“You are my creator, but I am your master;—obey!”",
+   "“Life, although it may only be an accumulation of anguish, is dear to me, and I will defend it.”",
+   "“I was benevolent and good; misery made me a fiend.”",
+   "“Beware; for I am fearless, and therefore powerful.”"
+  ],
+  "answer": "C",
+  "expl": "Two parts of the claim: originally good, and suffering changed him. Only “benevolent and good; misery made me a fiend” has both."
+ },
+ {
+  "id": "coe-005",
+  "type": "Command of Evidence",
+  "sub": "quotation",
+  "passage": "In Charlotte Brontë's 1847 novel *Jane Eyre*, Jane firmly asserts her right to make her own choices. Speaking to Mr. Rochester, she declares, _____",
+  "prompt": "Which quotation from the text most effectively illustrates the claim?",
+  "choices": [
+   "“Reader, I married him.”",
+   "“I am no bird; and no net ensnares me: I am a free human being with an independent will.”",
+   "“There was no possibility of taking a walk that day.”",
+   "“I would always rather be happy than dignified.”"
+  ],
+  "answer": "B",
+  "expl": "“Free… independent will” is a direct assertion of autonomy, said to Rochester."
+ },
+ {
+  "id": "coe-006",
+  "type": "Command of Evidence",
+  "sub": "quotation",
+  "passage": "In his 1845 *Narrative*, Frederick Douglass suggests that learning to read deepened his awareness of his enslavement without giving him a way to escape it. Douglass writes, _____",
+  "prompt": "Which quotation from the text most effectively illustrates the claim?",
+  "choices": [
+   "“I have often been utterly astonished, since I came to the north, to find persons who could speak of the singing, among slaves, as evidence of their contentment and happiness.”",
+   "“I would at times feel that learning to read had been a curse rather than a blessing. It had given me a view of my wretched condition, without the remedy.”",
+   "“I was born in Tuckahoe, near Hillsborough, and about twelve miles from Easton, in Talbot county, Maryland.”",
+   "“You have seen how a man was made a slave; you shall see how a slave was made a man.”"
+  ],
+  "answer": "B",
+  "expl": "“A view of my… condition, without the remedy” matches both halves: awareness, no escape."
+ },
+ {
+  "id": "coe-007",
+  "type": "Command of Evidence",
+  "sub": "quotation",
+  "passage": "In “Song of Myself,” first published in 1855, Walt Whitman's speaker embraces his own contradictions rather than trying to resolve them: _____",
+  "prompt": "Which quotation from the text most effectively illustrates the claim?",
+  "choices": [
+   "“I celebrate myself, and sing myself,”",
+   "“I sound my barbaric yawp over the roofs of the world.”",
+   "“Do I contradict myself? / Very well then I contradict myself, / (I am large, I contain multitudes.)”",
+   "“I believe a leaf of grass is no less than the journey-work of the stars,”"
+  ],
+  "answer": "C",
+  "expl": "Only one line mentions contradiction, and “Very well then” is acceptance."
+ },
+ {
+  "id": "coe-008",
+  "type": "Command of Evidence",
+  "sub": "quotation",
+  "passage": "In William Shakespeare's *Hamlet* (c. 1600), Hamlet suggests that whether something is good or bad depends on how a person views it: _____",
+  "prompt": "Which quotation from the text most effectively illustrates the claim?",
+  "choices": [
+   "“To be, or not to be, that is the question.”",
+   "“Brevity is the soul of wit.”",
+   "“There is nothing either good or bad, but thinking makes it so.”",
+   "“Something is rotten in the state of Denmark.”"
+  ],
+  "answer": "C",
+  "expl": "Only this line ties good and bad to thinking. The others are about wit, existence, and corruption, and two aren't Hamlet's lines."
+ },
+ {
+  "id": "coe-009",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Some species of ants live inside the hollow thorns of acacia trees and feed on nectar the trees produce. Ecologists hypothesize that the ants, in exchange, protect the trees from grazing animals.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "Acacia trees from which the ants were removed suffered much more damage from grazing animals than trees with ants.",
+   "Grazing animals avoid areas where acacia trees are especially dense.",
+   "Acacia trees with ants grew taller in years with heavy rainfall.",
+   "The ants are also found living in several other tree species."
+  ],
+  "answer": "A",
+  "expl": "Removing the ants and seeing more damage tests protection directly. The others don't involve grazing damage vs. ant presence."
+ },
+ {
+  "id": "coe-010",
+  "type": "Command of Evidence",
+  "sub": "weaken hypothesis",
+  "passage": "Researchers hypothesize that bottlenose dolphins use distinctive “signature whistles” as names, each dolphin responding specifically to the whistle that identifies it.",
+  "prompt": "Which finding, if true, would most directly weaken the hypothesis?",
+  "choices": [
+   "Dolphins responded more often to recordings of their own signature whistles than to other whistles.",
+   "Each dolphin's signature whistle remains the same for many years.",
+   "Dolphins also produce rapid clicks that they use for echolocation.",
+   "Dolphins responded just as often to recordings of unfamiliar dolphins' signature whistles as to recordings of their own."
+  ],
+  "answer": "D",
+  "expl": "If dolphins don't react specially to their own whistle, the “name” idea fails. The first two choices support it."
+ },
+ {
+  "id": "coe-011",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "An archaeologist argues that a site in the northern plains was used as a seasonal hunting camp rather than as a permanent settlement.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "The site contains the remains of several large, durable houses.",
+   "The site is located near a river that flows year-round.",
+   "Stone tools at the site resemble tools from other sites in the region.",
+   "Animal bones at the site come almost entirely from species that pass through the area only during autumn migrations."
+  ],
+  "answer": "D",
+  "expl": "Bones from one season only point to seasonal use. Durable houses would point to permanent settlement."
+ },
+ {
+  "id": "coe-012",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Psychologists hypothesize that people remember material better when they explain it to someone else than when they study it alone.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "Participants who taught a lesson spent twice as much time preparing as those who studied alone.",
+   "Participants who studied alone said they felt more confident about the material.",
+   "Participants who taught a lesson to a partner recalled more of the material a week later than participants who studied it alone for the same amount of time.",
+   "Participants who taught a lesson reported enjoying the task more than those who studied alone."
+  ],
+  "answer": "C",
+  "expl": "Better recall with equal time isolates teaching. Twice the prep time would be a confound, and enjoyment and confidence aren't memory."
+ },
+ {
+  "id": "coe-013",
+  "type": "Command of Evidence",
+  "sub": "weaken hypothesis",
+  "passage": "Geologists hypothesize that a large circular crater in a desert was formed by the impact of a meteorite.",
+  "prompt": "Which finding, if true, would most directly weaken the hypothesis?",
+  "choices": [
+   "Fragments of iron-rich material resembling known meteorites were found inside the crater.",
+   "The crater's rim is raised and its floor is covered with shattered rock.",
+   "Similar craters elsewhere have been confirmed as impact sites.",
+   "The rocks around the crater contain no shocked quartz or other signs of extreme pressure but do contain minerals typical of volcanic eruptions."
+  ],
+  "answer": "D",
+  "expl": "No pressure signs plus volcanic minerals point to a different origin. The other choices support an impact."
+ },
+ {
+  "id": "coe-014",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "A historian claims that a medieval manuscript now held in an English library was copied in Ireland rather than in England.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "The manuscript is written on calfskin, which was used throughout Britain and Ireland.",
+   "The manuscript's handwriting and decoration closely match those of manuscripts known to have been produced in Irish monasteries of the same period.",
+   "The manuscript's text is written in Latin.",
+   "The manuscript was owned by an English family for several centuries."
+  ],
+  "answer": "B",
+  "expl": "A match to known Irish manuscripts is evidence of origin. Later ownership and widely used materials don't point to a place of copying."
+ },
+ {
+  "id": "coe-015",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Ecologists hypothesize that after wolves were reintroduced to a national park, elk spent less time feeding along streams, allowing streamside willows to regrow.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "Willow height along streams increased significantly after wolves arrived, after showing no change in the decade before.",
+   "Willows are a major food source for beavers in the park.",
+   "Elk populations also declined in nearby areas where no wolves were present.",
+   "Wolves in the park hunt deer more often than elk."
+  ],
+  "answer": "A",
+  "expl": "A before/after change timed to the wolves supports the idea. Elk declining without wolves would suggest another cause."
+ },
+ {
+  "id": "coe-016",
+  "type": "Command of Evidence",
+  "sub": "weaken hypothesis",
+  "passage": "A nutrition researcher hypothesizes that eating breakfast improves students' scores on afternoon tests.",
+  "prompt": "Which finding, if true, would most directly weaken the hypothesis?",
+  "choices": [
+   "Students who skipped breakfast reported feeling hungry during afternoon tests.",
+   "Students who regularly eat breakfast tend to have higher grades.",
+   "Students who ate breakfast scored higher on morning tests than those who skipped it.",
+   "When students were randomly assigned to eat or skip breakfast, the two groups had nearly identical afternoon test scores."
+  ],
+  "answer": "D",
+  "expl": "A randomized test showing no difference undercuts the claim. The others are consistent with it."
+ },
+ {
+  "id": "coe-017",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Linguists hypothesize that the word for “tea” spread from China along two routes: overland trade spread forms resembling the Mandarin “cha,” while sea trade through ports in Fujian, where the word was pronounced “te,” spread forms resembling “te.”",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "Portuguese, whose traders reached China by sea through the port of Macau, uses “chá.”",
+   "Tea consumption per person varies widely among European countries.",
+   "Chinese has many regional varieties with different pronunciations.",
+   "Languages of countries that traded with China mainly overland, such as Persian and Russian, use words resembling “cha,” while languages of countries reached through Dutch sea trade from Fujian, such as English and French, use words resembling “te.”"
+  ],
+  "answer": "D",
+  "expl": "The predicted split by route shows up. The Portuguese case shows sea trade didn't always bring “te,” so it complicates rather than supports."
+ },
+ {
+  "id": "coe-018",
+  "type": "Command of Evidence",
+  "sub": "weaken hypothesis",
+  "passage": "An art historian claims that a painting attributed to a seventeenth-century Dutch artist is actually a forgery made in the nineteenth century.",
+  "prompt": "Which finding, if true, would most directly weaken the hypothesis?",
+  "choices": [
+   "The painting was first recorded in a collector's inventory in 1880.",
+   "The signature differs from signatures on the artist's confirmed works.",
+   "The painting contains a pigment that was first manufactured in the 1820s.",
+   "Analysis shows the painting contains only pigments available in the seventeenth century, and the tree rings in its wooden panel date to the 1630s."
+  ],
+  "answer": "D",
+  "expl": "Period-correct pigments and wood argue it's authentic, weakening “forgery.” The 1820s pigment and odd signature would support forgery."
+ },
+ {
+  "id": "coe-019",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Biologists propose that the bright colors of poison dart frogs warn predators that the frogs are toxic.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "The frogs' colors fade when they are kept in captivity.",
+   "Some brightly colored frog species are not toxic.",
+   "Poison dart frogs are active mainly during the day.",
+   "Birds that tasted a toxic, brightly colored frog afterward avoided frogs with similar coloring."
+  ],
+  "answer": "D",
+  "expl": "Predators learning to avoid the color shows the color works as a warning."
+ },
+ {
+  "id": "coe-020",
+  "type": "Command of Evidence",
+  "sub": "weaken hypothesis",
+  "passage": "A sociologist hypothesizes that switching to remote work reduces employees' sense of connection to their coworkers.",
+  "prompt": "Which finding, if true, would most directly weaken the hypothesis?",
+  "choices": [
+   "Employees who switched to remote work reported feeling as connected to their coworkers as before, no different from employees who stayed in the office.",
+   "Remote employees attended more scheduled video meetings than before.",
+   "Many remote employees said they missed in-person lunches with colleagues.",
+   "Remote employees reported spending less time in casual conversations with coworkers."
+  ],
+  "answer": "A",
+  "expl": "No drop in connection, compared with office workers, directly contradicts the hypothesis."
+ },
+ {
+  "id": "coe-021",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Astronomers hypothesize that a distant star's periodic dimming is caused by a planet orbiting the star and passing in front of it.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "The dimming occurs at irregular intervals and varies in length.",
+   "The dimming occurs at precisely regular intervals and lasts the same length of time on each occasion.",
+   "The star is about twice as large as the Sun.",
+   "Other stars near this one do not show similar dimming."
+  ],
+  "answer": "B",
+  "expl": "An orbit is regular, so regular, equal-length dips fit a transiting planet. Irregular dips would weaken it."
+ },
+ {
+  "id": "coe-022",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Researchers hypothesize that bilingual children are better than monolingual children at switching between tasks.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "On a task requiring participants to switch between sorting cards by color and by shape, bilingual children made fewer errors after each switch than monolingual children of the same age.",
+   "Bilingual children reported enjoying card games more than monolingual children did.",
+   "Bilingual and monolingual children performed equally well when sorting only by color.",
+   "Bilingual children had larger vocabularies than monolingual children in one of their languages."
+  ],
+  "answer": "A",
+  "expl": "Fewer errors right after switching measures switching itself. Equal performance on one rule doesn't test switching."
+ },
+ {
+  "id": "coe-023",
+  "type": "Command of Evidence",
+  "sub": "weaken hypothesis",
+  "passage": "A paleontologist hypothesizes that a dinosaur species was a fast runner. In living animals, fast runners tend to have slender leg bones and long lower legs relative to their upper legs.",
+  "prompt": "Which finding, if true, would most directly weaken the hypothesis?",
+  "choices": [
+   "Fossil trackways attributed to the species show widely spaced footprints.",
+   "The species' leg bones were slender, and its lower legs were long relative to its upper legs.",
+   "The species lived in open plains with few trees.",
+   "The species' leg bones were thick, and its lower legs were short relative to its upper legs."
+  ],
+  "answer": "D",
+  "expl": "Thick bones and short lower legs are the opposite of the fast-runner pattern the text describes."
+ },
+ {
+  "id": "coe-024",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Marine biologists hypothesize that a reef's fish population declined because rising water temperatures killed the coral that the fish depend on for shelter.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "Water temperatures at the reef rose by about 2°C over the study period.",
+   "Fishing near the reef increased during the study period.",
+   "Many of the reef's fish species also live on reefs in other oceans.",
+   "Fish populations declined most where coral death was greatest and stayed stable in sections where the coral survived."
+  ],
+  "answer": "D",
+  "expl": "Linking fish loss to coral loss, section by section, supports the mechanism. Increased fishing suggests a rival cause."
+ },
+ {
+  "id": "coe-025",
+  "type": "Command of Evidence",
+  "sub": "weaken hypothesis",
+  "passage": "An economist argues that a city's minimum wage increase caused a loss of restaurant jobs in the city.",
+  "prompt": "Which finding, if true, would most directly weaken the hypothesis?",
+  "choices": [
+   "Restaurant owners in the city said the increase raised their costs.",
+   "Restaurant prices in the city rose after the increase.",
+   "Restaurant employment in the city grew at the same rate as in neighboring cities that did not raise their minimum wage.",
+   "Several restaurants in the city closed in the year after the increase."
+  ],
+  "answer": "C",
+  "expl": "If jobs grew just like in comparison cities, the increase didn't cut jobs. A few closures don't show a net loss."
+ },
+ {
+  "id": "coe-026",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Researchers in Kenya hypothesized that elephants can distinguish between human groups by voice. Maasai men, who herd cattle, sometimes come into conflict with elephants, while Kamba men rarely do.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "Maasai and Kamba men speak different languages.",
+   "Elephants in the study area were more often seen near Kamba villages.",
+   "Elephants reacted similarly to recordings of Maasai men and Kamba men.",
+   "Elephants bunched together and retreated when they heard recordings of Maasai men saying a phrase, but showed little reaction to recordings of Kamba men saying the same phrase."
+  ],
+  "answer": "D",
+  "expl": "Different reactions to the same phrase from the two groups shows elephants tell the voices apart."
+ },
+ {
+  "id": "coe-027",
+  "type": "Command of Evidence",
+  "sub": "weaken hypothesis",
+  "passage": "Historians claim that unusually cold weather in the 1600s caused widespread crop failures in northern Europe.",
+  "prompt": "Which finding, if true, would most directly weaken the hypothesis?",
+  "choices": [
+   "Diaries from the 1600s describe rivers freezing more often than usual.",
+   "Grain prices in northern Europe rose sharply during several cold years.",
+   "Records show that harvests in northern Europe were at average levels throughout the coldest decades of the 1600s.",
+   "Tree rings indicate shorter growing seasons in the 1600s."
+  ],
+  "answer": "C",
+  "expl": "Normal harvests during the coldest years contradict the crop-failure claim. The others are consistent with it."
+ },
+ {
+  "id": "coe-028",
+  "type": "Command of Evidence",
+  "sub": "support hypothesis",
+  "passage": "Researchers hypothesize that sleep helps strengthen newly formed memories.",
+  "prompt": "Which finding, if true, would most directly support the hypothesis?",
+  "choices": [
+   "Participants who slept reported feeling more rested the next day.",
+   "Participants who stayed awake drank more coffee than those who slept.",
+   "Participants who slept after learning a list of words recalled more of them the next day than participants who stayed awake for the same length of time.",
+   "Participants learned the word list faster in the morning than in the evening."
+  ],
+  "answer": "C",
+  "expl": "Same delay, sleep vs. no sleep, better recall after sleep."
+ },
+ {
+  "id": "coe-029",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "A student hypothesized that dissolving a substance in water would make the resulting ice melt faster than ice made from water alone. The data support this hypothesis: _____",
+  "table": {
+   "title": "Time for Ice to Melt at Room Temperature",
+   "cols": [
+    "Ice made from",
+    "Minutes to melt"
+   ],
+   "rows": [
+    [
+     "Plain tap water",
+     "42"
+    ],
+    [
+     "Saltwater",
+     "31"
+    ],
+    [
+     "Sugar water",
+     "37"
+    ],
+    [
+     "Distilled water",
+     "44"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "ice made from tap water melted in 42 minutes, faster than ice made from distilled water.",
+   "ice made from sugar water melted faster than ice made from saltwater.",
+   "ice made from saltwater and sugar water melted in 31 and 37 minutes, while ice made from tap water and distilled water took 42 and 44 minutes.",
+   "ice made from distilled water took the longest to melt, 44 minutes."
+  ],
+  "answer": "C",
+  "expl": "The hypothesis compares ice with dissolved substances to plain water, so you need both groups. The sugar/salt choice is false (37 > 31)."
+ },
+ {
+  "id": "coe-030",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "The library's busiest day and its quietest day both fall on the weekend: _____",
+  "table": {
+   "title": "Average Daily Visitors to a Public Library",
+   "cols": [
+    "Day",
+    "Visitors"
+   ],
+   "rows": [
+    [
+     "Monday",
+     "410"
+    ],
+    [
+     "Wednesday",
+     "380"
+    ],
+    [
+     "Saturday",
+     "650"
+    ],
+    [
+     "Sunday",
+     "220"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "Saturday averaged 650 visitors, more than Monday's 410.",
+   "Saturday averaged 650 visitors, the most of any day shown, while Sunday averaged 220, the fewest.",
+   "Sunday averaged 220 visitors, fewer than Wednesday's 380.",
+   "Monday and Wednesday averaged 410 and 380 visitors, respectively."
+  ],
+  "answer": "B",
+  "expl": "The claim needs both extremes, and both on the weekend. The others give only one half or compare weekdays."
+ },
+ {
+  "id": "coe-031",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Woodpeckers and owls nest in cavities in large old trees, which are removed during logging. Consistent with this, the researchers found that _____",
+  "table": {
+   "title": "Birds Counted in Two Forests",
+   "cols": [
+    "Species group",
+    "Old-growth forest",
+    "Logged forest"
+   ],
+   "rows": [
+    [
+     "Woodpeckers",
+     "14",
+     "5"
+    ],
+    [
+     "Warblers",
+     "22",
+     "19"
+    ],
+    [
+     "Owls",
+     "6",
+     "1"
+    ],
+    [
+     "Sparrows",
+     "9",
+     "15"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "warblers were about equally common in both forests.",
+   "sparrows were more common in the logged forest (15) than in the old-growth forest (9).",
+   "warblers were the most common group in both forests.",
+   "woodpeckers fell from 14 in the old-growth forest to 5 in the logged forest, and owls fell from 6 to 1."
+  ],
+  "answer": "D",
+  "expl": "The claim is about cavity nesters, so cite woodpeckers and owls. Sparrow and warbler data are true but off-topic."
+ },
+ {
+  "id": "coe-032",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Solar power's share of the town's electricity more than doubled in just two years: _____",
+  "table": {
+   "title": "Share of a Town's Electricity from Solar Power",
+   "cols": [
+    "Year",
+    "Share"
+   ],
+   "rows": [
+    [
+     "2019",
+     "4%"
+    ],
+    [
+     "2020",
+     "7%"
+    ],
+    [
+     "2021",
+     "11%"
+    ],
+    [
+     "2022",
+     "16%"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "it reached 16% in 2022.",
+   "it rose from 11% in 2021 to 16% in 2022.",
+   "it rose from 7% in 2020 to 11% in 2021.",
+   "it rose from 4% in 2019 to 11% in 2021."
+  ],
+  "answer": "D",
+  "expl": "Two years and more than double: 4% → 11% (2019–2021). The other spans are one year or less than double."
+ },
+ {
+  "id": "coe-033",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "The researchers concluded that the advantage of reading on paper appeared mainly with longer texts. They noted that _____",
+  "table": {
+   "title": "Average Comprehension Scores by Reading Format",
+   "cols": [
+    "Text length",
+    "Printed page",
+    "Screen"
+   ],
+   "rows": [
+    [
+     "Short",
+     "82",
+     "81"
+    ],
+    [
+     "Long",
+     "78",
+     "69"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "readers of long texts scored 78 on paper but 69 on screens, while scores for short texts were nearly identical (82 and 81).",
+   "readers of short texts on paper scored 82, the highest score in the study.",
+   "readers of long texts on screens scored 69, the lowest score in the study.",
+   "readers on paper scored 82 for short texts and 78 for long texts."
+  ],
+  "answer": "A",
+  "expl": "“Mainly with longer texts” requires the gap for long texts and the lack of a gap for short ones."
+ },
+ {
+  "id": "coe-034",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Plant leaves reflect most green light instead of absorbing it. As a result, the plants in the experiment grew least under green light: _____",
+  "table": {
+   "title": "Plant Growth Under Different Light Colors (3 weeks)",
+   "cols": [
+    "Light color",
+    "Growth (cm)"
+   ],
+   "rows": [
+    [
+     "Red",
+     "18"
+    ],
+    [
+     "Blue",
+     "14"
+    ],
+    [
+     "Green",
+     "6"
+    ],
+    [
+     "White",
+     "17"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "plants under red light grew 18 cm, the most of any color.",
+   "plants under green light grew only 6 cm, compared with 14 to 18 cm under the other colors.",
+   "plants under blue light grew less than plants under red light.",
+   "plants under white light grew 17 cm."
+  ],
+  "answer": "B",
+  "expl": "The claim is about green being lowest, so it needs green vs. all others."
+ },
+ {
+  "id": "coe-035",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Transit advocates argue that the city's bus system needs improvement, noting that bus riders have the longest commutes of any group: _____",
+  "table": {
+   "title": "Average One-Way Commute by Mode in a City",
+   "cols": [
+    "Mode",
+    "Minutes"
+   ],
+   "rows": [
+    [
+     "Car",
+     "28"
+    ],
+    [
+     "Bus",
+     "41"
+    ],
+    [
+     "Subway",
+     "31"
+    ],
+    [
+     "Bicycle",
+     "24"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "car commuters averaged 28 minutes.",
+   "subway commuters averaged 31 minutes, slightly longer than car commuters.",
+   "bus commuters averaged 41 minutes, compared with 24 to 31 minutes for every other mode.",
+   "bicycle commuters averaged 24 minutes, the shortest commute."
+  ],
+  "answer": "C",
+  "expl": "“Longest of any group” requires bus vs. every other mode."
+ },
+ {
+  "id": "coe-036",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Scores rose with sleep, but only up to a point: _____",
+  "table": {
+   "title": "Average Test Score by Hours of Sleep the Night Before",
+   "cols": [
+    "Hours of sleep",
+    "Average score"
+   ],
+   "rows": [
+    [
+     "Fewer than 6",
+     "68"
+    ],
+    [
+     "6 to 7",
+     "74"
+    ],
+    [
+     "7 to 8",
+     "81"
+    ],
+    [
+     "More than 8",
+     "80"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "students who slept fewer than 6 hours scored 68, the lowest average.",
+   "scores rose from 68 to 81 as sleep increased to 7–8 hours, but students who slept more than 8 hours scored 80, no higher.",
+   "scores rose steadily with every additional hour of sleep.",
+   "students who slept 6 to 7 hours scored 74."
+  ],
+  "answer": "B",
+  "expl": "“Up to a point” needs the rise and the plateau. The last choice is false (80 < 81)."
+ },
+ {
+  "id": "coe-037",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "The museum's director argues that free days attract many people who have never visited before. The data support this: _____",
+  "table": {
+   "title": "Museum Visitors on Paid and Free Admission Days",
+   "cols": [
+    "",
+    "Paid days",
+    "Free days"
+   ],
+   "rows": [
+    [
+     "Average daily visitors",
+     "1,200",
+     "3,400"
+    ],
+    [
+     "First-time visitors",
+     "18%",
+     "46%"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "46% of visitors on free days were first-time visitors, compared with 18% on paid days.",
+   "paid days averaged 1,200 visitors.",
+   "18% of visitors on paid days were first-time visitors.",
+   "free days averaged 3,400 visitors, compared with 1,200 on paid days."
+  ],
+  "answer": "A",
+  "expl": "The claim is about first-time visitors. More total visitors could all be repeat visitors."
+ },
+ {
+  "id": "coe-038",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "A city planner concluded that simplifying recycling increases participation. She noted that _____",
+  "table": {
+   "title": "Recycling Participation in Apartment Buildings",
+   "cols": [
+    "Recycling setup",
+    "Households participating"
+   ],
+   "rows": [
+    [
+     "One bin for all recyclables",
+     "34%"
+    ],
+    [
+     "Separate bins by material",
+     "22%"
+    ],
+    [
+     "No bins provided",
+     "5%"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "22% of households participated when given separate bins.",
+   "participation was lowest in buildings without bins.",
+   "34% of households participated when given one bin for all recyclables, compared with 22% when asked to separate materials.",
+   "only 5% of households participated when no bins were provided."
+  ],
+  "answer": "C",
+  "expl": "“Simplifying” is one bin vs. separate bins. The no-bin comparison is about access, not simplicity."
+ },
+ {
+  "id": "coe-039",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Among dogs, larger breeds tend to have shorter life spans: _____",
+  "table": {
+   "title": "Typical Life Span of Four Dog Breeds",
+   "cols": [
+    "Breed",
+    "Size",
+    "Life span (years)"
+   ],
+   "rows": [
+    [
+     "Chihuahua",
+     "Small",
+     "14"
+    ],
+    [
+     "Beagle",
+     "Medium",
+     "13"
+    ],
+    [
+     "Labrador retriever",
+     "Large",
+     "12"
+    ],
+    [
+     "Great Dane",
+     "Giant",
+     "8"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "life spans decline from 14 years for the small Chihuahua to 8 years for the giant Great Dane.",
+   "the beagle typically lives 13 years.",
+   "the Labrador retriever lives longer than the Great Dane.",
+   "the Chihuahua and the beagle have similar life spans."
+  ],
+  "answer": "A",
+  "expl": "The trend needs the full size range. One pair alone doesn't show a pattern across sizes."
+ },
+ {
+  "id": "coe-040",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Although the synthetic fertilizer produced higher yields at first, the organic field's yields rose each year and surpassed it by the third year: _____",
+  "table": {
+   "title": "Wheat Yield (tons per acre) in Two Fields",
+   "cols": [
+    "Year",
+    "Field A (organic)",
+    "Field B (synthetic fertilizer)"
+   ],
+   "rows": [
+    [
+     "1",
+     "3.1",
+     "3.9"
+    ],
+    [
+     "2",
+     "3.4",
+     "3.8"
+    ],
+    [
+     "3",
+     "3.8",
+     "3.6"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "Field B's yield fell from 3.9 to 3.6 tons per acre.",
+   "Field B outproduced Field A in year 1 (3.9 vs. 3.1), but Field A outproduced Field B in year 3 (3.8 vs. 3.6).",
+   "both fields produced about the same yield in year 2.",
+   "Field A's yield rose from 3.1 to 3.8 tons per acre."
+  ],
+  "answer": "B",
+  "expl": "The statement needs the starting gap and the reversal. Each wrong choice describes one field only, or is false (3.4 vs. 3.8)."
+ },
+ {
+  "id": "coe-041",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Turnout increased with each older age group: _____",
+  "table": {
+   "title": "Voter Turnout in a Town Election by Age",
+   "cols": [
+    "Age group",
+    "Turnout"
+   ],
+   "rows": [
+    [
+     "18–29",
+     "22%"
+    ],
+    [
+     "30–44",
+     "35%"
+    ],
+    [
+     "45–64",
+     "51%"
+    ],
+    [
+     "65 and older",
+     "64%"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "it was lower among voters aged 18–29 than among those aged 30–44.",
+   "it rose from 22% among voters aged 18–29 to 35%, 51%, and finally 64% among those 65 and older.",
+   "it was 64% among voters 65 and older.",
+   "more than half of voters aged 45–64 voted."
+  ],
+  "answer": "B",
+  "expl": "“Each older group” needs every step."
+ },
+ {
+  "id": "coe-042",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Between 2010 and 2020, streaming and physical formats nearly traded places: _____",
+  "table": {
+   "title": "Share of Recorded Music Revenue by Format in One Country",
+   "cols": [
+    "Year",
+    "Streaming",
+    "Physical (CDs, vinyl)"
+   ],
+   "rows": [
+    [
+     "2010",
+     "8%",
+     "60%"
+    ],
+    [
+     "2020",
+     "79%",
+     "9%"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "physical formats accounted for 60% of revenue in 2010.",
+   "streaming accounted for 79% of revenue in 2020.",
+   "streaming rose from 8% to 79% of revenue, while physical formats fell from 60% to 9%.",
+   "physical formats fell from 60% to 9% of revenue."
+  ],
+  "answer": "C",
+  "expl": "“Traded places” needs both formats moving in opposite directions."
+ },
+ {
+  "id": "coe-043",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "The number of frog species declined most sharply above 1,000 meters: _____",
+  "table": {
+   "title": "Frog Species Found by Elevation in a Rainforest",
+   "cols": [
+    "Elevation (m)",
+    "Species"
+   ],
+   "rows": [
+    [
+     "0–500",
+     "42"
+    ],
+    [
+     "500–1,000",
+     "37"
+    ],
+    [
+     "1,000–1,500",
+     "21"
+    ],
+    [
+     "1,500–2,000",
+     "9"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "42 species were found below 500 meters.",
+   "it dropped by only 5 species between the two lowest bands but by 16 and then 12 species in the two bands above 1,000 meters.",
+   "the number of species declined as elevation increased.",
+   "only 9 species were found between 1,500 and 2,000 meters."
+  ],
+  "answer": "B",
+  "expl": "“Most sharply above 1,000” requires comparing the size of the drops."
+ },
+ {
+  "id": "coe-044",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Sentences in best-selling novels have grown steadily shorter: _____",
+  "table": {
+   "title": "Average Sentence Length in Best-Selling Novels",
+   "cols": [
+    "Decade",
+    "Words per sentence"
+   ],
+   "rows": [
+    [
+     "1850s",
+     "28"
+    ],
+    [
+     "1900s",
+     "24"
+    ],
+    [
+     "1950s",
+     "18"
+    ],
+    [
+     "2000s",
+     "15"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "the average fell in every period shown, from 28 words in the 1850s to 15 in the 2000s.",
+   "the average in the 1900s was 24 words.",
+   "sentences in the 2000s averaged fewer than 20 words.",
+   "the average was 18 words in the 1950s."
+  ],
+  "answer": "A",
+  "expl": "“Steadily” needs the decline across every decade."
+ },
+ {
+  "id": "coe-045",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Customers' preferences reversed between winter and summer: _____",
+  "table": {
+   "title": "Drinks Sold at a Café",
+   "cols": [
+    "Month",
+    "Hot drinks",
+    "Iced drinks"
+   ],
+   "rows": [
+    [
+     "January",
+     "1,450",
+     "120"
+    ],
+    [
+     "April",
+     "980",
+     "640"
+    ],
+    [
+     "July",
+     "410",
+     "1,530"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "in January, hot drinks outsold iced drinks 1,450 to 120, but in July, iced drinks outsold hot drinks 1,530 to 410.",
+   "iced drink sales rose from 120 in January to 1,530 in July.",
+   "hot drinks outsold iced drinks in April.",
+   "the café sold 980 hot drinks in April."
+  ],
+  "answer": "A",
+  "expl": "A reversal needs both months and both drink types."
+ },
+ {
+  "id": "coe-046",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Increasing caffeine beyond 100 mg did not further improve reaction time: _____",
+  "table": {
+   "title": "Average Reaction Time After Caffeine",
+   "cols": [
+    "Caffeine dose",
+    "Reaction time (ms)"
+   ],
+   "rows": [
+    [
+     "None (placebo)",
+     "312"
+    ],
+    [
+     "50 mg",
+     "298"
+    ],
+    [
+     "100 mg",
+     "289"
+    ],
+    [
+     "200 mg",
+     "291"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "reaction time at 200 mg was 291 ms, slightly slower than the 289 ms at 100 mg.",
+   "the slowest reaction time, 312 ms, came with no caffeine.",
+   "reaction time improved from 312 ms with no caffeine to 298 ms at 50 mg.",
+   "reaction time at 100 mg was 289 ms."
+  ],
+  "answer": "A",
+  "expl": "The claim is about going past 100 mg, so compare 100 vs. 200. Lower ms is faster."
+ },
+ {
+  "id": "coe-047",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Deep-rooted trees withstood the storm better than shallow-rooted trees: _____",
+  "table": {
+   "title": "Trees Damaged in a Severe Windstorm",
+   "cols": [
+    "Species",
+    "Root system",
+    "Damaged"
+   ],
+   "rows": [
+    [
+     "Oak",
+     "Deep",
+     "8%"
+    ],
+    [
+     "Maple",
+     "Deep",
+     "15%"
+    ],
+    [
+     "Pine",
+     "Shallow",
+     "31%"
+    ],
+    [
+     "Birch",
+     "Shallow",
+     "27%"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "maples were damaged more often than oaks.",
+   "only 8% of oaks and 15% of maples were damaged, compared with 31% of pines and 27% of birches.",
+   "31% of pines were damaged, the highest share of any species.",
+   "8% of oaks were damaged."
+  ],
+  "answer": "B",
+  "expl": "Compare both deep-rooted species with both shallow-rooted ones."
+ },
+ {
+  "id": "coe-048",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "The increase in time spent on the app was largest among the youngest users: _____",
+  "table": {
+   "title": "Average Daily Minutes Spent on a Social App",
+   "cols": [
+    "Age group",
+    "2019",
+    "2023"
+   ],
+   "rows": [
+    [
+     "13–17",
+     "48",
+     "95"
+    ],
+    [
+     "18–24",
+     "61",
+     "88"
+    ],
+    [
+     "25–34",
+     "40",
+     "52"
+    ],
+    [
+     "35 and older",
+     "22",
+     "26"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "users aged 13–17 nearly doubled their time, from 48 to 95 minutes, a larger increase than any other group's.",
+   "every age group spent more time on the app in 2023 than in 2019.",
+   "users aged 18–24 spent the most time on the app in 2019, at 61 minutes.",
+   "users 35 and older spent the least time in both years."
+  ],
+  "answer": "A",
+  "expl": "The claim is about the size of the increase: 13–17 gained 47 minutes, the most."
+ },
+ {
+  "id": "coe-049",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Producing beef requires far more water than producing chicken: _____",
+  "table": {
+   "title": "Approximate Water Used to Produce 1 kg of Food",
+   "cols": [
+    "Food",
+    "Liters of water"
+   ],
+   "rows": [
+    [
+     "Beef",
+     "15,400"
+    ],
+    [
+     "Chicken",
+     "4,300"
+    ],
+    [
+     "Rice",
+     "2,500"
+    ],
+    [
+     "Potatoes",
+     "290"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "a kilogram of potatoes requires only about 290 liters of water.",
+   "a kilogram of chicken requires about 4,300 liters of water.",
+   "a kilogram of beef requires about 15,400 liters of water, more than three times the 4,300 liters needed for chicken.",
+   "rice requires less water than chicken."
+  ],
+  "answer": "C",
+  "expl": "The comparison named is beef vs. chicken. Use both numbers."
+ },
+ {
+  "id": "coe-050",
+  "type": "Command of Evidence",
+  "sub": "table",
+  "passage": "Sleep needs vary enormously across species, from animals that sleep most of the day to those that sleep very little: _____",
+  "table": {
+   "title": "Average Hours of Sleep per Day",
+   "cols": [
+    "Animal",
+    "Hours"
+   ],
+   "rows": [
+    [
+     "Little brown bat",
+     "19.9"
+    ],
+    [
+     "Cat",
+     "12.5"
+    ],
+    [
+     "Human (adult)",
+     "8.0"
+    ],
+    [
+     "Giraffe",
+     "1.9"
+    ]
+   ]
+  },
+  "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+   "cats sleep more than adult humans do.",
+   "little brown bats sleep about 19.9 hours a day, while giraffes sleep only about 1.9.",
+   "adult humans sleep about 8 hours a day.",
+   "cats sleep about 12.5 hours a day."
+  ],
+  "answer": "B",
+  "expl": "“Most of the day” to “very little” needs both extremes."
+ }
+]

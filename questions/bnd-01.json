@@ -1,0 +1,752 @@
+[
+ {
+  "id": "bnd-001",
+  "type": "Boundaries",
+  "sub": "joining clauses",
+  "passage": "Sea turtles navigate using Earth's magnetic _____ hatchlings appear to imprint on the magnetic signature of the beach where they hatched.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "field;",
+   "field,",
+   "field, which",
+   "field"
+  ],
+  "answer": "A",
+  "expl": "Two full sentences: a semicolon joins them. A comma alone is a splice, nothing is a run-on, and “which” leaves the second half with no proper role."
+ },
+ {
+  "id": "bnd-002",
+  "type": "Boundaries",
+  "sub": "colon",
+  "passage": "The architect's design solved a long-standing problem for the _____ its sloped roof channels rainwater into an underground tank for later use.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "library",
+   "library,",
+   "library:",
+   "library, which"
+  ],
+  "answer": "C",
+  "expl": "The second clause explains the problem's solution, so a colon fits. A comma creates a splice."
+ },
+ {
+  "id": "bnd-003",
+  "type": "Boundaries",
+  "sub": "appositive",
+  "passage": "The comet was first spotted by an amateur _____ a retired schoolteacher who had built his own telescope, on a cold January night.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "astronomer,",
+   "astronomer;",
+   "astronomer",
+   "astronomer—"
+  ],
+  "answer": "A",
+  "expl": "The appositive closes with a comma after “telescope,” so it must open with a comma. A dash can't pair with a comma."
+ },
+ {
+  "id": "bnd-004",
+  "type": "Boundaries",
+  "sub": "restrictive clause",
+  "passage": "The scientists _____ first identified the gene were surprised to learn how many other traits it influenced.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "who,",
+   ", who",
+   "who",
+   ", who,"
+  ],
+  "answer": "C",
+  "expl": "The clause tells you which scientists, so it's essential: no commas around it."
+ },
+ {
+  "id": "bnd-005",
+  "type": "Boundaries",
+  "sub": "subject-verb",
+  "passage": "The tallest of the ancient trees in the _____ is estimated to be more than 3,000 years old.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "grove—",
+   "grove;",
+   "grove",
+   "grove,"
+  ],
+  "answer": "C",
+  "expl": "Never put punctuation between a subject (“The tallest… grove”) and its verb (“is”)."
+ },
+ {
+  "id": "bnd-006",
+  "type": "Boundaries",
+  "sub": "title before name",
+  "passage": "In 1811, fossil _____ Mary Anning and her brother found the skull of an ichthyosaur in the cliffs near Lyme Regis, England.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "collector,",
+   "collector:",
+   "collector;",
+   "collector"
+  ],
+  "answer": "D",
+  "expl": "“Fossil collector” works as a title directly before the name: no comma."
+ },
+ {
+  "id": "bnd-007",
+  "type": "Boundaries",
+  "sub": "conjunctive adverb",
+  "passage": "The bridge was designed to withstand strong _____ engineers had not anticipated the swaying caused by crowds walking in step.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "winds, however,",
+   "winds; however,",
+   "winds, however",
+   "winds however;"
+  ],
+  "answer": "B",
+  "expl": "“However” starts a new independent clause here, so semicolon before, comma after."
+ },
+ {
+  "id": "bnd-008",
+  "type": "Boundaries",
+  "sub": "conjunctive adverb",
+  "passage": "Most bats find their way using echolocation. Many fruit _____ rely largely on their excellent vision and sense of smell.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "bats, however,",
+   "bats however,",
+   "bats; however,",
+   "bats, however;"
+  ],
+  "answer": "A",
+  "expl": "“However” interrupts a single clause, so it gets a pair of commas. A semicolon would split the subject from its verb."
+ },
+ {
+  "id": "bnd-009",
+  "type": "Boundaries",
+  "sub": "list with commas",
+  "passage": "The tour includes stops in Lagos, _____ Accra, Ghana; and Dakar, Senegal.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Nigeria;",
+   "Nigeria,",
+   "Nigeria:",
+   "Nigeria"
+  ],
+  "answer": "A",
+  "expl": "When list items contain commas, semicolons separate the items. Match the other semicolons."
+ },
+ {
+  "id": "bnd-010",
+  "type": "Boundaries",
+  "sub": "dash pair",
+  "passage": "The museum's newest exhibit—a full-size replica of a Viking _____ draws thousands of visitors each week.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "ship",
+   "ship,",
+   "ship;",
+   "ship—"
+  ],
+  "answer": "D",
+  "expl": "An interruption that opens with a dash must close with a dash."
+ },
+ {
+  "id": "bnd-011",
+  "type": "Boundaries",
+  "sub": "introductory element",
+  "passage": "After three years of drought and two failed _____ the farmers finally harvested a full crop of wheat.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "harvests",
+   "harvests;",
+   "harvests:",
+   "harvests,"
+  ],
+  "answer": "D",
+  "expl": "A long introductory phrase ends with a comma before the main clause. Semicolons and colons need a full clause before them."
+ },
+ {
+  "id": "bnd-012",
+  "type": "Boundaries",
+  "sub": "colon",
+  "passage": "The recipe calls for only three _____ flour, water, and salt.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "ingredients, such as:",
+   "ingredients:",
+   "ingredients;",
+   "ingredients"
+  ],
+  "answer": "B",
+  "expl": "A colon after a complete clause introduces the list. Never put a colon after “such as.”"
+ },
+ {
+  "id": "bnd-013",
+  "type": "Boundaries",
+  "sub": "no colon after verb",
+  "passage": "The expedition's supplies _____ tents, sleeping bags, and enough food for three weeks.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "included—",
+   "included",
+   "included;",
+   "included:"
+  ],
+  "answer": "B",
+  "expl": "No punctuation between a verb and its objects. A colon must follow a complete clause."
+ },
+ {
+  "id": "bnd-014",
+  "type": "Boundaries",
+  "sub": "joining clauses",
+  "passage": "Venus rotates extremely _____ a single day there lasts longer than its year.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "slowly in fact,",
+   "slowly. In fact,",
+   "slowly, in fact",
+   "slowly, in fact,"
+  ],
+  "answer": "B",
+  "expl": "Two independent clauses need a period or semicolon between them. All the comma options create splices."
+ },
+ {
+  "id": "bnd-015",
+  "type": "Boundaries",
+  "sub": "no comma before that",
+  "passage": "Researchers discovered _____ the clay tablet contained one of the earliest known written recipes.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "that",
+   "that,",
+   ", that",
+   ": that"
+  ],
+  "answer": "A",
+  "expl": "No punctuation is needed around “that” when it introduces what was discovered."
+ },
+ {
+  "id": "bnd-016",
+  "type": "Boundaries",
+  "sub": "nonrestrictive clause",
+  "passage": "The Amazon _____ carries more water than any other river on Earth, empties into the Atlantic Ocean.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "River, which",
+   "River which",
+   "River, which,",
+   "River; which"
+  ],
+  "answer": "A",
+  "expl": "The clause adds extra info about the one Amazon River, so it's set off by a pair of commas: one before “which” and one after “Earth.”"
+ },
+ {
+  "id": "bnd-017",
+  "type": "Boundaries",
+  "sub": "end punctuation",
+  "passage": "The researchers wanted to know whether the drug's effects would last longer than a _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "year?",
+   "year;",
+   "year.",
+   "year,"
+  ],
+  "answer": "C",
+  "expl": "This is an indirect question (reported, not asked), so it ends with a period."
+ },
+ {
+  "id": "bnd-018",
+  "type": "Boundaries",
+  "sub": "end punctuation",
+  "passage": "The question behind the study was simple: why do some languages have dozens of words for colors while others have only a _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "few?",
+   "few;",
+   "few.",
+   "few,"
+  ],
+  "answer": "A",
+  "expl": "After the colon comes a direct question (“why do…”), so it needs a question mark."
+ },
+ {
+  "id": "bnd-019",
+  "type": "Boundaries",
+  "sub": "appositive",
+  "passage": "Hedy _____ an actress who also co-invented a radio frequency-hopping system during World War II, was inducted into the National Inventors Hall of Fame in 2014.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Lamarr",
+   "Lamarr—",
+   "Lamarr;",
+   "Lamarr,"
+  ],
+  "answer": "D",
+  "expl": "The appositive closes with a comma after “War II,” so it opens with a comma."
+ },
+ {
+  "id": "bnd-020",
+  "type": "Boundaries",
+  "sub": "comma + conjunction",
+  "passage": "The first draft of the novel was more than 1,000 pages _____ the editor asked the author to cut it in half.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "long",
+   "long, so",
+   "long, so,",
+   "long,"
+  ],
+  "answer": "B",
+  "expl": "Two independent clauses joined with comma + coordinating conjunction. No comma after “so.”"
+ },
+ {
+  "id": "bnd-021",
+  "type": "Boundaries",
+  "sub": "colon",
+  "passage": "Honeybees perform a remarkable feat of _____ a bee returning to the hive can tell other bees the direction and distance of a food source.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "communication, that",
+   "communication,",
+   "communication:",
+   "communication"
+  ],
+  "answer": "C",
+  "expl": "The second clause explains the feat. A colon after a complete clause does that, and a comma would be a splice."
+ },
+ {
+  "id": "bnd-022",
+  "type": "Boundaries",
+  "sub": "joining clauses",
+  "passage": "In 1955, Rosa Parks refused to give up her seat on a Montgomery city _____ her arrest helped spark a boycott that lasted more than a year.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "bus,",
+   "bus",
+   "bus;",
+   "bus, which"
+  ],
+  "answer": "C",
+  "expl": "Two independent clauses: semicolon. “Which” would leave “her arrest helped spark” with no subject role."
+ },
+ {
+  "id": "bnd-023",
+  "type": "Boundaries",
+  "sub": "interrupting phrase",
+  "passage": "The new _____ according to its supporters, will reduce traffic deaths by a third.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "law;",
+   "law",
+   "law—",
+   "law,"
+  ],
+  "answer": "D",
+  "expl": "“According to its supporters” interrupts the sentence and closes with a comma, so it opens with one."
+ },
+ {
+  "id": "bnd-024",
+  "type": "Boundaries",
+  "sub": "introductory clause",
+  "passage": "Because the comet's orbit brings it near the Sun only about once every 76 _____ most people see Halley's Comet at most once in their lifetimes.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "years",
+   "years,",
+   "years;",
+   "years:"
+  ],
+  "answer": "B",
+  "expl": "A dependent “because” clause at the start ends with a comma. A semicolon needs independent clauses on both sides."
+ },
+ {
+  "id": "bnd-025",
+  "type": "Boundaries",
+  "sub": "joining clauses",
+  "passage": "The Great Barrier Reef is the largest structure built by living organisms on _____ it is visible from space.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Earth, so, it",
+   "Earth it",
+   "Earth, it",
+   "Earth. It"
+  ],
+  "answer": "D",
+  "expl": "Two complete sentences need a period (or semicolon) between them."
+ },
+ {
+  "id": "bnd-026",
+  "type": "Boundaries",
+  "sub": "introductory clause",
+  "passage": "Although the experiment produced unexpected _____ the researchers were eventually able to explain them.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "results.",
+   "results;",
+   "results,",
+   "results:"
+  ],
+  "answer": "C",
+  "expl": "“Although…” is dependent and can't stand alone, so comma. A period would make a fragment."
+ },
+ {
+  "id": "bnd-027",
+  "type": "Boundaries",
+  "sub": "restrictive appositive",
+  "passage": "Mary Shelley's _____ was published anonymously in 1818.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "novel, *Frankenstein*,",
+   "novel *Frankenstein*",
+   "novel: *Frankenstein*",
+   "novel, *Frankenstein*"
+  ],
+  "answer": "B",
+  "expl": "Shelley wrote several novels, so the title identifies which one: essential, no commas."
+ },
+ {
+  "id": "bnd-028",
+  "type": "Boundaries",
+  "sub": "appositive + clause",
+  "passage": "Octavia E. Butler's novel *Kindred* follows Dana, a Black woman living in 1976 _____ is pulled back in time to a plantation in antebellum Maryland.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "California who",
+   "California, who",
+   "California; who",
+   "California. Who"
+  ],
+  "answer": "B",
+  "expl": "The appositive “a Black woman living in 1976 California” closes with a comma, then “who” continues the description of Dana."
+ },
+ {
+  "id": "bnd-029",
+  "type": "Boundaries",
+  "sub": "colon",
+  "passage": "The rover's team had one goal for the final _____ land safely on the crater floor.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "mission, it was to",
+   "mission; to",
+   "mission: to",
+   "mission. To"
+  ],
+  "answer": "C",
+  "expl": "A colon after a complete clause introduces what the goal was. A semicolon needs a full clause after it, and the period creates a fragment."
+ },
+ {
+  "id": "bnd-030",
+  "type": "Boundaries",
+  "sub": "no punctuation before clause",
+  "passage": "The survey asked participants _____ they used public transportation and how often.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "whether,",
+   "whether",
+   ", whether",
+   ": whether"
+  ],
+  "answer": "B",
+  "expl": "“Whether they used…” is the object of “asked.” No punctuation."
+ },
+ {
+  "id": "bnd-031",
+  "type": "Boundaries",
+  "sub": "subject-verb",
+  "passage": "The decision by the city council to turn the abandoned rail line into a public _____ has been praised by residents and planners alike.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "park",
+   "park—",
+   "park,",
+   "park;"
+  ],
+  "answer": "A",
+  "expl": "The long subject ends at “park,” and the verb is “has been praised.” No punctuation between them."
+ },
+ {
+  "id": "bnd-032",
+  "type": "Boundaries",
+  "sub": "conjunctive adverb",
+  "passage": "The samples were contaminated during _____ the results could not be used.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "shipping, therefore,",
+   "shipping; therefore",
+   "shipping therefore,",
+   "shipping; therefore,"
+  ],
+  "answer": "D",
+  "expl": "Semicolon before “therefore” (new clause), comma after it."
+ },
+ {
+  "id": "bnd-033",
+  "type": "Boundaries",
+  "sub": "conjunctive adverb",
+  "passage": "Light travels much faster than sound. During a thunderstorm, _____ you see the lightning before you hear the thunder.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "therefore",
+   "therefore:",
+   "therefore;",
+   "therefore,"
+  ],
+  "answer": "D",
+  "expl": "“Therefore” is an interrupter inside one clause, between two commas."
+ },
+ {
+  "id": "bnd-034",
+  "type": "Boundaries",
+  "sub": "colon",
+  "passage": "Marie Curie won Nobel Prizes in two different _____ physics in 1903 and chemistry in 1911.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "sciences, they were",
+   "sciences:",
+   "sciences;",
+   "sciences"
+  ],
+  "answer": "B",
+  "expl": "A colon introduces the specific sciences. A semicolon needs a full clause after it."
+ },
+ {
+  "id": "bnd-035",
+  "type": "Boundaries",
+  "sub": "nonrestrictive clause",
+  "passage": "The longest bone in the human body is the _____ which runs from the hip to the knee.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "femur:",
+   "femur;",
+   "femur",
+   "femur,"
+  ],
+  "answer": "D",
+  "expl": "There's only one longest bone, so “which runs…” is extra info set off by a comma."
+ },
+ {
+  "id": "bnd-036",
+  "type": "Boundaries",
+  "sub": "appositive",
+  "passage": "The coelacanth, a fish once thought to have died out about 66 million years _____ was discovered alive off the coast of South Africa in 1938.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "ago,",
+   "ago",
+   "ago—",
+   "ago;"
+  ],
+  "answer": "A",
+  "expl": "The appositive opened with a comma after “coelacanth,” so it closes with a comma."
+ },
+ {
+  "id": "bnd-037",
+  "type": "Boundaries",
+  "sub": "nonrestrictive clause",
+  "passage": "Coffee is thought to have originated in _____ legend says a goat herder noticed his goats became energetic after eating the berries of a certain shrub.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Ethiopia. Where",
+   "Ethiopia; where",
+   "Ethiopia, where",
+   "Ethiopia where"
+  ],
+  "answer": "C",
+  "expl": "“Where legend says…” adds information about Ethiopia (a single, already-identified place), so a comma sets it off."
+ },
+ {
+  "id": "bnd-038",
+  "type": "Boundaries",
+  "sub": "list",
+  "passage": "Many common devices, such as phones, laptops, and _____ contain small amounts of rare earth elements.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "headphones",
+   "headphones,",
+   "headphones;",
+   "headphones:"
+  ],
+  "answer": "B",
+  "expl": "“Such as phones, laptops, and headphones” is an interrupter that opened with a comma, so it closes with one."
+ },
+ {
+  "id": "bnd-039",
+  "type": "Boundaries",
+  "sub": "introductory phrase",
+  "passage": "Instead of a traditional menu with dozens of _____ the restaurant offers a single tasting menu that changes every week.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "options:",
+   "options",
+   "options;",
+   "options,"
+  ],
+  "answer": "D",
+  "expl": "A long introductory phrase ends with a comma before the main clause."
+ },
+ {
+  "id": "bnd-040",
+  "type": "Boundaries",
+  "sub": "joining clauses",
+  "passage": "Some of the oldest known musical instruments are flutes carved from bird bone and mammoth _____ they are more than 40,000 years old.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "ivory",
+   "ivory,",
+   "ivory, which",
+   "ivory;"
+  ],
+  "answer": "D",
+  "expl": "Two independent clauses: semicolon. “Which they are…” is ungrammatical."
+ },
+ {
+  "id": "bnd-041",
+  "type": "Boundaries",
+  "sub": "appositive",
+  "passage": "In 1903, Orville and Wilbur _____ brothers who owned a bicycle shop in Dayton, Ohio, made the first powered, controlled airplane flight.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Wright,",
+   "Wright;",
+   "Wright",
+   "Wright:"
+  ],
+  "answer": "A",
+  "expl": "The appositive closes after “Ohio,” so it opens with a comma after “Wright.”"
+ },
+ {
+  "id": "bnd-042",
+  "type": "Boundaries",
+  "sub": "appositive",
+  "passage": "The word *serendipity*, meaning a fortunate accidental _____ was coined by the writer Horace Walpole in 1754.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "discovery;",
+   "discovery—",
+   "discovery,",
+   "discovery"
+  ],
+  "answer": "C",
+  "expl": "The definition opened with a comma, so it closes with one."
+ },
+ {
+  "id": "bnd-043",
+  "type": "Boundaries",
+  "sub": "dash pair",
+  "passage": "Four of Jupiter's moons—Io, Europa, Ganymede, and _____ were discovered by Galileo in 1610.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Callisto—",
+   "Callisto;",
+   "Callisto,",
+   "Callisto"
+  ],
+  "answer": "A",
+  "expl": "The list opened with a dash, so it closes with a dash."
+ },
+ {
+  "id": "bnd-044",
+  "type": "Boundaries",
+  "sub": "colon",
+  "passage": "Scientists still debate a basic _____ why do humans need to sleep?",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "question:",
+   "question;",
+   "question",
+   "question,"
+  ],
+  "answer": "A",
+  "expl": "A colon introduces the question that the first clause announces."
+ },
+ {
+  "id": "bnd-045",
+  "type": "Boundaries",
+  "sub": "conjunctive adverb",
+  "passage": "Penguins cannot _____ their wings have evolved into flippers that make them powerful swimmers.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "fly; instead,",
+   "fly, instead,",
+   "fly instead,",
+   "fly; instead"
+  ],
+  "answer": "A",
+  "expl": "Semicolon before the transition that starts the new clause, comma after it."
+ },
+ {
+  "id": "bnd-046",
+  "type": "Boundaries",
+  "sub": "restrictive clause",
+  "passage": "Animals _____ live in the deep sea often have special adaptations for coping with extreme pressure.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   ", which",
+   "that",
+   "that,",
+   ", that"
+  ],
+  "answer": "B",
+  "expl": "The clause says which animals, so it's essential: “that,” no commas."
+ },
+ {
+  "id": "bnd-047",
+  "type": "Boundaries",
+  "sub": "appositive",
+  "passage": "Ella Fitzgerald, often called the First Lady of _____ recorded more than 200 albums during her career.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Song",
+   "Song,",
+   "Song—",
+   "Song;"
+  ],
+  "answer": "B",
+  "expl": "The nickname is set off by a pair of commas."
+ },
+ {
+  "id": "bnd-048",
+  "type": "Boundaries",
+  "sub": "introductory phrase",
+  "passage": "Completed in the third century _____ the Lighthouse of Alexandria was among the tallest structures in the ancient world.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "BCE",
+   "BCE:",
+   "BCE,",
+   "BCE;"
+  ],
+  "answer": "C",
+  "expl": "An introductory participial phrase ends with a comma."
+ },
+ {
+  "id": "bnd-049",
+  "type": "Boundaries",
+  "sub": "colon before quote",
+  "passage": "The sign at the start of the trail offered a simple _____ “Leave nothing but footprints.”",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "reminder;",
+   "reminder, and",
+   "reminder:",
+   "reminder"
+  ],
+  "answer": "C",
+  "expl": "A colon after a complete clause introduces the quotation."
+ },
+ {
+  "id": "bnd-050",
+  "type": "Boundaries",
+  "sub": "joining clauses",
+  "passage": "Despite a popular myth, glass is not a slow-flowing _____ it is a solid whose molecules are locked in place.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "liquid",
+   "liquid, rather",
+   "liquid,",
+   "liquid;"
+  ],
+  "answer": "D",
+  "expl": "Two independent clauses: semicolon. “Liquid, rather it is” is still a comma splice."
+ }
+]
