@@ -4,9 +4,11 @@
     "coe-01.json",
     "drill-01.json",
     "fss-01.json",
+    "fss-02.json",
     "inf-01.json",
     "rs-01.json",
     "tsp-01.json",
-    "wic-01.json"
+    "wic-01.json",
+    "wic-02.json"
   ]
 }

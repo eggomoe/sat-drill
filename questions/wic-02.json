@@ -1,0 +1,302 @@
+[
+ {
+  "id": "wic02-001",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "In 1935, cane toads were released in Queensland, Australia, in the hope that they would eat beetles that were damaging the region's sugarcane. The toads did little to control the beetles. Instead, with few native predators able to eat them without being poisoned, they multiplied, and almost nothing has checked their spread across the continent's north since.",
+  "prompt": "As used in the text, what does the word “checked” most nearly mean?",
+  "choices": [
+   "Inspected",
+   "Restrained",
+   "Verified",
+   "Marked"
+  ],
+  "answer": "B",
+  "expl": "Nothing has held back the toads' spread, so “checked” means restrained. “Inspected” and “verified” are the everyday senses of “check” and make no sense with “spread.”"
+ },
+ {
+  "id": "wic02-002",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "For years, the economist dismissed proposals for a universal basic income as unaffordable. After studying results from several pilot programs, however, she began to entertain the idea in her lectures, though she has so far stopped short of endorsing it.",
+  "prompt": "As used in the text, what does the word “entertain” most nearly mean?",
+  "choices": [
+   "Amuse",
+   "Host",
+   "Promote",
+   "Consider"
+  ],
+  "answer": "D",
+  "expl": "She has moved from dismissing the idea to thinking it over, so “consider.” “Promote” is too strong, since she stops short of endorsing it."
+ },
+ {
+  "id": "wic02-003",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "When *Action Comics* #1 went on sale in 1938, it cost ten cents, and few buyers imagined that a comic book would ever appreciate. Yet surviving copies in good condition have since sold for millions of dollars, turning early comics into a serious market for collectors.",
+  "prompt": "As used in the text, what does the word “appreciate” most nearly mean?",
+  "choices": [
+   "Grow in value",
+   "Express thanks",
+   "Gain an audience",
+   "Be fully understood"
+  ],
+  "answer": "A",
+  "expl": "The contrast is ten cents then versus millions now, so the word is about rising value. “Gain an audience” is topic-adjacent but doesn't match the money contrast."
+ },
+ {
+  "id": "wic02-004",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The forged landscape bore the signature of a seventeenth-century Dutch painter, and its brushwork fooled several experts. A chemical analysis of the paint betrayed it, however: the white pigment contained titanium dioxide, which did not come into use as an artist's pigment until the twentieth century.",
+  "prompt": "As used in the text, what does the word “betrayed” most nearly mean?",
+  "choices": [
+   "Deceived",
+   "Was disloyal to",
+   "Exposed",
+   "Abandoned"
+  ],
+  "answer": "C",
+  "expl": "The analysis revealed the painting as a fake, so “betrayed” means exposed. “Was disloyal to” is the familiar sense, but an analysis can't be loyal or disloyal to a painting."
+ },
+ {
+  "id": "wic02-005",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Reviewers praised the film's ambitious premise, a heist set aboard a space station, but many found its dialogue pedestrian: the characters spoke almost entirely in familiar clichés, and few lines stood out.",
+  "prompt": "As used in the text, what does the word “pedestrian” most nearly mean?",
+  "choices": [
+   "Traveling on foot",
+   "Slow-moving",
+   "Unimaginative",
+   "Offensive"
+  ],
+  "answer": "C",
+  "expl": "Clichés and forgettable lines make the dialogue dull and unoriginal. “Slow-moving” borrows from the walking sense, but the text criticizes originality, not pace."
+ },
+ {
+  "id": "wic02-006",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Edinburgh Castle stands on Castle Rock, the plug of an ancient volcano that rises steeply above the surrounding city. From its walls, the castle commands views across Edinburgh's rooftops to the Firth of Forth, a position that made it valuable to defenders for centuries.",
+  "prompt": "As used in the text, what does the word “commands” most nearly mean?",
+  "choices": [
+   "Offers",
+   "Orders",
+   "Deserves",
+   "Leads"
+  ],
+  "answer": "A",
+  "expl": "A high position that “commands views” has or offers them. “Orders” and “leads” are the military senses, and “deserves” comes from phrases like “commands respect.”"
+ },
+ {
+  "id": "wic02-007",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Early tests suggested that the new battery design could store nearly twice as much energy as current models. The research team was quick to temper expectations, however, noting that the cells had been tested for only a few dozen charging cycles and might degrade with longer use.",
+  "prompt": "As used in the text, what does the word “temper” most nearly mean?",
+  "choices": [
+   "Harden",
+   "Provoke",
+   "Express",
+   "Moderate"
+  ],
+  "answer": "D",
+  "expl": "Pointing out the limited testing tones down hopes, so “moderate.” “Harden” is the metalworking sense of tempering steel, which would mean the opposite here."
+ },
+ {
+  "id": "wic02-008",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The phrase “survival of the fittest” was coined not by Charles Darwin but by the philosopher Herbert Spencer in 1864. When Darwin adopted it in the fifth edition of *On the Origin of Species* in 1869, he gave the phrase wide currency, and many readers now assume it was his from the start.",
+  "prompt": "As used in the text, what does the word “currency” most nearly mean?",
+  "choices": [
+   "Monetary value",
+   "Circulation",
+   "Timeliness",
+   "Accuracy"
+  ],
+  "answer": "B",
+  "expl": "Darwin's use spread the phrase so widely that people think he coined it: “circulation.” “Timeliness” borrows from “current,” and “monetary value” is the everyday sense."
+ },
+ {
+  "id": "wic02-009",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Winter fieldwork at inland research stations in Antarctica is notoriously trying. Researchers endure months without sunlight, temperatures that can fall below −60°C, and long isolation from friends and family, since flights in and out are rare or impossible until spring.",
+  "prompt": "As used in the text, what does the word “trying” most nearly mean?",
+  "choices": [
+   "Difficult",
+   "Attempting",
+   "Experimental",
+   "Uncertain"
+  ],
+  "answer": "A",
+  "expl": "Darkness, extreme cold, and isolation make the work hard to endure. “Attempting” is the common verb sense of “try,” which doesn't fit as a description of fieldwork."
+ },
+ {
+  "id": "wic02-010",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The city's new ordinance banned gas-powered leaf blowers before 8:00 a.m. Although every licensed landscaping company received written notice of the rule, many crews did not observe it, and residents filed hundreds of complaints about early-morning noise in the first month.",
+  "prompt": "As used in the text, what does the word “observe” most nearly mean?",
+  "choices": [
+   "Watch",
+   "Notice",
+   "Comply with",
+   "Comment on"
+  ],
+  "answer": "C",
+  "expl": "The noise complaints show crews broke the rule, so they didn't comply with it. “Notice” is the trap, but every company received written notice, so the crews knew about the rule."
+ },
+ {
+  "id": "wic02-011",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "For nearly a decade, the engineer sketched designs for a low-cost water filter made from clay and sawdust, but she lacked the money to produce it. Only after winning a grant from a regional development fund was she finally able to realize her plans, manufacturing the first thousand filters the following year.",
+  "prompt": "As used in the text, what does the word “realize” most nearly mean?",
+  "choices": [
+   "Understand",
+   "Notice",
+   "Imagine",
+   "Carry out"
+  ],
+  "answer": "D",
+  "expl": "Once funded, she manufactured the filters, turning plans into reality. “Understand” is the common sense of “realize,” but she already understood her own designs."
+ },
+ {
+  "id": "wic02-012",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Lacking metal, ancient Polynesian fishers fashioned hooks from pearl shell and bone, carving and grinding each one by hand. Archaeologists now use differences in hook shape to trace how styles changed over time and from island to island.",
+  "prompt": "As used in the text, what does the word “fashioned” most nearly mean?",
+  "choices": [
+   "Styled",
+   "Made",
+   "Decorated",
+   "Popularized"
+  ],
+  "answer": "B",
+  "expl": "Carving and grinding each hook by hand describes making it. “Styled” and “popularized” come from the clothing sense of “fashion.”"
+ },
+ {
+  "id": "wic02-013",
+  "type": "Words in Context",
+  "sub": "precise word",
+  "passage": "Rather than building a single sustained argument, the essay collection is notably _____: its pieces range from a history of jazz in New Orleans to a guide to backyard beekeeping to a defense of the tax code's most obscure provisions.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "eclectic",
+   "rigorous",
+   "repetitive",
+   "polemical"
+  ],
+  "answer": "A",
+  "expl": "Pieces drawn from wildly different subjects make the collection eclectic. “Polemical” fits only the tax-code essay, not the collection as a whole."
+ },
+ {
+  "id": "wic02-014",
+  "type": "Words in Context",
+  "sub": "precise word",
+  "passage": "Biologists once assumed that a certain songbird learned its song entirely by imitating adults. But chicks raised in soundproof chambers, never hearing another bird, still produced a simplified version of the species' song, suggesting that at least part of the song is _____.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "imitated",
+   "acquired",
+   "ornamental",
+   "innate"
+  ],
+  "answer": "D",
+  "expl": "Birds that never heard the song still produced part of it, so that part is inborn. “Acquired” and “imitated” reverse the finding."
+ },
+ {
+  "id": "wic02-015",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "The agriculture ministry described the drought's effect on the region's rice harvest as grave, warning that yields could fall by half and that food prices were likely to rise sharply before the next planting season.",
+  "prompt": "As used in the text, what does the word “grave” most nearly mean?",
+  "choices": [
+   "Solemn",
+   "Burial-related",
+   "Serious",
+   "Quiet"
+  ],
+  "answer": "C",
+  "expl": "Yields falling by half and rising prices describe a serious situation. “Solemn” describes a person's manner or tone, not the size of an effect."
+ },
+ {
+  "id": "wic02-016",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Health officials launched a vaccination campaign in the border towns, hoping to stem the measles outbreak before it reached the more densely populated cities to the south.",
+  "prompt": "As used in the text, what does the word “stem” most nearly mean?",
+  "choices": [
+   "Originate",
+   "Contain",
+   "Branch off",
+   "Trace"
+  ],
+  "answer": "B",
+  "expl": "They want to stop the outbreak before it spreads, so “contain.” “Originate” comes from “stem from,” a different phrase."
+ },
+ {
+  "id": "wic02-017",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Ernest Hemingway's prose is often praised for its economy. He favored short, declarative sentences, used few adjectives, and argued that a writer could leave much of a story unstated as long as the writer knew what had been left out.",
+  "prompt": "As used in the text, what does the word “economy” most nearly mean?",
+  "choices": [
+   "Efficiency",
+   "Low cost",
+   "Careful spending",
+   "System of trade"
+  ],
+  "answer": "A",
+  "expl": "Short sentences and few adjectives mean he did a lot with few words: efficiency. The other choices are money senses of the word."
+ },
+ {
+  "id": "wic02-018",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "In the late 1940s, geneticist Barbara McClintock concluded that some genes in maize could move from one location on a chromosome to another. The idea was so novel that many geneticists struggled to accept it, and its importance was not widely recognized for decades; she received a Nobel Prize for the discovery in 1983.",
+  "prompt": "As used in the text, what does the word “novel” most nearly mean?",
+  "choices": [
+   "Fictional",
+   "Lengthy",
+   "Original",
+   "Literary"
+  ],
+  "answer": "C",
+  "expl": "An idea so new that scientists struggled to accept it is original. “Fictional” and “literary” come from the noun “novel.”"
+ },
+ {
+  "id": "wic02-019",
+  "type": "Words in Context",
+  "sub": "uncommon sense",
+  "passage": "Opponents of the proposed river dam argued that there was little ground for the engineers' optimism about its lifespan. They pointed out that two similar dams upstream had filled with sediment within fifteen years, sharply reducing the amount of water they could store.",
+  "prompt": "As used in the text, what does the word “ground” most nearly mean?",
+  "choices": [
+   "Soil",
+   "Territory",
+   "Distance",
+   "Basis"
+  ],
+  "answer": "D",
+  "expl": "The opponents say the evidence doesn't support the optimism, so there is little basis for it. “Soil” and “territory” are the literal senses, which the dam setting makes tempting."
+ },
+ {
+  "id": "wic02-020",
+  "type": "Words in Context",
+  "sub": "precise word",
+  "passage": "Because the study included only twelve participants and lasted just three weeks, its authors described their conclusions as _____, calling for larger and longer trials before any firm claims are made about the supplement's effects.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "definitive",
+   "tentative",
+   "unanimous",
+   "sweeping"
+  ],
+  "answer": "B",
+  "expl": "A small, short study and a call for more trials mean the conclusions are provisional. “Definitive” and “sweeping” contradict the authors' caution."
+ }
+]

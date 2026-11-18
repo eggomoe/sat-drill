@@ -1,0 +1,302 @@
+[
+ {
+  "id": "fss02-001",
+  "type": "Form, Structure, and Sense",
+  "sub": "finite verb",
+  "passage": "Launched in 2006, NASA's New Horizons spacecraft traveled for more than nine years before reaching Pluto. In July 2015, it flew past the dwarf planet and _____ images showing a vast, bright, heart-shaped region, now informally called Tombaugh Regio.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "sending back",
+   "to send back",
+   "sent back",
+   "having sent back"
+  ],
+  "answer": "C",
+  "expl": "“And” joins this verb to “flew,” so it needs the same finite past form. The -ing and “to” forms leave the second half of the sentence without a main verb."
+ },
+ {
+  "id": "fss02-002",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Great Zimbabwe, in what is now southeastern Zimbabwe, was a major trading city between the eleventh and fifteenth centuries. Its ruins, which consist of massive walls built from granite blocks fitted together without mortar, _____ some of the largest ancient stone structures in sub-Saharan Africa.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "include",
+   "includes",
+   "including",
+   "having included"
+  ],
+  "answer": "A",
+  "expl": "The subject is “ruins” (plural), so “include.” Skip the long “which” clause; “includes” agrees with nothing in the sentence, and the -ing forms leave it with no main verb."
+ },
+ {
+  "id": "fss02-003",
+  "type": "Form, Structure, and Sense",
+  "sub": "nonfinite verb",
+  "passage": "Like humans, fruit flies spend part of each day in a sleeplike state. Researchers _____ the insects have found that flies kept awake for long periods perform worse on learning tasks, much as sleep-deprived people do.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "study",
+   "have studied",
+   "studies",
+   "studying"
+  ],
+  "answer": "D",
+  "expl": "The main verb is already “have found,” so the blank must be a modifier: “Researchers studying the insects.” A finite verb here creates two main verbs for one subject."
+ },
+ {
+  "id": "fss02-004",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun agreement",
+  "passage": "The city's symphony orchestra announced on Monday that it will expand _____ program of free community concerts next season, adding performances in public libraries and schools in every borough.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "their",
+   "its",
+   "it's",
+   "they're"
+  ],
+  "answer": "B",
+  "expl": "The antecedent is “orchestra,” already referred to as “it,” so the possessive is “its.” “It's” means “it is.”"
+ },
+ {
+  "id": "fss02-005",
+  "type": "Form, Structure, and Sense",
+  "sub": "plural possessive",
+  "passage": "Chemical analysis of skeletons from a coastal settlement that was occupied for roughly two centuries suggests that the _____ diets changed over time: early residents ate mostly livestock, while later ones relied heavily on fish.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "inhabitants'",
+   "inhabitant's",
+   "inhabitants",
+   "inhabitants's"
+  ],
+  "answer": "A",
+  "expl": "Many people's diets means plural possessive: “inhabitants'.” “Inhabitant's” refers to only one person, which clashes with “early residents” and “later ones.”"
+ },
+ {
+  "id": "fss02-006",
+  "type": "Form, Structure, and Sense",
+  "sub": "dangling modifier",
+  "passage": "The Italian writer Primo Levi worked for decades as a chemist in the paint industry. Trained in chemistry before he became known for his books, _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "*The Periodic Table* (1975), a collection of stories each named for a chemical element, drew on Levi's laboratory experience.",
+   "Levi drew on his laboratory experience in *The Periodic Table* (1975), a collection of stories each named for a chemical element.",
+   "Levi's laboratory experience shaped *The Periodic Table* (1975), a collection of stories each named for a chemical element.",
+   "a collection of stories each named for a chemical element, *The Periodic Table* (1975), drew on Levi's laboratory experience."
+  ],
+  "answer": "B",
+  "expl": "The person trained in chemistry is Levi, so “Levi” must come right after the comma. “Levi's laboratory experience” is the trap: the possessive puts “experience,” not Levi, next to the modifier."
+ },
+ {
+  "id": "fss02-007",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb tense",
+  "passage": "Before 1869, ships sailing between Britain and India had to travel all the way around Africa. When the Suez Canal opened that year, it _____ the voyage by thousands of kilometers, linking the Mediterranean Sea directly to the Red Sea.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "shortens",
+   "has shortened",
+   "will shorten",
+   "shortened"
+  ],
+  "answer": "D",
+  "expl": "The event happened in 1869 and “opened” is simple past, so “shortened.” “Has shortened” is wrong because present perfect can't go with a specific past date."
+ },
+ {
+  "id": "fss02-008",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Many lizards can shed their tails to escape predators and then grow new ones. The ability of these reptiles to regrow lost tissue _____ researchers clues about how regeneration might someday be triggered in other animals.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "offer",
+   "have offered",
+   "offers",
+   "are offering"
+  ],
+  "answer": "C",
+  "expl": "The subject is “ability” (singular), not “reptiles” or “tissue.” All three wrong choices are plural."
+ },
+ {
+  "id": "fss02-009",
+  "type": "Form, Structure, and Sense",
+  "sub": "finite verb",
+  "passage": "NASA's Voyager 1 probe was launched in 1977 to study Jupiter and Saturn. After completing that mission, the probe kept traveling outward, and in 2012 it _____ interstellar space, becoming the first human-made object to do so.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "entered",
+   "entering",
+   "to enter",
+   "having entered"
+  ],
+  "answer": "A",
+  "expl": "After “and,” the clause “in 2012 it…” needs its own main verb, so “entered.” The other forms leave “it” without a verb."
+ },
+ {
+  "id": "fss02-010",
+  "type": "Form, Structure, and Sense",
+  "sub": "its vs. it's",
+  "passage": "Because of its round ears and thick gray fur, the koala is often called a “koala bear.” Despite the nickname, _____ not a bear at all but a marsupial, an animal that carries its young in a pouch.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "its",
+   "they're",
+   "it's",
+   "their"
+  ],
+  "answer": "C",
+  "expl": "The sentence needs a subject and verb: “it is,” so “it's.” “Its” is the possessive and leaves the clause without a verb."
+ },
+ {
+  "id": "fss02-011",
+  "type": "Form, Structure, and Sense",
+  "sub": "dangling modifier",
+  "passage": "Igloos were traditionally used by Inuit hunters as temporary winter shelters and can be built in a few hours. Constructed from blocks of compacted snow laid in an upward spiral, _____",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the air inside an igloo can stay far warmer than the air outside, since snow is an excellent insulator.",
+   "an igloo can stay far warmer inside than the air outside, since snow is an excellent insulator.",
+   "Inuit hunters could stay far warmer inside an igloo than outside, since snow is an excellent insulator.",
+   "snow's insulating properties keep an igloo far warmer inside than the air outside."
+  ],
+  "answer": "B",
+  "expl": "What is constructed from snow blocks is the igloo, so “an igloo” must follow the comma. The other choices make the air, the hunters, or snow's properties the thing that was constructed."
+ },
+ {
+  "id": "fss02-012",
+  "type": "Form, Structure, and Sense",
+  "sub": "verb tense",
+  "passage": "The Lewis and Clark expedition set out from near St. Louis in May 1804 to explore the lands of the Louisiana Purchase and beyond. By the time the explorers reached the Pacific coast in November 1805, they _____ thousands of miles by boat, on horseback, and on foot.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "travel",
+   "have traveled",
+   "will have traveled",
+   "had traveled"
+  ],
+  "answer": "D",
+  "expl": "The traveling happened before another past event (reaching the coast), so past perfect “had traveled.” “Have traveled” is present perfect, which doesn't fit a story told in the past."
+ },
+ {
+  "id": "fss02-013",
+  "type": "Form, Structure, and Sense",
+  "sub": "singular possessive",
+  "passage": "Human eyes rely on three types of color-sensing cells. A mantis _____ eyes, by contrast, contain twelve, though experiments suggest that the animal is not especially good at telling similar colors apart.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "shrimp's",
+   "shrimps'",
+   "shrimps",
+   "shrimp"
+  ],
+  "answer": "A",
+  "expl": "“A mantis shrimp” is one animal, and the eyes belong to it, so singular possessive “shrimp's.” “Shrimps'” is a plural possessive, which clashes with “A.”"
+ },
+ {
+  "id": "fss02-014",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Since its first release three years ago, the translation software has been updated more than forty times. Both the speed and the accuracy of its translations _____ improved with each update, according to the developers.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "has",
+   "is",
+   "was",
+   "have"
+  ],
+  "answer": "D",
+  "expl": "“Both the speed and the accuracy” is a compound subject, which is plural, so “have.” “Has” is tempting because “accuracy” sits right before the verb."
+ },
+ {
+  "id": "fss02-015",
+  "type": "Form, Structure, and Sense",
+  "sub": "nonfinite verb",
+  "passage": "Around 1750, Benjamin Franklin proposed attaching a pointed iron rod to the top of a building and connecting it to the ground with a wire. The device was designed _____ the electricity of a lightning strike safely into the earth, sparing the structure from fire.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "channels",
+   "to channel",
+   "channeled",
+   "will channel"
+  ],
+  "answer": "B",
+  "expl": "“Was designed” is the main verb, and the purpose that follows takes the infinitive: “designed to channel.” A second finite verb like “channels” can't follow it with no conjunction."
+ },
+ {
+  "id": "fss02-016",
+  "type": "Form, Structure, and Sense",
+  "sub": "pronoun agreement",
+  "passage": "The Arctic tern makes the longest known migration of any animal. Each year, the birds leave _____ breeding grounds in the Arctic and fly to the waters around Antarctica, a round trip that can exceed 70,000 kilometers.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "its",
+   "there",
+   "their",
+   "they're"
+  ],
+  "answer": "C",
+  "expl": "The antecedent is “the birds” (plural), so “their.” “Its” would match “The Arctic tern” in the first sentence, but the nearer subject is plural."
+ },
+ {
+  "id": "fss02-017",
+  "type": "Form, Structure, and Sense",
+  "sub": "irregular plural possessive",
+  "passage": "In one experiment, researchers trained mice to find a platform hidden just below the surface of a pool of water. The _____ ability to locate the platform improved steadily over five days of trials, with most animals finding it in under twenty seconds by the last day.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "mice's",
+   "mices'",
+   "mouses'",
+   "mice"
+  ],
+  "answer": "A",
+  "expl": "“Mice” is already plural, so add 's: “mice's.” “Mices'” treats “mice” like a regular noun ending in s."
+ },
+ {
+  "id": "fss02-018",
+  "type": "Form, Structure, and Sense",
+  "sub": "finite verb",
+  "passage": "Discovered in Egypt in 1799, the Rosetta Stone bears the same decree written in hieroglyphs, in Demotic script, and in ancient Greek. Because scholars could already read Greek, the stone _____ them, most notably Jean-François Champollion, to decipher Egyptian hieroglyphs in the 1820s.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "allowing",
+   "allowed",
+   "to allow",
+   "having allowed"
+  ],
+  "answer": "B",
+  "expl": "The subject “the stone” needs a main verb, so “allowed.” The interrupter around Champollion and the long opening make it easy to miss that there's no verb yet."
+ },
+ {
+  "id": "fss02-019",
+  "type": "Form, Structure, and Sense",
+  "sub": "subject-verb agreement",
+  "passage": "Ada Lovelace, whose notes on Charles Babbage's proposed Analytical Engine _____ what many historians consider the first published computer program, was born in London in 1815.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "contains",
+   "containing",
+   "has contained",
+   "contain"
+  ],
+  "answer": "D",
+  "expl": "Inside the “whose” clause, the subject is “notes” (plural), so “contain.” “Contains” agrees with “Lovelace” or “Engine,” neither of which is the subject of this verb."
+ },
+ {
+  "id": "fss02-020",
+  "type": "Form, Structure, and Sense",
+  "sub": "nonfinite verb",
+  "passage": "Sonar, a technology that uses sound waves _____ objects underwater, advanced rapidly during World War I, when navies urgently needed ways to detect submarines.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "locates",
+   "located",
+   "to locate",
+   "will locate"
+  ],
+  "answer": "C",
+  "expl": "“Uses” is already the verb of the “that” clause, and the infinitive gives the purpose: “uses sound waves to locate objects.” A second finite verb can't follow with no conjunction."
+ }
+]
